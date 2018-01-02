@@ -1,0 +1,4 @@
+BEGIN OPTIONS
+  PATHTOPOSTOBSMF "../../../PostObsMF/msvs/PostObsMF/Debug/PostObsMF"
+  SCRIPT BATCH
+END OPTIONS

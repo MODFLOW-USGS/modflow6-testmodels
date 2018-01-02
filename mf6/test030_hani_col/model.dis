@@ -1,0 +1,19 @@
+BEGIN Options
+END Options
+
+BEGIN Dimensions
+  NLAY  1
+  NROW  51
+  NCOL  51
+END Dimensions
+
+BEGIN GRIDDATA
+  DELR
+    CONSTANT   10.0000000        DELR
+  DELC
+    CONSTANT   10.000000         DELC
+  TOP LAYERED
+    CONSTANT   0.00000000        TOP array
+  BOTM LAYERED
+    CONSTANT  -10.00000000       BOTM layer 1
+END GRIDDATA

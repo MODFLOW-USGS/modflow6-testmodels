@@ -1,0 +1,11 @@
+         2         2        76         0
+         1         1         1         1
+         1         0         1         0
+
+HEAD SAVE FORMAT (100G12.6)
+HEAD SAVE UNIT 76
+PERIOD 1 STEP 1         
+PRINT HEAD 
+SAVE HEAD
+SAVE BUDGET
+       

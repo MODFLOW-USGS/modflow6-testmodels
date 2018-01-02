@@ -1,0 +1,13 @@
+BEGIN Options
+  LIST       CHILD.lst
+END Options
+
+BEGIN Packages
+  DIS6       CHILD.dis
+  IC6        CHILD.ic
+  NPF6       CHILD.npf
+  OC6        CHILD.oc
+  WEL6       CHILD.wel
+  SFR6       CHILD.sfr  'SFR-2'           
+END Packages
+

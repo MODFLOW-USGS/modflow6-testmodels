@@ -1,0 +1,21 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
+BEGIN Options
+  continue
+END Options
+
+BEGIN Timing
+  TDIS6  test004_lpfss.tdis
+END Timing
+
+BEGIN Models
+  GWF6  test004_lpfss.nam  test004_lpfss
+END Models
+
+BEGIN Exchanges
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  test004_lpfss.ims  test004_lpfss
+END SOLUTIONGROUP

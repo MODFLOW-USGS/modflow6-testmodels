@@ -1,0 +1,11 @@
+LIST  7 twrihfb.lst
+BAS6  8 twrihfb.ba6
+LPF  11 twrihfb.lpf
+WEL  12 twrihfb.wel
+DRN  13 twrihfb.drn
+RCH  18 twrihfb.rch
+PCG  19 twrihfb.pcg
+OC   22 twrihfb.oc
+DIS  10 twrihfb.dis
+HFB6 30 twrihfb.hfb
+DATA(BINARY) 58 twrihfb.hds REPLACE

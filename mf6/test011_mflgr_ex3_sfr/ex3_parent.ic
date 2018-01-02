@@ -1,0 +1,9 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN GRIDDATA
+  STRT LAYERED
+    OPEN/CLOSE ex3_parent.shd  FACTOR     1.  IPRN         -1                      shead layer 1
+    OPEN/CLOSE ex3_parent.shd  FACTOR     1.  IPRN         -1                      shead layer 2
+    OPEN/CLOSE ex3_parent.shd  FACTOR     1.  IPRN         -1                      shead layer 3
+END GRIDDATA

@@ -1,0 +1,8 @@
+LIST                  1 Pr2MFUSG.lst
+BAS6                  2 Pr2.BA6
+DIS                  10 Pr2.DIS
+RCH                  18 Pr2.RCH
+OC                   20 Pr2.OC
+DATA(BINARY)         30 Pr2MFUSG.hds REPLACE
+SMS                  34 Pr2.SMS
+LPF                  35 Pr2.LPF

@@ -1,0 +1,10 @@
+LIST   16 testLgr_parent.out
+BAS6    1 testLgr_parent.ba6
+BCF6   11 testLgr_parent.bc6
+DIS     9 testLgr_parent.dis
+OC     10 testLgr_parent.oc
+PCG    12 testLgr_parent.pcg
+RIV    15 testLgr_parent.riv
+#DATA         50 testLgr_parent.bot  OLD
+DATA(BINARY) 30 testLgr_parent.hed  REPLACE
+DATA(BINARY) 40 testLgr_parent.flw  REPLACE

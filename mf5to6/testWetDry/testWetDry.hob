@@ -1,0 +1,62 @@
+   33   11    3         11  1.00000E+30    ITEM 1: NH MOBS MAXM,IUHOBSV,HOBDRY
+   86400.0                                 ITEM 2: TOMULT 
+well1   1  3  1 -3  0.00 0.00 0.00 0.000   ITEM 3 (3 obs): OBSNAM LAY ROW COL IREFSP TOFFSET ROFF COFF HOBS  
+    2                                      ITEM 5: ITT
+hd01.ss          1    1.00     101.804     ITEM 6: OBSNAM IREFSP TOFFSET HOBS:  H001
+dd01.tr1         1    1.0088   101.775                                          H002  
+dd01.tr2         1  282.8595   101.675                                          H003
+well2  -3  4  4 -5  0.00 0.00 0.00 0.000   ITEM 3 (5 multilayer obs)
+1 0.4  2 0.2  3 0.4                        ITEM 4 (layers 1, 2, 3)  add 2 / obs = 15 obs
+    2                                      ITEM 5
+hd02.ss          1    1.00     128.117     ITEM 6                               H004
+dd02.tr1         1    1.0088   128.076                                          H005
+dd02.tr2         1    4.0353   127.560                                          H006
+dd02.tr3         1  107.6825   116.586                                          H007
+dd02.tr4         1  282.8595   113.933                                          H008
+well3  -2 10  9 -3  0.00 -0.1 0.00 0.000   ITEM 3 (3 multilayer obs) offcenter: add 1 / obs [= 6 obs]
+1 0.6  3 0.4                               ITEM 4 (layers 1, 3) add 1 / obs = 12 obs
+    2                                      ITEM 5
+hd03.ss          1    1.00     156.678     ITEM 6                               H009
+dd03.tr1         3    1.05     152.297                                          H010
+dd03.tr2         5  272.7713   114.138                                          H011
+well4   1 13  4 -3  0.00 0.15 0.00 0.000   ITEM 3 (3 obs) offcenter: add 1 / obs = 6 obs
+    2                                      ITEM 5
+hd04.ss          1    1.00     124.893     ITEM 6                               H012
+dd04.tr1         3    1.05     124.826                                          H013
+dd04.tr2         5  272.7713   110.589                                          H014
+well5   1 14  6 -3  0.00 0.00 -0.2 0.000   ITEM 3 (3 obs) offcenter: add 1 / obs = 6 obs
+    2                                      ITEM 5
+hd05.ss          1    1.00     140.961     ITEM 6                               H015
+dd05.tr1         3    1.05     140.901                                          H016
+dd05.tr2         5  272.7713   119.285                                          H017
+well6   2  4  4 -3  0.00 0.00 0.25 0.000   ITEM 3 (3 obs) offcenter: add 1 / obs = 6 obs
+    2                                      ITEM 5
+hd06.ss          1    1.00     126.537     ITEM 6                               H018
+dd06.tr1         3    1.05     126.542                                          H019
+dd06.tr2         5  272.7713   112.172                                          H020
+well7   -2 10  1 -3  0.00 -0.3  0.35 0.00  ITEM 3 (3 multilayer obs) offcenter: add 3 / obs [= 12 obs]
+2 0.2  3 0.8                               ITEM 4 (layers 2, 3) add 1 / obs = 24 obs
+    2                                      ITEM 5
+hd07.ss          1    1.00     101.112     ITEM 6                               H021
+dd07.tr1         3    1.05     101.160                                          H022
+dd07.tr2         5  272.7713   100.544                                          H023
+well8   2 10  9 -3  0.00 -0.4 0.45 0.000   ITEM 3 (3 obs) offcenter: add 3 / obs) = 12 obs
+    2                                      ITEM 5
+hd08.ss          1    1.00     158.135     ITEM 6                               H024
+dd08.tr1         3    1.05     152.602                                          H025
+dd08.tr2         5  272.7713   114.918                                          H026
+well9   2 10 18 -3  0.00 0.31 -0.32 0.000  ITEM 3 (3 obs) offcenter: add 3 / obs) = 12 obs
+    2                                      ITEM 5
+hd09.ss          1    1.00     176.374     ITEM 6                               H027
+dd09.tr1         3    1.05     176.373                                          H028
+dd09.tr2         5  272.7713   138.132                                          H029
+well10  2 18  6 -3  0.00 -0.33 0.34 0.000  ITEM 3 (3 obs) offcenter: add 3 / obs) = 12 obs
+    2                                      ITEM 5                  
+hd10.ss          1    1.00     142.020     ITEM 6                               H030
+dd10.tr1         3    1.05     142.007                                          H031
+dd10.tr2         5  272.7713   122.099                                          H032
+well_11  2 15 7  1  1.00  0.0  0.0  0.000  ITEM 3 (1 obs)
+hd11.ss          1    1.00     140.000     ITEM 6                               H033
+
+# obs (incl. multi-time obs but not off-center obs.) = 32 obs
+total # obs = 3 + 15 + 12 + 6 + 6 + 6 + 24 + 12 + 12 + 12 = 108 obs

@@ -1,0 +1,26 @@
+begin options
+  digits 10
+end options
+
+begin continuous FILEOUT budget.maw.csv
+  from-mvr     from-mvr       ntwell
+  maw          maw            ntwell
+  rate         rate           ntwell
+  rate-to-mvr  rate-to-mvr    ntwell
+  fw-rate      fw-rate        ntwell
+  fw-to-mvr    fw-to-mvr      ntwell
+  storage      storage        ntwell
+  constant     constant       ntwell
+  cond         conductance    ntwell
+  fw-cond      fw-conductance ntwell
+end continuous
+
+begin continuous FILEOUT FW_MAW.csv
+  M1HEAD   HEAD      1
+  M1RATE   FW-RATE  1
+  M1FWCONDUCTANCE FW-CONDUCTANCE   1
+  M1CONDUCTANCE   CONDUCTANCE      1 1
+  M2CONDUCTANCE   CONDUCTANCE      1 2
+end continuous
+
+

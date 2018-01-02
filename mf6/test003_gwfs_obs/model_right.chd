@@ -1,0 +1,23 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+end options
+
+begin dimensions
+  MAXBOUND 10
+end dimensions
+
+begin period 1
+#layer 1
+ 1 1  10 5.
+ 1 2  10 5.
+ 1 3  10 5.
+ 1 4  10 5.
+ 1 5  10 5.
+ 1 6  10 5.
+ 1 7  10 5.
+ 1 8  10 5.
+ 1 9  10 5.
+ 1 10 10 5.
+end period

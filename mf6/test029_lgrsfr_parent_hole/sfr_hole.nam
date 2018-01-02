@@ -1,0 +1,14 @@
+BEGIN Options
+  LIST       sfr_hole.lst
+END Options
+
+BEGIN Packages
+  DIS6       sfr_hole.dis
+  IC6        sfr_hole.ic
+  NPF6       sfr_hole.npf
+  OC6        sfr_hole.oc
+  WEL6       sfr_hole.wel
+  CHD6       sfr_hole.chd
+  SFR6       sfr_hole.sfr  'SFR_1'           
+END Packages
+

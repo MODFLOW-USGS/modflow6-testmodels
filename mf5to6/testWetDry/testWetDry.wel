@@ -1,0 +1,30 @@
+# WEL: Well package file
+PARAMETER  2  10                # Data Set 1: PARAMETER NPWEL MXL
+ 3  9  AUXILIARY  IFACE         # Data Set 2: MXACTC IGHBCB Option
+Q_1_2  Q  -1.0  2 INSTANCES 4   # Data Set 3: PARNAM PARTYP Parval NLST INSTANCES NUMINST
+Q_1_22                          # Data Set 4a: INSTNAM (Parameter instance for stress period 2)
+ 1 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+ 3 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+Q_1_23                          # Data Set 4a: INSTNAM (Parameter instance for stress period 3)
+ 1 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+ 3 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+Q_1_24                          # Data Set 4a: INSTNAM (Parameter instance for stress period 4)
+ 1 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+ 3 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+Q_1_25                          # Data Set 4a: INSTNAM (Parameter instance for stress period 5)
+ 1 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+ 3 9 10 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+Q_2  Q  -220.0  1                # Data Set 3: PARNAM PARTYP Parval NLST INSTANCES NUMINST
+ 3 10 5 1.0  0                  # Data Set 4b: Layer Row Column Qfact IFACE
+ 0 0           # Data Set 5: ITMP NP Stress period 1
+ 0 2           # Data Set 5: ITMP NP Stress period 2
+Q_1_2 Q_1_22   # Data Set 7: PARNAM Iname
+Q_2            # Data Set 7: PARNAM
+ 0 2           # Data Set 5: ITMP NP Stress period 3
+Q_1_2 Q_1_23   # Data Set 7: PARNAM Iname
+Q_2            # Data Set 7: PARNAM
+ 0 2           # Data Set 5: ITMP NP Stress period 4
+Q_1_2 Q_1_24   # Data Set 7: PARNAM Iname
+Q_2            # Data Set 7: PARNAM
+ 0 1           # Data Set 5: ITMP NP Stress period 5
+Q_1_2 Q_1_25   # Data Set 7: PARNAM Iname

@@ -1,0 +1,32 @@
+BEGIN OPTIONS
+  #NONE
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NLAY 4
+  NROW 40
+  NCOL 80
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  delr
+    CONSTANT   200.  DELR
+  delc
+    CONSTANT   100.  DELC
+  top
+    CONSTANT   7500. TOP
+  botm LAYERED
+    OPEN/CLOSE Array.MF-Top002.txt  FACTOR  1.0  IPRN -1    BOTTOM LAYER 1
+    CONSTANT   6080.    BOTTOM LAYER 2
+    CONSTANT   5201.    BOTTOM LAYER 3
+    CONSTANT   5199.99  BOTTOM LAYER 4
+  idomain LAYERED
+    constant  1
+    constant  1
+    constant  1
+    constant  1
+END GRIDDATA
+
+
+
+

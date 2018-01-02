@@ -1,0 +1,11 @@
+        50  -1.0e+30         0
+ 1
+ 0
+ -1
+ 1
+ 0
+ constant        0.5 HK() = Horizontal hydraulic conductivity of layer 1
+ constant        0.1 HANI() = Horizontal hydraulic conductivity anisotropy ratio of layer 1
+ Constant          1 VKA() = Vertical hydraulic conductivity of layer 1
+ Constant     0.0001 Ss() = Specific storage coefficient of layer 1
+ Constant        0.1 Sy() = Specific yield of layer 1

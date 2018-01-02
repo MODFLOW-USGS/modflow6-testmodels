@@ -1,0 +1,8 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin Continuous FILEOUT mv.lak.csv
+  L1STAGE  STAGE  1
+end Continuous

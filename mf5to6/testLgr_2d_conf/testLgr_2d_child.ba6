@@ -1,0 +1,11 @@
+FREE 
+internal  1  (free)  -1 # Item 2: Ibound layer 1
+ 5  5  5  5
+ 5  1  1  5
+ 5  1  1  5
+ 5  5  5  5
+ 1.0d30                 # Item 3: Hnoflo
+  CONSTANT   120.   -1  # Item 4: shead layer 1 
+
+
+

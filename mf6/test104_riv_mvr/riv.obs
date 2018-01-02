@@ -1,0 +1,23 @@
+begin options
+  digits 10
+  print_input
+end options
+
+#
+# Blocks defining continuous observations
+#
+
+begin continuous FILEOUT riv.obs.csv
+  RIV1   RIV    1 5 13
+  RIV2   RIV    1 5 14
+  RIVA   RIV    RIV2
+  RIV3   RIV    1 5 15
+  RIV4   RIV    1 5 16
+  RIVB   RIV    RIV1
+  MVR1   TO-MVR 1 5 13
+  MVR2   TO-MVR 1 5 14
+  MVRA   TO-MVR RIV2
+  MVR3   TO-MVR 1 5 15
+  MVR4   TO-MVR 1 5 16
+  MVRB   TO-MVR RIV1
+end continuous

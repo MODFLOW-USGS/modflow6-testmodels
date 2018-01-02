@@ -1,0 +1,23 @@
+FREE      
+INTERNAL  1  (FREE)  -1      # Item 2: Ibound, layer 1
+  -1  1  1  1  1 -1
+  -1  1  1  1  1 -1
+  -1  1  1  1  1 -1
+  -1  1  1  1  1 -1
+  -1  1  1  1  1 -1
+  -1  1  1  1  1 -1
+  -1  1  1  1  1 -1
+CONSTANT  1                  # Item 2: Ibound, layer 2
+CONSTANT  1                  # Item 2: Ibound, layer 3
+ 1.0d30                      # Item 3: Hnoflo
+internal  1.0  (free)  -1    # Item 4: Strt, layer 1
+120.0  119.0  118.0  117.0  116.0  115.
+120.0  119.0  118.0  117.0  116.0  115.
+120.0  119.0  118.0  117.0  116.0  115.
+120.0  119.0  118.0  117.0  116.0  115.
+120.0  119.0  118.0  117.0  116.0  115.
+120.0  119.0  118.0  117.0  116.0  115.
+120.0  119.0  118.0  117.0  116.0  115.
+constant 120.0               # Item 4: Strt, layer 2
+constant 120.0               # Item 4: Strt, layer 3
+ 

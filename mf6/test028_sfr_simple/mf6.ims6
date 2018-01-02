@@ -1,0 +1,26 @@
+# IMS6 input file, prepared by MF5to6 on 6/5/2017 at 16:11:43.
+
+BEGIN Options
+  PRINT_OPTION  SUMMARY
+  COMPLEXITY  SIMPLE
+END Options
+
+BEGIN Nonlinear
+	outer_hclose 1.e-5
+	outer_maximum 100 
+  UNDER_RELAXATION  NONE
+  UNDER_RELAXATION_THETA    0.000000    
+  UNDER_RELAXATION_KAPPA    0.000000    
+  UNDER_RELAXATION_GAMMA    0.000000    
+  UNDER_RELAXATION_MOMENTUM    0.000000    
+END Nonlinear
+
+BEGIN LINEAR
+	inner_hclose 1.0e-5
+	inner_rclose 0.1
+	inner_maximum 100
+	linear_acceleration cg
+	scaling_method none
+	REORDERING_METHOD none
+	relaxation_factor .99
+END LINEAR

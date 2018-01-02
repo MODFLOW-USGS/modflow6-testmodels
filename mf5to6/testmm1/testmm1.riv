@@ -1,0 +1,39 @@
+# RIV: River package file created on 4/10/2015 by ModelMuse version 3.5.1.0.
+ 32 -1 AUXILIARY IFACE # DataSet 2: MXACTC IRIVCB Option
+ 32 0 # Data Set 5: ITMP NP Stress period 1
+ 1 7  28  731.0  43.68  721.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 7  27  732.0  43.68  722.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 8  27  733.0  43.68  723.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 8  26  734.0  43.68  724.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 8  25  735.0  43.68  725.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 9  25  736.0  43.68  726.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 9  24  737.0  43.68  727.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 10 24  738.0  43.68  728.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 11 24  739.0  43.68  729.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 11 23  740.0  43.68  730.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 12 23  741.0  43.68  731.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 13 23  742.0  43.68  732.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 13 22  743.0  43.68  733.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 14 22  744.0  43.68  734.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 15 22  745.0  43.68  735.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 16 22  746.0  43.68  736.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 17 22  747.0  43.68  737.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 18 22  748.0  43.68  738.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 19 22  749.0  43.68  739.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 19 23  750.0  43.68  740.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 20 23  751.0  43.68  741.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 21 23  752.0  43.68  742.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 21 24  753.0  43.68  743.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 22 24  754.0  43.68  744.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 23 24  755.0  43.68  745.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 23 25  756.0  43.68  746.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 24 25  757.0  43.68  747.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 25 25  758.0  43.68  748.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 26 25  759.0  43.68  749.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 27 25  760.0  43.68  750.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 28 25  761.0  43.68  751.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ 1 29 25  762.0  43.68  752.0  0 # Data Set 6: Layer Row Column Stage Cond Rbot IFACE
+ -1 0 # Data Set 5: ITMP NP Stress period 2
+ -1 0 # Data Set 5: ITMP NP Stress period 3
+ -1 0 # Data Set 5: ITMP NP Stress period 4
+ -1 0 # Data Set 5: ITMP NP Stress period 5

@@ -1,0 +1,16 @@
+BEGIN OPTIONS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           NT_EI.ic
+  NPF6          NT_EI.npf
+  STO6          NT_EI.sto
+  OC6           NT_EI.oc
+  DIS6          NT_EI.dis
+  MAW6          Extraction.maw  'MAW-1'
+  MAW6          Injection.maw   'MAW-2'
+  OBS6          NT_EI.obs
+  MVR6          NT_EI.mvr
+END PACKAGES
+

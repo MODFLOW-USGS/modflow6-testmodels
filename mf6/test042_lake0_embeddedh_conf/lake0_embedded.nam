@@ -1,0 +1,13 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          lake0_embedded.dis
+  IC6           lake0_embedded.ic
+  NPF6          lake0_embedded.npf
+  OC6           lake0_embedded.oc
+  CHD6          lake0_embedded.chd
+  LAK6          lake0_embedded.lak
+  OBS6          lake0_embedded.obs
+END PACKAGES
+

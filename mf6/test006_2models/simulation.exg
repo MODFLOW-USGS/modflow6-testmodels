@@ -1,0 +1,13 @@
+
+BEGIN OPTIONS
+  OPEN/CLOSE simulation.exg.options.dat
+END OPTIONS
+
+BEGIN DIMENSIONS
+  OPEN/CLOSE simulation.exg.dimensions.dat
+END DIMENSIONS
+
+BEGIN EXCHANGEDATA
+  OPEN/CLOSE simulation.exg.exchangedata.dat
+END EXCHANGEDATA
+

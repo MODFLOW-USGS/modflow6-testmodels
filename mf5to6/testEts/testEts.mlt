@@ -1,0 +1,8 @@
+# Multiplier (MULT) File created on 10/28/2011 by ModelMuse version 2.11.0.4.
+ 3 # NML
+ETS_Mult_1  # MLTNAM
+OPEN/CLOSE arrays/testEts.ets.ETS_Mult_1 1.0 (FREE)  12
+ETS_Mult_2  # MLTNAM
+OPEN/CLOSE arrays/testEts.ets.ETS_Mult_2 1.0 (FREE)  12
+ETS_Mult_3  # MLTNAM
+OPEN/CLOSE arrays/testEts.ets.ETS_Mult_3 1.0 (FREE)  12

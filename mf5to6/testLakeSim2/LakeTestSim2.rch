@@ -1,0 +1,3 @@
+3 0              ; RCH input - NRCHOP,IRCHCB
+1 0              ; input options INRECH,INIRCH
+constant 0.0116  ; recharge rate

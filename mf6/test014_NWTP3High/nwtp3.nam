@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+  NEWTON UNDER_RELAXATION
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           nwtp3.ic
+  NPF6          nwtp3.npf
+  OC6           nwtp3.oc
+  DIS6          nwtp3.dis
+  CHD6          nwtp3.chd
+  RCH6          nwtp3_Rhigh.rch
+END PACKAGES
+

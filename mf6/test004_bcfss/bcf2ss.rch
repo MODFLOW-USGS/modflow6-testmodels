@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+  AUXILIARY var1 var2
+  READASARRAYS
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN PERIOD 1
+  RECHARGE
+    constant 0.0040
+  var1
+    constant 100.
+  var2
+    constant 2.3
+END PERIOD

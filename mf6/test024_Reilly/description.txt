@@ -1,0 +1,1 @@
+This is the unstressed multi-aquifer well simulation described in Reilly and others (1989).  This problem is simulated using the Multi-Aquifer Well (MAW) Package in MODFLOW 6.

@@ -1,0 +1,28 @@
+begin options
+  print_input
+  print_flows
+  boundnames
+  OBS6 FILEIN lake0_embedded.lak.obs
+end options
+
+begin dimensions
+  nlakes 3
+  noutlets 0
+  ntables 3
+end dimensions
+
+BEGIN PACKAGEDATA
+  open/close lake_data.ref
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+  open/close lake_connection.ref
+END CONNECTIONDATA
+
+BEGIN TABLES
+  open/close lake_table.ref
+END TABLES
+
+begin period 1
+  open/close lake_stressperiod01data.ref
+end period

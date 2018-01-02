@@ -1,0 +1,14 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          test1ss_ic.dis
+  IC6           test1ss_ic.ic
+  NPF6          test1ss_ic.npf
+  OC6           test1ss_ic.oc
+  SFR6          test1ss_ic.sfr  'SFR_1'
+  GHB6          test1ss_ic.ghb
+  EVT6          test1ss_ic.evt
+  RCH6          test1ss_ic.rch
+END PACKAGES
+

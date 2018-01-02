@@ -1,0 +1,20 @@
+#Simplified model of Cape Cod sewage plume--lake package test case             
+#                                                                              
+FREE CHTOCH
+OPEN/CLOSE testcase.i2                                                                              1 (FREE)     5  IBOUND layer   1
+OPEN/CLOSE testcase.i0                                                                              1 (FREE)     5  IBOUND layer   2
+OPEN/CLOSE testcase.i1                                                                              1 (FREE)     5  IBOUND layer   3
+OPEN/CLOSE testcase.i1                                                                              1 (FREE)     5  IBOUND layer   4
+OPEN/CLOSE testcase.i1                                                                              1 (FREE)     5  IBOUND layer   5
+OPEN/CLOSE testcase.i1                                                                              1 (FREE)     5  IBOUND layer   6
+OPEN/CLOSE testcase.i1                                                                              1 (FREE)     5  IBOUND layer   7
+OPEN/CLOSE testcase.i1                                                                              1 (FREE)     5  IBOUND layer   8
+ 999999.00  HNOFLO
+OPEN/CLOSE testcase.h0                                                                       1.000000E+00 (FREE)     2  Initial Head layer   1
+OPEN/CLOSE testcase.h0                                                                       1.000000E+00 (FREE)     2  Initial Head layer   2
+OPEN/CLOSE testcase.h1                                                                       1.000000E+00 (FREE)     2  Initial Head layer   3
+OPEN/CLOSE testcase.h1                                                                       1.000000E+00 (FREE)     2  Initial Head layer   4
+OPEN/CLOSE testcase.h1                                                                       1.000000E+00 (FREE)     2  Initial Head layer   5
+OPEN/CLOSE testcase.h1                                                                       1.000000E+00 (FREE)     2  Initial Head layer   6
+OPEN/CLOSE testcase.h1                                                                       1.000000E+00 (FREE)     2  Initial Head layer   7
+OPEN/CLOSE testcase.h1                                                                       1.000000E+00 (FREE)     2  Initial Head layer   8

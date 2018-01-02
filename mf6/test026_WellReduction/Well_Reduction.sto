@@ -1,0 +1,12 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+end options
+
+BEGIN GRIDDATA
+  iconvert LAYERED
+    constant 1
+  ss LAYERED
+    constant 1.e-5
+  sy LAYERED
+    constant 1.0
+END GRIDDATA

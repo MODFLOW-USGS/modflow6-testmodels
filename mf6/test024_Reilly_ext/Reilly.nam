@@ -1,0 +1,15 @@
+BEGIN OPTIONS
+  NEWTON UNDER_RELAXATION
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           Reilly.ic
+  NPF6          Reilly.npf
+  OC6           Reilly.oc
+  DIS6          Reilly.dis
+  CHD6          Reilly.chd
+  MAW6          Reilly.maw  'MAW-NT_Well'
+  RCH6          Reilly.rch
+  OBS6          Reilly.obs
+END PACKAGES
+

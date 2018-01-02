@@ -1,0 +1,13 @@
+begin options
+  digits 10
+  print_input
+end options
+
+#
+# Blocks defining continuous observations
+#
+
+begin continuous FILEOUT lakeex4_gwf.csv
+  CLAKE-1      head  1   4   19
+end continuous
+

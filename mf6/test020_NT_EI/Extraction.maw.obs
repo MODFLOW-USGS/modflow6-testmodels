@@ -1,0 +1,12 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin continuous FILEOUT Extraction.csv
+  M1HEAD0   HEAD  1
+  M1RATE0   RATE  1
+  L1FLOW    MAW   1 1
+  L2FLOW    MAW   1 2
+  AQFLOW    MAW   pwell
+end continuous

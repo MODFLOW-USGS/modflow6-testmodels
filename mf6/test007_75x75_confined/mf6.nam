@@ -1,0 +1,14 @@
+BEGIN Options
+  LIST       mf6.lst
+END Options
+
+BEGIN Packages
+  DIS6       mf6.dis
+  IC6        mf6.ic
+  NPF6       mf6.npf
+  STO6       mf6.sto
+  OC6        mf6.oc
+  CHD6       mf6.chd
+  WEL6       mf6.wel
+END Packages
+

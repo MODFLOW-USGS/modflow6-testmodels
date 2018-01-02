@@ -1,0 +1,9 @@
+# Model name file for MF6
+BEGIN PACKAGES
+  DIS6             model.dis
+  IC6              model.ic
+  NPF6             model.npf
+  OC6              model.oc
+  WEL6             model.wel
+  CHD6             model.chd
+END PACKAGES

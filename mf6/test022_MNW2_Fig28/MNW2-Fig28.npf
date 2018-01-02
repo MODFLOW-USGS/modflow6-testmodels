@@ -1,0 +1,52 @@
+begin options
+end options
+#
+BEGIN GRIDDATA
+  icelltype LAYERED
+    constant 1
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+    constant 0
+  K
+    constant 250.
+  K33
+    constant 50.
+END GRIDDATA
+

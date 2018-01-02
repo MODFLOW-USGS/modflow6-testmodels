@@ -1,0 +1,1 @@
+This is the high recharge case of the third example problem described in the MODFLOW-NWT documentation.

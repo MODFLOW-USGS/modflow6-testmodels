@@ -1,0 +1,12 @@
+BEGIN Options
+  NEWTON
+END Options
+
+BEGIN PACKAGES
+  DIS6          parent.dis
+  IC6           parent.ic
+  NPF6          parent.npf
+  CHD6          parent.chd
+  OC6           parent.oc
+END PACKAGES
+

@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+  NEWTON UNDER_RELAXATION
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           Well_Reduction.ic
+  NPF6          Well_Reduction.npf
+  STO6          Well_Reduction.sto
+  OC6           Well_Reduction.oc
+  DIS6          Well_Reduction.dis
+  WEL6          Well_Reduction.wel
+  OBS6          Well_Reduction.obs
+END PACKAGES
+

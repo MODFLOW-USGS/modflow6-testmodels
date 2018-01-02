@@ -1,0 +1,9 @@
+LIST   11 testLgr_3d_parent.lst
+BAS6   12 testLgr_3d_parent.ba6
+DIS    13 testLgr_3d_parent.dis
+OC     14 testLgr_3d_parent.oc
+LPF    15 testLgr_3d_parent.lpf
+PCG    16 testLgr_3d_parent.pcg
+RIV    17 testLgr_3d_parent.riv
+DATA(BINARY) 30 testLgr_3d_parent.hed  REPLACE
+DATA(BINARY) 40 testLgr_3d_parent.flw  REPLACE

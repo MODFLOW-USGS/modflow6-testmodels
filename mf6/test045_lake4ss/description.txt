@@ -1,0 +1,1 @@
+This is the lake-aquifer interaction example problem (test simulation 4) from the Lake Package documentation (Merritt and Konikow, 2000).  This problem is simulated using the Lake (LAK) Package in MODFLOW 6.

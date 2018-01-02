@@ -1,0 +1,122 @@
+# SIMPLE STRAIGHT RIVER --> ROUTING FROM PARENT TO CHILD THEN CHILD TO PARENT
+# STEFFEN MEHL: 06/29/2007
+  108    3    0    0  1. 1.E-4    -1   19   AUX LGRGRID AUX LGRSEG    ;NSTRM NSS NSFRPAR NPARSEG CONST DLEAK ISTCB1  ISTCB2  [ISFROPT] [NSTRAIL] [ISUZN] [NSFRSETS]
+      1       26      1    1	1        9.25   ;KRCH IRCH JRCH ISEG IREACH RCHLEN [STRTOP] [SLOPE] [STRTHICK] [STRHC1] [THTS] [THTI] [EPS] [UHC]
+      1       26      2    1	2        9.25
+      1       26      3    1	3        9.25
+      1       26      4    1	4        9.25
+      1       26      5    1	5        9.25
+      1       26      6    1	6        9.25
+      1       26      7    1	7        9.25
+      1       26      8    1	8        9.25
+      1       26      9    1	9        9.25
+      1       26     10    1	10       9.25
+      1       26     11    1	11       9.25
+      1       26     12    1	12       9.25
+      1       26     13    1	13       9.25
+      1       26     14    1	14       9.25
+      1       26     15    1	15       9.25
+      1       26     16    1	16       9.25
+      1       26     17    1	17       9.25
+      1       26     18    1	18       9.25
+      1       26     19    1	19       9.25
+      1       26     20    1	20       9.25
+      1       26     21    1	21       9.25
+      1       26     22    1	22       9.25
+      1       26     23    2	 1       9.25
+      1       26     24    2	 2       9.25
+      1       26     25    2	 3       9.25
+      1       26     26    2	 4       9.25
+      1       26     27    2	 5       9.25
+      1       26     28    2	 6       9.25
+      1       26     29    2	 7       9.25
+      1       26     30    2	 8       9.25
+      1       26     31    2	 9       9.25
+      1       26     32    2	10       9.25
+      1       26     33    2	11       9.25
+      1       26     34    2	12       9.25
+      1       26     35    2	13       9.25
+      1       26     36    2	14       9.25
+      1       26     37    2	15       9.25
+      1       26     38    2	16       9.25
+      1       26     39    3	 1       9.25
+      1       26     40    3	 2       9.25
+      1       26     41    3	 3       9.25
+      1       26     42    3	 4       9.25
+      1       26     43    3	 5       9.25
+      1       26     44    3	 6       9.25
+      1       26     45    3	 7       9.25
+      1       26     46    3	 8       9.25
+      1       26     47    3	 9       9.25
+      1       26     48    3	10       9.25
+      1       26     49    3	11       9.25
+      1       26     50    3	12       9.25
+      1       26     51    3	13       9.25
+      1       26     52    3	14       9.25
+      1       26     53    3	15       9.25
+      1       26     54    3	16       9.25
+      1       26     55    3	17       9.25
+      1       26     56    3	18       9.25
+      1       26     57    3	19       9.25
+      1       26     58    3	20       9.25
+      1       26     59    3	21       9.25
+      1       26     60    3	22       9.25
+      1       26     61    3	23       9.25
+      1       26     62    3	24       9.25
+      1       26     63    3	25       9.25
+      1       26     64    3	26       9.25
+      1       26     65    3	27       9.25
+      1       26     66    3	28       9.25
+      1       26     67    3	29       9.25
+      1       26     68    3	30       9.25
+      1       26     69    3	31       9.25
+      1       26     70    3	32       9.25
+      1       26     71    3	33       9.25
+      1       26     72    3	34       9.25
+      1       26     73    3	35       9.25
+      1       26     74    3	36       9.25
+      1       26     75    3	37       9.25
+      1       26     76    3	38       9.25
+      1       26     77    3	39       9.25
+      1       26     78    3	40       9.25
+      1       26     79    3	41       9.25
+      1       26     80    3	42       9.25
+      1       26     81    3	43       9.25
+      1       26     82    3	44       9.25
+      1       26     83    3	45       9.25
+      1       26     84    3	46       9.25
+      1       26     85    3	47       9.25
+      1       26     86    3	48       9.25
+      1       26     87    3	49       9.25
+      1       26     88    3	50       9.25
+      1       26     89    3	51       9.25
+      1       26     90    3	52       9.25
+      1       26     91    3	53       9.25
+      1       26     92    3	54       9.25
+      1       26     93    3	55       9.25
+      1       26     94    3	56       9.25
+      1       26     95    3	57       9.25
+      1       26     96    3	58       9.25
+      1       26     97    3	59       9.25
+      1       26     98    3	60       9.25
+      1       26     99    3	61       9.25
+      1       26    100    3	62       9.25
+      1       26    101    3	63       9.25
+      1       26    102    3	64       9.25
+      1       26    103    3	65       9.25
+      1       26    104    3	66       9.25
+      1       26    105    3	67       9.25
+      1       26    106    3	68       9.25
+      1       26    107    3	69       9.25
+      1       26    108    3	70       9.25
+    1   -1    0   ;ITMP IRDFLG IPTFLG [NP]
+    1    1    0     0  5.0   0.   0.   0.  .04   0  0 ;NSEG ICALC OUTSEG IUPSEG [IPRIOR] [NSTRPTS] FLOW RUNOFF ETSW PPTSW ROUGHCH [ROUGHBK] [CDPTH]  [FDPTH] [AWDTH] [BWDTH] [LGRGRID] [LGRSEG]
+  .02  1.5  14.    20.  1.2       ;HCOND1 THICKM1 ELEVUP WIDTH1 DEPTH1 [THTS1] [THTI1] [EPS1] [UHC1]
+  .02  1.5  11.558 20.  1.2       ;HCOND2 THICKM2 ELEVDN WIDTH2 DEPTH2 [THTS2] [THTI1] [EPS2] [UHC2]
+    2    1    0     0  0.0   0.   0.   0.  .04  -1  0 ;NSEG ICALC OUTSEG IUPSEG [IPRIOR] [NSTRPTS] FLOW RUNOFF ETSW PPTSW ROUGHCH [ROUGHBK] [CDPTH]  [FDPTH] [AWDTH] [BWDTH] [LGRGRID] [LGRSEG]
+  .02  1.5  11.558 20.  1.2       ;HCOND1 THICKM1 ELEVUP WIDTH1 DEPTH1 [THTS1] [THTI1] [EPS1] [UHC1]
+  .02  1.5   9.782 20.  1.2       ;HCOND2 THICKM2 ELEVDN WIDTH2 DEPTH2 [THTS2] [THTI1] [EPS2] [UHC2]
+    3    1    0     0  0.0   0.   0.   0.  .04   2  1 ;NSEG ICALC OUTSEG IUPSEG [IPRIOR] [NSTRPTS] FLOW RUNOFF ETSW PPTSW ROUGHCH [ROUGHBK] [CDPTH]  [FDPTH] [AWDTH] [BWDTH] [LGRGRID] [LGRSEG]
+  .02  1.5   9.782 20.  1.2       ;HCOND1 THICKM1 ELEVUP WIDTH1 DEPTH1 [THTS1] [THTI1] [EPS1] [UHC1]
+  .02  1.5   2.    20.  1.2       ;HCOND2 THICKM2 ELEVDN WIDTH2 DEPTH2 [THTS2] [THTI1] [EPS2] [UHC2]
+

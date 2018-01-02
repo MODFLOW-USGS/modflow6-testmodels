@@ -1,0 +1,15 @@
+begin options
+  SAVE_FLOWS
+  ALTERNATIVE_CELL_AVERAGING  AMT-HMK
+end options
+
+
+BEGIN GRIDDATA
+  icelltype LAYERED
+    constant 1
+  k LAYERED
+    constant 1.000000E-04
+  K33
+    constant 1.000000E-04
+END GRIDDATA
+

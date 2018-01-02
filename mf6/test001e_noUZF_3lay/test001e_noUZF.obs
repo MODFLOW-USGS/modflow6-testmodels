@@ -1,0 +1,9 @@
+BEGIN OPTIONS
+  PRINT_INPUT
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT  test001e_noUZF.obs.csv
+  L1hd      head  1 1 5     # heads at lay 1 row 1 col 5
+  L2hd      head  2 1 5     # heads at lay 1 row 1 col 5
+  L3hd      head  3 1 5     # heads at lay 1 row 1 col 5
+END CONTINUOUS

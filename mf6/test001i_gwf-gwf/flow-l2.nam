@@ -1,0 +1,9 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  DIS6          flow-l2.dis
+  IC6           flow-l2.ic
+  NPF6          flow-l2.npf
+  OC6           flow-l2.oc
+END PACKAGES

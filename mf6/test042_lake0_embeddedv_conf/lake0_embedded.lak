@@ -1,0 +1,38 @@
+begin options
+  print_input
+  print_flows
+  boundnames
+  OBS6 FILEIN lake0_embedded.lak.obs
+end options
+
+begin dimensions
+  nlakes 3
+  noutlets 0
+  ntables 3
+end dimensions
+
+BEGIN PACKAGEDATA
+# lakeno    strt lakeconn  boundname
+       1    4.00        1  elake01
+       2    4.00        1  elake02
+       3    4.00        1  elake03
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+# lakeno iconn layer row column       ctype bedleak belev telev  dx width
+       1     1     1   3      3   EMBEDDEDV     1.0     0     0 2.5     0
+       2     1     1   3      3   EMBEDDEDV     1.0     0     0 2.5     0
+       3     1     1   3      3   EMBEDDEDV     1.0     0     0 2.5     0
+END CONNECTIONDATA
+
+BEGIN TABLES
+  1 TAB6 FILEIN l1_table.ref
+  2 TAB6 FILEIN l2_table.ref
+  3 TAB6 FILEIN l3_table.ref
+END TABLES
+
+begin period 1
+  1 RAINFALL 0.25
+  2 RAINFALL 0.50
+  3 RAINFALL 0.00
+end period

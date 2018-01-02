@@ -1,0 +1,57 @@
+BEGIN OPTIONS
+
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NLAY 3
+  NROW 10
+  NCOL 10
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  delr
+    CONSTANT   1.0  DELR
+  delc
+    CONSTANT   1.0  DELC
+  top
+    CONSTANT   1.0  TOP
+  botm LAYERED
+    CONSTANT    0.0  BOTM
+    CONSTANT   -1.0  BOTM
+    CONSTANT   -2.0  BOTM
+  idomain LAYERED
+    INTERNAL  FACTOR  1 IPRN
+	-1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1	
+    INTERNAL  FACTOR  1 IPRN
+	0 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 0 0 1 1 1 1 1
+	1 1 1 1 0 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1	
+    INTERNAL  FACTOR  1 IPRN
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1
+	1 1 1 1 1 1 1 1 1 1	
+END GRIDDATA
+

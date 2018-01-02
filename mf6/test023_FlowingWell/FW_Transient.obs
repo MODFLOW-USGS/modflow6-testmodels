@@ -1,0 +1,12 @@
+begin options
+  digits 10
+end options
+
+#
+# Blocks defining continuous observations
+#
+
+begin continuous FILEOUT FW_GWF.csv
+  L1ddn      drawdown  1 51 51     # heads at lay 1 row 51 col 51
+  L2ddn      drawdown  2 51 51     # heads at lay 2 row 51 col 51
+end continuous

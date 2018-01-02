@@ -1,0 +1,5 @@
+BEGIN ZONEBUDGET
+  BUD ../uzfp2.cbc
+  ZON zbud.zon
+  GRB ../uzfp2.dis.grb
+END ZONEBUDGET

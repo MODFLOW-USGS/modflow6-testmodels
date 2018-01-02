@@ -1,0 +1,8 @@
+LIST            7 test033_wtdecay.lst
+BAS6            1 test033_wtdecay.bas
+DIS            29 test033_wtdecay.dis
+UPW            11 test033_wtdecay.lpf
+OC             22 test033_wtdecay.oc
+NWT            19 test033_wtdecay.nwt
+GHB            61 test033_wtdecay.ghb
+DATA(BINARY)  102 test033_wtdecay.hds

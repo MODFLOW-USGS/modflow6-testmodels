@@ -1,0 +1,21 @@
+# Simulation name file for MODFLOW 6
+
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  pbc.tdis
+END Timing
+
+BEGIN Models
+  GWF6  pbc.nam  pbc
+END Models
+
+BEGIN Exchanges
+  GWF6-GWF6 pbc.exg pbc pbc
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  pbc.ims  pbc
+END SOLUTIONGROUP

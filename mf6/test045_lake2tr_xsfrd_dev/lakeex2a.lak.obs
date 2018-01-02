@@ -1,0 +1,19 @@
+begin options
+  digits 25
+  print_input
+end options
+
+begin Continuous FILEOUT lakeex2a.lak.csv
+  L1STAGE   STAGE         1
+  L2STAGE   STAGE         2
+  L1VOL     VOLUME        1
+  L2VOL     VOLUME        2
+  L1INFLOW  INFLOW        1
+  L1SURFOUT OUTLET        1
+  L2INFLOW  INFLOW        2
+  L2SURFOUT OUTLET        2
+  FROM-MVR1 FROM-MVR      1
+  TO-MVR1   TO-MVR        1
+  FROM-MVR2 FROM-MVR      2
+  TO-MVR2   TO-MVR        2
+end Continuous

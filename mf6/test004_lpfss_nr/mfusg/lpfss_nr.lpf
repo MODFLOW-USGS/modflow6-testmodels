@@ -1,0 +1,13 @@
+#Layer-Property Flow Package input for test simulation 2 
+         0    777.77         0   CONSTANTCV NOVFC  # ILPFCB, HDRY, NPLPF
+ 4  4  4                                           # LAYTYP
+ 0  0  0                                           # LAYAVG
+   1.0  1.0  1.0                                   # CHANI
+ 0  0  0                                           # LAYVKA
+ 0  0  0                                           # LAYWET
+CONSTANT          10                          HY   layer 1
+CONSTANT       0.050                          VKA  layer 1
+CONSTANT      1.e-12                          HY   layer 1
+CONSTANT       0.050                          VKA  layer 1
+CONSTANT          10                          HY   layer 3
+CONSTANT       0.050                          VKA  layer 3

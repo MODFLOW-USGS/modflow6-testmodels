@@ -1,0 +1,27 @@
+LIST                  9 UZFtest2.lst
+BAS6                 75 UZFtest2.ba6
+LPF                   7 UZFtest2.lpf
+DIS                   8 UZFtest2.dis
+SIP                  13 UZFtest2.sip
+OC                   14 UZFtest2.oc
+SFR                  15 UZFtest2.sfr
+WEL                  16 UZFtest2.wel
+GHB                  17 UZFtest2.ghb
+UZF                  19 UZFtest2.uzf
+GAGE                 32 UZFtest2.gag
+DATA                 58 UZFtest2hd.out  REPLACE
+DATA(BINARY)         61 UZFtest2.uzfot  REPLACE
+DATA                 65 UZFtest2.uzf1   REPLACE
+DATA                 66 UZFtest2.uzf2   REPLACE
+DATA                 67 UZFtest2.uzf3   REPLACE
+DATA                 68 UZFtest2.uzf4   REPLACE
+DATA                 81 UZFtest2.flw    REPLACE
+DATA                 83 UZFtest2.sg1    REPLACE
+DATA                 84 UZFtest2.sg2    REPLACE
+DATA                 85 UZFtest2.sg3    REPLACE
+DATA                 86 UZFtest2.sg4    REPLACE
+DATA                 87 UZFtest2.sg5    REPLACE
+DATA                 88 UZFtest2.sg6    REPLACE
+DATA                 89 UZFtest2.sg7    REPLACE
+DATA                 90 UZFtest2.sg8    REPLACE
+DATA                 91 UZFtest2dv.sg9  REPLACE

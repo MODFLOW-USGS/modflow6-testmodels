@@ -1,0 +1,22 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  PARENT_CHILD.tdis
+END Timing
+
+BEGIN Models
+  GWF6  PARENT.nam  PARENT
+  GWF6  CHILD.nam  CHILD
+END Models
+
+BEGIN Exchanges
+  GWF6-GWF6  PARENT_CHILD.exg  PARENT  CHILD
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  PARENT_CHILD.ims  PARENT  CHILD
+END SOLUTIONGROUP

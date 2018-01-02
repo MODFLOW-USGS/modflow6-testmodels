@@ -1,0 +1,13 @@
+BEGIN Options
+  LIST       test020_mawconfined.lst
+END Options
+
+BEGIN Packages
+  DIS6       test020_mawconfined.dis
+  IC6        test020_mawconfined.ic
+  NPF6       test020_mawconfined.npf
+  STO6       test020_mawconfined.sto
+  OC6        test020_mawconfined.oc
+  MAW6       test020_mawconfined.maw  'MAW_1'           
+END Packages
+

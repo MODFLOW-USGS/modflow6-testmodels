@@ -1,0 +1,29 @@
+# DIS8 input file, prepared by MF5to6 on 3/7/2016 at 12:39:51.
+
+BEGIN Options
+  LENGTH_UNITS  UNDEFINED
+END Options
+
+BEGIN Dimensions
+  NLAY  1
+  NROW  5
+  NCOL  5
+END Dimensions
+
+BEGIN GRIDDATA
+  DELR
+    CONSTANT    100.0000000       DELR
+  DELC
+    CONSTANT    100.0000000       DELC
+  TOP LAYERED
+    CONSTANT    10.0000000        TOP array
+  BOTM LAYERED
+    CONSTANT    0.00000000        BOTM layer 2
+  IDOMAIN LAYERED
+    INTERNAL  FACTOR  1  IPRN  5    Idomain layer 1
+    1    1    1    1    1
+    1    1    1    1    1
+    1    1    1    1    1
+    1    1    1    1    1
+    1    1    1    1    1
+END GRIDDATA

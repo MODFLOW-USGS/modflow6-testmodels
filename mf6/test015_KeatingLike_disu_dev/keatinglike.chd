@@ -1,0 +1,15 @@
+begin options
+  #PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+end options
+
+begin dimensions
+  MAXBOUND 3
+end dimensions
+
+begin period 1
+26    600.
+32    600.
+38    600.
+end period

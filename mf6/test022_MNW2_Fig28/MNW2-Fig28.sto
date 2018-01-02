@@ -1,0 +1,60 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+end options
+
+BEGIN GRIDDATA
+  iconvert LAYERED
+    constant 1 MODEL LAYER 1
+    constant 0 MODEL LAYER 2
+    constant 0 MODEL LAYER 3
+    constant 0 MODEL LAYER 4
+    constant 0 MODEL LAYER 5
+    constant 0 MODEL LAYER 6
+    constant 0 MODEL LAYER 7
+    constant 0 MODEL LAYER 8
+    constant 0 MODEL LAYER 9
+    constant 0 MODEL LAYER 10
+    constant 0 MODEL LAYER 11
+    constant 0 MODEL LAYER 12
+    constant 0 MODEL LAYER 13
+    constant 0 MODEL LAYER 14
+    constant 0 MODEL LAYER 15
+    constant 0 MODEL LAYER 16
+    constant 0 MODEL LAYER 17
+    constant 0 MODEL LAYER 18
+    constant 0 MODEL LAYER 19
+    constant 0 MODEL LAYER 20
+    constant 0 MODEL LAYER 21
+    constant 0 MODEL LAYER 22
+    constant 0 MODEL LAYER 23
+    constant 0 MODEL LAYER 24
+    constant 0 MODEL LAYER 25
+    constant 0 MODEL LAYER 26
+    constant 0 MODEL LAYER 27
+    constant 0 MODEL LAYER 28
+    constant 0 MODEL LAYER 29
+    constant 0 MODEL LAYER 30
+    constant 0 MODEL LAYER 31
+    constant 0 MODEL LAYER 32
+    constant 0 MODEL LAYER 33
+    constant 0 MODEL LAYER 34
+    constant 0 MODEL LAYER 35
+    constant 0 MODEL LAYER 36
+    constant 0 MODEL LAYER 37
+    constant 0 MODEL LAYER 38
+    constant 0 MODEL LAYER 39
+    constant 0 MODEL LAYER 40
+    constant 0 MODEL LAYER 41
+  ss
+    constant 3.e-4
+  sy 
+    constant 0.3
+END GRIDDATA
+
+begin period 1
+  steady-state
+end period 1
+
+begin period 2
+  transient
+end period

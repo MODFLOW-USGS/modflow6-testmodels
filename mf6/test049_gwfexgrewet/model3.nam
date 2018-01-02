@@ -1,0 +1,11 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          model3.dis
+  IC6           model3.ic
+  NPF6          model3.npf
+  CHD6          model3.chd
+  OC6           model3.oc
+END PACKAGES
+

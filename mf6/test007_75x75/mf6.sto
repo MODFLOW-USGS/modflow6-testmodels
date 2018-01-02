@@ -1,0 +1,25 @@
+# STO8 input file, prepared by MF5to6 on 3/8/2017 at 13:18:14.
+
+BEGIN Options
+END Options
+
+BEGIN GRIDDATA
+  ICONVERT LAYERED
+    CONSTANT  1
+  SS LAYERED
+    CONSTANT   0.0
+  SY LAYERED
+    CONSTANT    0.1000000    
+END GRIDDATA
+
+BEGIN Period 1
+    STEADY-STATE
+END Period
+
+BEGIN Period 2
+    TRANSIENT
+END Period
+
+BEGIN Period 3
+    STEADY-STATE
+END Period

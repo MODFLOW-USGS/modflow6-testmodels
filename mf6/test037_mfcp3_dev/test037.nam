@@ -1,0 +1,15 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          test037.dis
+  IC6           test037.ic
+  NPF6          test037.npf
+  STO6          test037.sto
+  CHD6          test037_constant.chd
+  OC6           test037.oc
+  WEL6          test037.wel
+  RIV6          test037.riv
+  RCH6          test037.rch
+END PACKAGES
+

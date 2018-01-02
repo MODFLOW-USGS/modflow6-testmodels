@@ -1,0 +1,20 @@
+# MVR6 input file, prepared by MF5to6 on 7/29/2016 at 10:56:36.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  BUDGET FILEOUT mvr.cbc
+END Options
+
+BEGIN Dimensions
+  MAXMVR  1
+  MAXPACKAGES  1
+END Dimensions
+
+BEGIN Packages
+  LAK_XSFR
+END Packages
+
+BEGIN Period 1
+  LAK_XSFR  1  LAK_XSFR  2  FACTOR  0.9 0.5
+END Period

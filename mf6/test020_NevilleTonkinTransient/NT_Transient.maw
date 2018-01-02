@@ -1,0 +1,31 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+  PRINT_INPUT (echo input to listing file)
+  PRINT_HEAD
+  PRINT_FLOWS  (print the flows to the listing file)
+  HEAD FILEOUT nt-maw.head.bin
+  BUDGET FILEOUT nt-maw.cbc
+  BOUNDNAMES
+  OBS6 FILEIN        NT_Transient.maw.obs
+  NO_WELL_STORAGE
+end options
+
+begin dimensions
+  NMAWWELLS 1
+end dimensions
+
+BEGIN PACKAGEDATA
+# no radius bottom strt     condeqn ngwnodes  name          
+#  1   0.15 -514.9 9.14       THEIM        2  ntwell       
+   1   0.15 -514.9 9.14   SPECIFIED        2  ntwell       
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+# wellno conn  l  r  c  stop   sbot      K  rskin
+       1    1  1 51 51   -50 -514.9 111.53      0
+       1    2  2 51 51   -50 -514.9 446.62      0
+END CONNECTIONDATA
+
+begin period 1
+  1 rate -1767.
+end period

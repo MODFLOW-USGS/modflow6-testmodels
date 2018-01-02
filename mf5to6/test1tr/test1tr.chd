@@ -1,0 +1,46 @@
+  parameter 6 6
+  6                        Item 2: MXACTC
+  CHD_BASE  CHD  1.0  1    Item 3: PARNAM PARTYP PARVAL NLST
+  1  14  6  1000.0 1000.0  Item 4: Layer row Column Shdfact Ehdfact
+  CHD_1  CHD  1.0  1       Item 3: PARNAM PARTYP PARVAL NLST
+  1  14  6    10.0   12.0  Item 4: Layer row Column Shdfact Ehdfact
+  CHD_2  CHD  1.0  1       Item 3: PARNAM PARTYP PARVAL NLST
+  1  14  6    12.0   16.0  Item 4: Layer row Column Shdfact Ehdfact
+  CHD_3  CHD  1.0  1       Item 3: PARNAM PARTYP PARVAL NLST
+  1  14  6    16.0   16.0  Item 4: Layer row Column Shdfact Ehdfact
+  CHD_4  CHD  1.0  1       Item 3: PARNAM PARTYP PARVAL NLST
+  1  14  6    16.0   20.0  Item 4: Layer row Column Shdfact Ehdfact
+  CHD_5  CHD  1.0  1       Item 3: PARNAM PARTYP PARVAL NLST
+  1  14  6    25.0   26.0  Item 4: Layer row Column Shdfact Ehdfact
+  0   2                    Item 5: ITMP NP, stress period 1
+  CHD_BASE
+  CHD_1
+  0   2                    Item 5: ITMP NP, stress period 2
+  CHD_BASE
+  CHD_2
+  0   2                    Item 5: ITMP NP, stress period 3
+  CHD_BASE
+  CHD_3
+ -1   0                    Item 5: ITMP NP, stress period 4
+ -1   0                    Item 5: ITMP NP, stress period 5
+  0   2                    Item 5: ITMP NP, stress period 6
+  CHD_BASE
+  CHD_4
+  0   2                    Item 5: ITMP NP, stress period 7
+  CHD_BASE
+  CHD_5
+ 
+
+ 
+orig: 
+  1                        Item 2: MXACTC
+  1   0                    Item 5: ITMP NP, stress period 1
+  1  14  6  1010.0 1012.0  Item 6: lay row col Shead Ehead
+  1   0                    Item 5: ITMP NP, stress period 2
+  1  14  6  1012.0 1016.0  Item 6: lay row col Shead Ehead
+  1   0                    Item 5: ITMP NP, stress period 3
+  1  14  6  1016.0 1016.0  Item 6: lay row col Shead Ehead
+ -1   0                    Item 5: ITMP NP, stress period 4
+ -1   0                    Item 5: ITMP NP, stress period 5
+  1   0                    Item 5: ITMP NP, stress period 6
+  1  14  6  1016.0 1020.0  Item 6: lay row col Shead Ehead

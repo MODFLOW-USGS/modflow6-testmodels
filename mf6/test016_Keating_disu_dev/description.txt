@@ -1,0 +1,1 @@
+This is an example problem described in Keating and Zyvoloski (2009).  The problem involves recharge through the unsaturated zone onto an aquitard.  The Newton-Raphson formulation is used for this problem to obtain a solution.

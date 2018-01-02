@@ -1,0 +1,17 @@
+BEGIN Options
+  LIST       test036_twrihfb_nr.lst
+  NEWTON
+END Options
+
+BEGIN Packages
+  DIS6       test036_twrihfb_nr.dis
+  IC6        test036_twrihfb_nr.ic
+  NPF6       test036_twrihfb_nr.npf
+  OC6        test036_twrihfb_nr.oc
+  WEL6       test036_twrihfb_nr.wel
+  DRN6       test036_twrihfb_nr.drn  'DRN'           
+  RCH6       test036_twrihfb_nr.rch  'RCH'        
+  HFB6       test036_twrihfb_nr.hfb  'HFB'             
+  CHD6       test036_twrihfb_nr.ibound.chd  'CHD-IB' 
+END Packages
+

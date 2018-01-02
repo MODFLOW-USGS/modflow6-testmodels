@@ -1,0 +1,19 @@
+         1         0
+      0.00       100   0.00001
+      11.0       0.0     100.0
+         1         0         0
+OPEN/CLOSE  lake_layer_1.ref  1  (free) -1 Lake Domain layer   1
+constant         0                         Lake Domain layer   2
+constant         0                         Lake Domain layer   3
+constant         0                         Lake Domain layer   4 
+constant         0                         Lake Domain layer   5
+constant       1e9                         Lake Leakance layer 1
+constant      0.00                         Lake Leakance layer 2
+constant      0.00                         Lake Leakance layer 3
+constant      0.00                         Lake Leakance layer 4
+constant      0.00                         Lake Leakance layer 5
+    0  0  0
+0.00821918 0.0062296       0.0       0.0
+   -1 -1  0
+   -1 -1  0
+   

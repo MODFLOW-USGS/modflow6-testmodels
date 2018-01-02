@@ -1,0 +1,29 @@
+BEGIN OPTIONS
+  PRINT_INPUT
+  PRINT_FLOWS
+  NO_WELL_STORAGE
+  MOVER
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NMAWWELLS 4
+END DIMENSIONS
+
+BEGIN PACKAGEDATA
+#         radius bottom strt condeqn ngwfnodes
+  1  0.25  -200.0 0.0   THEIM     1
+  2  0.25  -200.0 0.0   THEIM     1
+  3  0.25  -200.0 0.0   THEIM     1
+  4  0.25  -200.0 0.0   THEIM     1
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+#         icon cellid scrn_top scrn_bot hk_skin radius_skin
+  1   1  1 10 3  50.0     -200.0   1.0      1.0
+  2   1  1 11 7  50.0     -200.0   1.0      1.0
+  3   1  1 19 2  50.0     -200.0   1.0      1.0
+  4   1  1 15 5  50.0     -200.0   1.0      1.0
+END CONNECTIONDATA
+
+BEGIN PERIOD 1
+END PERIOD

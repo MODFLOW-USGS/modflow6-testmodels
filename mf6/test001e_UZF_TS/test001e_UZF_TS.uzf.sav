@@ -1,0 +1,46 @@
+# UZF8 input file, prepared by mf5to15 on 4/17/15
+
+Begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  TS6 FILEIN test001e_UZF_TS.uzf.ts
+  OBS6 FILEIN test001e_UZF_TS.uzf.obs6
+  SIMULATE_GWSEEP
+  SIMULATE_ET   
+  LINEAR_GWET 
+  AUXILIARY mult
+  AUXMULTNAME mult
+End options
+
+BEGIN Dimensions
+  NUZFCELLS    6
+  NTRAILWAVES  10
+  NWAVESETS    40
+END Dimensions
+
+BEGIN PACKAGEDATA
+1 1 2 1  3 1 1 0.05 0.35 0.05 4
+1 1 3 1  4 1 1 0.05 0.35 0.05 4
+2 1 2 0  5 1 1 0.05 0.35 0.05 4
+2 1 3 0  6 1 1 0.05 0.35 0.05 4
+3 1 2 0  0 1 1 0.05 0.35 0.05 4
+3 1 3 0  0 1 1 0.05 0.35 0.05 4
+END PACKAGEDATA
+
+BEGIN period 1    
+  1  finf  pet  extdp  extwc  zero  zero  zero a2
+  2  finf  pet  extdp  extwc  zero  zero  zero areamult
+  3  zero  pet  extdp  extwc  zero  zero  zero areamult
+  4  zero  pet  extdp  extwc  zero  zero  zero a2
+  5  zero  pet  extdp  extwc  zero  zero  zero areamult
+  6  zero  pet  extdp  extwc  zero  zero  zero areamult
+END period 1     
+       
+       
+BEGIN period 4   
+  1  zero  pet  extdp  extwc  zero  zero  zero a2
+  2  zero  pet  extdp  extwc  zero  zero  zero areamult
+END period 4     
+     
+   
+     

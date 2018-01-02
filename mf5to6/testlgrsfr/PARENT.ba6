@@ -1,0 +1,6 @@
+#Telescopic Grid:  Parent grid from Advance in Water Resources article
+#Steffen Mehl 10/27/2003-> HETEROGENEOUS and PUMPING WELL                       
+FREE CHTOCH
+OPEN/CLOSE parent.ibd    1 (108i3)   -9  IBOUND layer   1
+1.000E+30  HNOFLO
+OPEN/CLOSE parent.shd    1 (108f5.3) -9  Initial Head layer   1

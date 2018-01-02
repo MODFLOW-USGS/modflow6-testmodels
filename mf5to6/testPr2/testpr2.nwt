@@ -1,0 +1,46 @@
+# MODFLOW-NWT data for Prob 2 from McDonald and others (1991)
+1.0E-4 1. 500 1.0e-5  2  1 1 SPECIFIED 0.97 1.0e-4 0.000  0.10 1  20 1.5 0.7  linmeth=2 (XMD)  
+2 0 3 5 1 0.0 0 1.0E-4 1.0e-3  50       XMD
+
+
+Item 1:
+HEADTOL      1.0E-4
+FLUXTOL      1.
+MAXITEROUT   500
+THICKFACT    1.0e-5    Portion of cell thickness used for adjusting coefficients
+LINMETH      2         (use XMD)
+IPRNWT       1    
+IBOTAV       1         Flag indicating whether corrections made to GW head w.r.t. cell bottom 
+                       (1 = corrections will be made)
+OPTIONS      SPECIFIED
+DBDTHETA     0.97
+DBDKAPPA     1.0e-4
+DBDGAMMA     0.000
+MOMFACT      0.10      Momentum coefficient
+BACKFLAG     1         Flag for residual control (1 = residual control is active)
+MAXBACKITER  20        Max. number of backtracks between nonlinear iterations
+BACKTOL      1.5       
+BACKREDUCE   0.7
+
+
+Item 2b (for XMD):
+IACL         2         Acceleration method (2 = Bi-CGSTAB)
+NORDER       0         Ordering of unknowns (0 = original ordering)
+LEVEL        3         Fill level
+NORTH        5         Number orthogonalizations
+IREDSYS      1         Reduced system preconditioning (1 = apply reduced preconditioning)
+RRCTOLS      0.0       Residual reduction-convergence criterion
+IDROPTOL     0         Flag for using drop tolerance (no explanation provided)
+EPSRN        1.0E-4    Drop tolerance for preconditioning
+HCLOSEXMD    1.0e-3    Head closure criterion for inner iterations
+MXITERXMD    50        Maximum number of inner iterations
+
+
+
+Need conversions:
+
+MAXBACKITER -> BACKTRACKING_NUMBER
+BACKTOL     -> BACKTRACKING_TOLERANCE
+BACKREDUCE  -> BACKTRACKING_REDUCTION_FACTOR
+
+others?

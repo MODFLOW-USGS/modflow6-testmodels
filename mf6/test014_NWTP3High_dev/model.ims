@@ -1,0 +1,28 @@
+begin options
+  PRINT_OPTION SUMMARY
+end options
+
+begin nonlinear
+	outer_hclose 1.e-6
+	outer_maximum 1500 
+	under_relaxation dbd
+	under_relaxation_theta 0.90
+	under_relaxation_kappa 0. 
+	under_relaxation_gamma 0.
+	under_relaxation_momentum 0. 
+	BACKTRACKING_NUMBER 20
+	BACKTRACKING_TOLERANCE 2.
+	BACKTRACKING_REDUCTION_FACTOR 0.6
+	BACKTRACKING_RESIDUAL_LIMIT 1.0
+end nonlinear
+
+begin linear
+  inner_maximum 200
+	inner_hclose 1.0e-6
+	inner_rclose .0 RELATIVE_RCLOSE
+	LINEAR_ACCELERATION bicgstab
+	reordering_method none
+	PRECONDITIONER_LEVELS 5
+	NUMBER_ORTHOGONALIZATIONS 7
+	PRECONDITIONER_DROP_TOLERANCE 1.0e-4
+end linear

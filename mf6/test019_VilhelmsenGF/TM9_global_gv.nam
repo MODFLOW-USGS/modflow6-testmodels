@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6          TM9_global_gv.ic
+  DIS6         TM9_global_gv.dis
+#  TDIS6        TM9_global_gv.tdis
+  NPF6         TM9_global_gv.npf
+  RIV6         TM9_global_gv.riv
+  RCH6         TM9_global_gv.rch
+  OC6          TM9_global_gv.oc
+#  SMS8         TM9_global_gv.sms
+END PACKAGES
+

@@ -1,0 +1,33 @@
+BEGIN OPTIONS
+  #NONE
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NLAY 10
+  NROW 1
+  NCOL 3
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  delr
+    CONSTANT  200.  DELR
+  delc
+    CONSTANT    1.  DELC
+  top LAYERED
+     constant 2000. #model top
+  botm LAYERED
+CONSTANT    1.800000E+03                           #botm Layer 1                  
+CONSTANT    1.600000E+03                           #botm Layer 2                  
+CONSTANT    1.400000E+03                           #botm Layer 3                  
+CONSTANT    1.200000E+03                           #botm Layer 4                  
+CONSTANT    1.000000E+03                           #botm Layer 5                  
+CONSTANT    8.000000E+02                           #botm Layer 6                  
+CONSTANT    6.000000E+02                           #botm Layer 7                  
+CONSTANT    4.000000E+02                           #botm Layer 8                  
+CONSTANT    2.000000E+02                           #botm Layer 9                  
+CONSTANT    0.000000E+00                           #botm Layer 10                 
+END GRIDDATA
+
+
+
+

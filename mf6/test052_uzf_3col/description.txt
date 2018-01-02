@@ -1,0 +1,1 @@
+Simple problem to demonstrate UZF with one leading wave.  The model has 1 layer, 1 row, and 3 columns.  Infiltration is added to the top, and ultimately makes it to the water table.  The water table rises slightly in the middle cell.  The cells in columns 1 and 3 are constant head.

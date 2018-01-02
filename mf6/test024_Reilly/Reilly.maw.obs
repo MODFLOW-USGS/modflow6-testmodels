@@ -1,0 +1,21 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin continuous FILEOUT Reilly_MAW.csv
+  M1HEAD    HEAD  1
+  M1RATE01  MAW 1 1
+  M1RATE02  MAW 1 2
+  M1RATE03  MAW 1 3
+  M1RATE04  MAW 1 4
+  M1RATE05  MAW 1 5
+  M1RATE06  MAW 1 6
+  M1RATE07  MAW 1 7
+  M1RATE08  MAW 1 8
+  M1RATE09  MAW 1 9
+  M1RATE10  MAW 1 10
+  M1RATE11  MAW 1 11
+  M1RATE12  MAW 1 12
+end continuous
+

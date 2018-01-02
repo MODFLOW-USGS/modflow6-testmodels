@@ -1,0 +1,15 @@
+BEGIN Options
+  LIST       mf6.lst
+  NEWTON
+END Options
+
+BEGIN Packages
+  DIS6       mf6.dis6
+  IC6        mf6.ic6
+  NPF6       mf6.npf6
+  STO6       mf6.sto6
+  OC6        mf6.oc6
+  SFR6       mf6.sfr6  'SFR_1' 
+  OBS6       mf6.obs6          
+END Packages
+

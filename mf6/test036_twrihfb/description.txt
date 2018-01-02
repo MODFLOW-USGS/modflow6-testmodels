@@ -1,0 +1,1 @@
+This problem is included with the MODFLOW-2005 examples and is documented in USGS Techniques and Methods 6 A-16 (Harbaugh, 2005). 

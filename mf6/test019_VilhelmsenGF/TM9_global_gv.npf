@@ -1,0 +1,60 @@
+BEGIN OPTIONS
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN GRIDDATA
+  ICELLTYPE
+    CONSTANT 0
+  k LAYERED
+    OPEN/CLOSE TM9_global_gv.npf.hk1.ref  FACTOR  1.0  IPRN -1  Layer 1 
+    OPEN/CLOSE TM9_global_gv.npf.hk2.ref  FACTOR  1.0  IPRN -1  Layer 2 
+    OPEN/CLOSE TM9_global_gv.npf.hk3.ref  FACTOR  1.0  IPRN -1  Layer 3 
+    OPEN/CLOSE TM9_global_gv.npf.hk4.ref  FACTOR  1.0  IPRN -1  Layer 4 
+    OPEN/CLOSE TM9_global_gv.npf.hk5.ref  FACTOR  1.0  IPRN -1  Layer 5 
+    OPEN/CLOSE TM9_global_gv.npf.hk6.ref  FACTOR  1.0  IPRN -1  Layer 6 
+    OPEN/CLOSE TM9_global_gv.npf.hk7.ref  FACTOR  1.0  IPRN -1  Layer 7 
+    OPEN/CLOSE TM9_global_gv.npf.hk8.ref  FACTOR  1.0  IPRN -1  Layer 8 
+    OPEN/CLOSE TM9_global_gv.npf.hk9.ref  FACTOR  1.0  IPRN -1  Layer 9 
+    OPEN/CLOSE TM9_global_gv.npf.hk10.ref FACTOR  1.0  IPRN -1  Layer 10
+    OPEN/CLOSE TM9_global_gv.npf.hk11.ref FACTOR  1.0  IPRN -1  Layer 11
+    OPEN/CLOSE TM9_global_gv.npf.hk12.ref FACTOR  1.0  IPRN -1  Layer 12
+    OPEN/CLOSE TM9_global_gv.npf.hk13.ref FACTOR  1.0  IPRN -1  Layer 13
+    OPEN/CLOSE TM9_global_gv.npf.hk14.ref FACTOR  1.0  IPRN -1  Layer 14
+    OPEN/CLOSE TM9_global_gv.npf.hk15.ref FACTOR  1.0  IPRN -1  Layer 15
+    OPEN/CLOSE TM9_global_gv.npf.hk16.ref FACTOR  1.0  IPRN -1  Layer 16
+    OPEN/CLOSE TM9_global_gv.npf.hk17.ref FACTOR  1.0  IPRN -1  Layer 17
+    OPEN/CLOSE TM9_global_gv.npf.hk18.ref FACTOR  1.0  IPRN -1  Layer 18
+    OPEN/CLOSE TM9_global_gv.npf.hk19.ref FACTOR  1.0  IPRN -1  Layer 19
+    OPEN/CLOSE TM9_global_gv.npf.hk20.ref FACTOR  1.0  IPRN -1  Layer 20
+    OPEN/CLOSE TM9_global_gv.npf.hk21.ref FACTOR  1.0  IPRN -1  Layer 21
+    OPEN/CLOSE TM9_global_gv.npf.hk22.ref FACTOR  1.0  IPRN -1  Layer 22
+    OPEN/CLOSE TM9_global_gv.npf.hk23.ref FACTOR  1.0  IPRN -1  Layer 23
+    OPEN/CLOSE TM9_global_gv.npf.hk24.ref FACTOR  1.0  IPRN -1  Layer 24
+    OPEN/CLOSE TM9_global_gv.npf.hk25.ref FACTOR  1.0  IPRN -1  Layer 25
+  K33 LAYERED
+    OPEN/CLOSE TM9_global_gv.npf.hk1.ref  FACTOR  1.0  IPRN -1  Layer 1 
+    OPEN/CLOSE TM9_global_gv.npf.hk2.ref  FACTOR  1.0  IPRN -1  Layer 2 
+    OPEN/CLOSE TM9_global_gv.npf.hk3.ref  FACTOR  1.0  IPRN -1  Layer 3 
+    OPEN/CLOSE TM9_global_gv.npf.hk4.ref  FACTOR  1.0  IPRN -1  Layer 4 
+    OPEN/CLOSE TM9_global_gv.npf.hk5.ref  FACTOR  1.0  IPRN -1  Layer 5 
+    OPEN/CLOSE TM9_global_gv.npf.hk6.ref  FACTOR  1.0  IPRN -1  Layer 6 
+    OPEN/CLOSE TM9_global_gv.npf.hk7.ref  FACTOR  1.0  IPRN -1  Layer 7 
+    OPEN/CLOSE TM9_global_gv.npf.hk8.ref  FACTOR  1.0  IPRN -1  Layer 8 
+    OPEN/CLOSE TM9_global_gv.npf.hk9.ref  FACTOR  1.0  IPRN -1  Layer 9 
+    OPEN/CLOSE TM9_global_gv.npf.hk10.ref FACTOR  1.0  IPRN -1  Layer 10
+    OPEN/CLOSE TM9_global_gv.npf.hk11.ref FACTOR  1.0  IPRN -1  Layer 11
+    OPEN/CLOSE TM9_global_gv.npf.hk12.ref FACTOR  1.0  IPRN -1  Layer 12
+    OPEN/CLOSE TM9_global_gv.npf.hk13.ref FACTOR  1.0  IPRN -1  Layer 13
+    OPEN/CLOSE TM9_global_gv.npf.hk14.ref FACTOR  1.0  IPRN -1  Layer 14
+    OPEN/CLOSE TM9_global_gv.npf.hk15.ref FACTOR  1.0  IPRN -1  Layer 15
+    OPEN/CLOSE TM9_global_gv.npf.hk16.ref FACTOR  1.0  IPRN -1  Layer 16
+    OPEN/CLOSE TM9_global_gv.npf.hk17.ref FACTOR  1.0  IPRN -1  Layer 17
+    OPEN/CLOSE TM9_global_gv.npf.hk18.ref FACTOR  1.0  IPRN -1  Layer 18
+    OPEN/CLOSE TM9_global_gv.npf.hk19.ref FACTOR  1.0  IPRN -1  Layer 19
+    OPEN/CLOSE TM9_global_gv.npf.hk20.ref FACTOR  1.0  IPRN -1  Layer 20
+    OPEN/CLOSE TM9_global_gv.npf.hk21.ref FACTOR  1.0  IPRN -1  Layer 21
+    OPEN/CLOSE TM9_global_gv.npf.hk22.ref FACTOR  1.0  IPRN -1  Layer 22
+    OPEN/CLOSE TM9_global_gv.npf.hk23.ref FACTOR  1.0  IPRN -1  Layer 23
+    OPEN/CLOSE TM9_global_gv.npf.hk24.ref FACTOR  1.0  IPRN -1  Layer 24
+    OPEN/CLOSE TM9_global_gv.npf.hk25.ref FACTOR  1.0  IPRN -1  Layer 25
+END GRIDDATA

@@ -1,0 +1,15 @@
+# NPF8 input file, prepared by MF5to6 on 8/3/2016 at 12:26:19.
+
+BEGIN Options
+  PERCHED
+  THICKSTRT
+END Options
+
+BEGIN GRIDDATA
+  Icelltype LAYERED
+    CONSTANT -1
+  k  LAYERED
+    CONSTANT    30.0000000    
+  K33  LAYERED
+    CONSTANT    1.00000000    
+END GRIDDATA

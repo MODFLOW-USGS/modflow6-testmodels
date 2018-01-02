@@ -1,0 +1,13 @@
+LIST  1 l1a2k.lst
+BAS6  7 l1a2k.ba6
+LPF  10 l1a2k.lpf
+EVT  11 l1a2k.evt
+RCH  12 l1a2k.rch
+SMS  13 l1a2k.sms
+OC   17 l1a2k.oc
+LAK  16 l1a2k.lak
+DIS  14 l1a2k.dis
+CHD  21 l1a2k.chd
+GAGE 33 l1a2k.gag
+DATA 37 l1a2k.gage.out
+DATA(BINARY) 18 l1a2k.hds

@@ -1,0 +1,28 @@
+BEGIN OPTIONS
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN GRIDDATA
+  ICELLTYPE
+    CONSTANT 0
+  k LAYERED
+    OPEN/CLOSE parent.npf.hk1.ref  FACTOR  1.0  IPRN -1  Layer 1 
+    OPEN/CLOSE parent.npf.hk2.ref  FACTOR  1.0  IPRN -1  Layer 2 
+    OPEN/CLOSE parent.npf.hk3.ref  FACTOR  1.0  IPRN -1  Layer 3 
+    OPEN/CLOSE parent.npf.hk4.ref  FACTOR  1.0  IPRN -1  Layer 4 
+    OPEN/CLOSE parent.npf.hk5.ref  FACTOR  1.0  IPRN -1  Layer 5 
+    OPEN/CLOSE parent.npf.hk6.ref  FACTOR  1.0  IPRN -1  Layer 6 
+    OPEN/CLOSE parent.npf.hk7.ref  FACTOR  1.0  IPRN -1  Layer 7 
+    OPEN/CLOSE parent.npf.hk8.ref  FACTOR  1.0  IPRN -1  Layer 8 
+    OPEN/CLOSE parent.npf.hk9.ref  FACTOR  1.0  IPRN -1  Layer 9 
+  K33 LAYERED
+    OPEN/CLOSE parent.npf.hk1.ref  FACTOR  1.0  IPRN -1  Layer 1 
+    OPEN/CLOSE parent.npf.hk2.ref  FACTOR  1.0  IPRN -1  Layer 2 
+    OPEN/CLOSE parent.npf.hk3.ref  FACTOR  1.0  IPRN -1  Layer 3 
+    OPEN/CLOSE parent.npf.hk4.ref  FACTOR  1.0  IPRN -1  Layer 4 
+    OPEN/CLOSE parent.npf.hk5.ref  FACTOR  1.0  IPRN -1  Layer 5 
+    OPEN/CLOSE parent.npf.hk6.ref  FACTOR  1.0  IPRN -1  Layer 6 
+    OPEN/CLOSE parent.npf.hk7.ref  FACTOR  1.0  IPRN -1  Layer 7 
+    OPEN/CLOSE parent.npf.hk8.ref  FACTOR  1.0  IPRN -1  Layer 8 
+    OPEN/CLOSE parent.npf.hk9.ref  FACTOR  1.0  IPRN -1  Layer 9 
+END GRIDDATA

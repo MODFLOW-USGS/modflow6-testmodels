@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           test029.ic
+  NPF6          test029.npf
+  OC6           test029.oc
+  DIS6          test029.dis
+  WEL6          test029.wel
+  CHD6          test029.chd
+  SFR6          test029.sfr8
+END PACKAGES
+

@@ -1,0 +1,21 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+  PRINT_INPUT (echo input to listing file)
+  PRINT_FLOWS  (print the flows to the listing file)
+end options
+
+begin dimensions
+  MAXBOUND 3
+end dimensions
+
+#        k         i         j      flux 
+begin period 2
+         2        28        43  -4000.000         
+         7        28        43  -4000.000         
+        13        28        43  -4000.000   
+end period
+
+#--no wells period 3 
+begin period 3
+end period
+

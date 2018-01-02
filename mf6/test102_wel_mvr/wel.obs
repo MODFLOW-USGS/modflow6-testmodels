@@ -1,0 +1,20 @@
+begin options
+  digits 10
+  print_input
+end options
+
+#
+# Blocks defining continuous observations
+#
+
+begin continuous FILEOUT wel.obs.csv
+  WEL1   WEL    1  2   4
+  WEL2   WEL    1  17 14
+  WEL3   WEL    1  5  15
+  WEL4   WEL    1  10 10
+  MVR1   TO-MVR W1
+  MVR2   TO-MVR W2
+  MVR3   TO-MVR W3
+  MVR4   TO-MVR W4
+  WELX   WEL    1   1  1
+end continuous

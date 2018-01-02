@@ -1,0 +1,12 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+end options
+
+begin dimensions
+  MAXBOUND 2
+end dimensions
+
+begin period 1
+  open/close test1tr.ghb.per1.ref
+end period

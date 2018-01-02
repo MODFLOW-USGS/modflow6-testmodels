@@ -1,0 +1,14 @@
+BEGIN Options
+  LIST       t4.lst
+END Options
+
+BEGIN Packages
+  DISV6      t4.disv
+  IC6        t4.ic
+  NPF6       t4.npf
+  OC6        t4.oc
+  WEL6       t4.wel
+  RIV6       t4.riv
+  RCH6       t4.rch
+END Packages
+

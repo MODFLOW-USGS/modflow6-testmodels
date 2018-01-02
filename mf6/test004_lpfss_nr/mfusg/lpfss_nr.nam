@@ -1,0 +1,10 @@
+LIST  7 lpfss_nr.lst
+BAS6  8 lpfss_nr.ba6
+LPF  11 lpfss_nr.lpf
+WEL  12 lpfss_nr.wel
+RIV  14 lpfss_nr.riv
+RCH  18 lpfss_nr.rch
+SMS  19 lpfss_nr.sms
+OC   20 lpfss_nr.oc
+DIS  10 lpfss_nr.dis
+DATA(BINARY) 58 lpfss_nr.hds replace

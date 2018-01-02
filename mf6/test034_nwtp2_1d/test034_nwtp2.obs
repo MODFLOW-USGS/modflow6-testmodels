@@ -1,0 +1,7 @@
+BEGIN OPTIONS
+digits 10
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT  obs_head_wel.csv
+gwhead head 10 1 1 
+END CONTINUOUS

@@ -1,0 +1,18 @@
+3  4  9  54                  # Item 1. NQCH NQCCH NQTCH IUCHOBSV
+1.0                          # Item 2. TOMULTCH
+3  1                         # Item 3. NQOBCH NQCLCH
+CHflow-1-1    1    1.0  0.0  # Item 4. OBSNAM IREFSP TOFFSET FLWOBS
+CHflow-1-2    2    1.0  0.0
+CHflow-1-101  2  100.0  0.0
+ 1  10  1  1.0               # Item 5. LAYER ROW COLUMN FACTOR
+3  1                         # Item 3. NQOBCH NQCLCH
+CHflow-2-1    1    1.0  0.0  # Item 4. OBSNAM IREFSP TOFFSET FLWOBS
+CHflow-2-2    2    1.0  0.0
+CHflow-2-101  2  100.0  0.0
+ 1  10  10  1.0              # Item 5. LAYER ROW COLUMN FACTOR
+3  2                         # Item 3. NQOBCH NQCLCH
+ChIbFlow-1    1    1.0  0.0  # Item 4. OBSNAM IREFSP TOFFSET FLWOBS
+ChIbFlow-2    2    1.0  0.0
+ChIbFlow-101  2  100.0  0.0
+ 1  1  10  1.0              # Item 5. LAYER ROW COLUMN FACTOR
+ 1  2  10  1.0

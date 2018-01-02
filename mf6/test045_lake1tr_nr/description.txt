@@ -1,0 +1,1 @@
+This is the transient lake-aquifer interaction example problem (test simulation 1) from the Lake Package documentation (Merritt and Konikow, 2000).  This problem is simulated using the Lake (LAK) Package in MODFLOW 6 and uses the Newton-Raphson formulation.

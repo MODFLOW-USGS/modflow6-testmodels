@@ -1,0 +1,72 @@
+2 0                               ; LAK input - NLAKES,ILKCB
+0.00                              ; THETA
+130.0                             ; initial stage, lake 1
+130.0                             ; initial stage, lake 2
+1 0 0                             ; input/output options
+internal 1 (free) 3                     ; lake position array, layer 1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 2 2 2 2 2 0 0 0 0 0 0
+0 0 0 0 0 0 2 2 2 2 2 0 0 0 0 0 0
+0 0 0 0 0 0 2 2 2 2 2 0 0 0 0 0 0
+0 0 0 0 0 0 2 2 2 2 2 0 0 0 0 0 0
+0 0 0 0 0 0 2 2 2 2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+internal 1 (free) 3                     ; lake position array, layer 2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+constant 0              ; lake position array, layer 3
+constant 0              ; lake position array, layer 4
+constant 0              ; lake position array, layer 5
+constant 0.10           ; lakebed leakance array, layer 1
+constant 0.10           ; lakebed leakance array, layer 2
+constant 0.10           ; lakebed leakance array, layer 3
+constant 0.10           ; lakebed leakance array, layer 4
+constant 0.10           ; lakebed leakance array, layer 5
+0                       ; number of coalescing lake systems
+0.0116 0.0103 0.0 0.0   ; recharge,ET,runoff,withdrawal rates, lake 1
+0.0116 0.0103 0.0 0.0   ; recharge,ET,runoff,withdrawal rates, lake 2

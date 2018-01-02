@@ -1,0 +1,23 @@
+# MODFLOW2000 Layer Property Flow (LPF) Package
+        0   +9998.         0  0      CONSTANTCV           Line 1:  ILPFCB (unit number for CBCF) HDRY (dry cell value) NPLPF (number of LPF parameters)  options = storage coefficent so can use Ss and SY directly
+  4  4  4  4  4  4  4  4  4  4  4  4                      Line 2:  LAYTYP (NLAY) 0 = confined layers, >0 = convertible
+  0  0  0  0  0  0  0  0  0  0  0  0                      Line 3:  LAYAVG (NLAY) 0 = arithmatic mean of thickness and log mean of K
+  1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.                     Line 4:  CHANI (NLAY)  1 = horizontal anisotropy HANI is not read
+  1  1  1  1  1  1  1  1  1  1  1  1                      Line 5:  LAYVKA (NLAY) 0 = vertical hydraulic conductivity for VKA, not 0—indicates VKA is the ratio of horizontal to vertical hydraulic conductivity
+  0  0  0  0  0  0  0  0  0  0  0  0                      Line 6:  LAYWET (NLAY) 0 = wetting inactive
+  CONSTANT    25.00    (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   1
+  CONSTANT    10.00    (FREE)                       0     11. VKA(NCOL,NROW)  HK-VKA ratio           Layer   1
+  CONSTANT   2.0e-06   (FREE)                       0     12.  Ss(NCOL,NROW)  PRIMARY STORAGE        Layer   1
+  CONSTANT     0.200   (FREE)                       0     13.  Sy(NCOL,NROW)  Sy                     Layer   1
+  CONSTANT   1.0E-03   (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   2
+  CONSTANT    10.00    (FREE)                       0     11. VKA(NCOL,NROW)  HK-VKA ratio           Layer   2
+  CONSTANT   2.0e-06   (FREE)                       0     12.  Ss(NCOL,NROW)  PRIMARY STORAGE        Layer   2
+  CONSTANT     0.200   (FREE)                       0     13.  Sy(NCOL,NROW)  Sy                     Layer   2
+  CONSTANT   1.0E-05   (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   2
+  CONSTANT    10.00    (FREE)                       0     11. VKA(NCOL,NROW)  HK-VKA ratio           Layer   2
+  CONSTANT   2.0e-06   (FREE)                       0     12.  Ss(NCOL,NROW)  PRIMARY STORAGE        Layer   2
+  CONSTANT     0.200   (FREE)                       0     13.  Sy(NCOL,NROW)  Sy                     Layer   2
+  CONSTANT   1.0E-05   (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   3
+  CONSTANT    10.00    (FREE)                       0     11. VKA(NCOL,NROW)  HK-VKA ratio           Layer   3
+  CONSTANT   2.0e-06   (FREE)                       0     12.  Ss(NCOL,NROW)  PRIMARY STORAGE        Layer   3
+  CONSTANT     0.200   (FREE)                       0     13.  Sy(NCOL,NROW)  Sy                     Layer   3

@@ -1,0 +1,16 @@
+BEGIN Options
+  LIST       uzfp2.lst
+END Options
+
+BEGIN Packages
+  DIS6       uzfp2.dis
+  IC6        uzfp2.ic
+  NPF6       uzfp2.npf
+  STO6       uzfp2.sto
+  OC6        uzfp2.oc
+  SFR6       uzfp2.sfr  'SFR_1'           
+  WEL6       uzfp2.wel
+  GHB6       uzfp2.ghb
+  UZF6       uzfp2.uzf  'UZF_1'           
+END Packages
+

@@ -1,0 +1,326 @@
+  HEAD SAVE UNIT  111
+  HEAD PRINT FORMAT 0
+  DRAWDOWN SAVE UNIT 0
+  DRAWDOWN PRINT FORMAT 0
+period 1 step 1
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 5
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 10
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 15
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 20
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 25
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 30
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 35
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 40
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 45
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 50
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 55
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 60
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 65
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 70
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 75
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 80
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 85
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 90
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 95
+  print budget
+  print head
+  save head
+  save budget
+period 1 step 100
+  print budget
+  print head
+  save head
+  save budget
+
+period 2 step 1
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 5
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 10
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 15
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 20
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 25
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 30
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 35
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 40
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 45
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 50
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 55
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 60
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 65
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 70
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 75
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 80
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 85
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 90
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 95
+  print budget
+  print head
+  save head
+  save budget
+period 2 step 100
+  print budget
+  print head
+  save head
+  save budget
+
+period 3 step 1
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 5
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 10
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 15
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 20
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 25
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 30
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 35
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 40
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 45
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 50
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 55
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 60
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 65
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 70
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 75
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 80
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 85
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 90
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 95
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 100
+  print budget
+  print head
+  save head
+  save budget
+period 3 step 200
+  print budget
+  print head
+  save head
+  save budget

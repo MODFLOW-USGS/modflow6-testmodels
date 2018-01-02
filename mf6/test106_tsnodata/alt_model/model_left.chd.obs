@@ -1,0 +1,10 @@
+BEGIN OPTIONS
+  DIGITS 10
+  PRINT_INPUT
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT model_left.continuous.chd.csv
+# obsname     obstype   ID
+  chd_3_flow  CHD-FLOW  1 3 1
+  left_chd    CHD-FLOW  CHD_LEFT
+END CONTINUOUS

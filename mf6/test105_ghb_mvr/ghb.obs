@@ -1,0 +1,23 @@
+begin options
+  digits 10
+  print_input
+end options
+
+#
+# Blocks defining continuous observations
+#
+
+begin continuous FILEOUT ghb.obs.csv
+  GHB1   GHB    1 5 13
+  GHB2   GHB    1 5 14
+  GHBA   GHB    ghb1
+  GHB3   GHB    1 5 15
+  GHB4   GHB    1 5 16
+  GHBB   GHB    ghb2
+  MVR1   TO-MVR 1 5 13
+  MVR2   TO-MVR 1 5 14
+  MVRA   TO-MVR ghb1
+  MVR3   TO-MVR 1 5 15
+  MVR4   TO-MVR 1 5 16
+  MVRB   TO-MVR ghb2
+end continuous

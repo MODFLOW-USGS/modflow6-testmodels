@@ -1,0 +1,15 @@
+# OC8 input file, prepared by MF5to6 on 7/28/2016 at 10:09:45.
+
+BEGIN Options
+  BUDGET FILEOUT  uzfp2.cbc
+  HEAD FILEOUT  uzfp2.hds
+  HEAD PRINT_FORMAT  COLUMNS 10  WIDTH 11  DIGITS 4  GENERAL
+END Options
+
+BEGIN PERIOD 1
+  open/close uzfp2.oc.per1.ref
+END PERIOD
+
+BEGIN PERIOD 2
+  open/close uzfp2.oc.per2.ref
+END PERIOD

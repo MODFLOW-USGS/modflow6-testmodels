@@ -1,0 +1,11 @@
+
+begin options
+end options
+
+BEGIN GRIDDATA
+  strt LAYERED
+  CONSTANT      6300. (FREE)                     -1    STARTING HEADS Layer   3
+  CONSTANT      6300. (FREE)                     -1    STARTING HEADS Layer   3
+  CONSTANT      6300. (FREE)                     -1    STARTING HEADS Layer   3
+  CONSTANT      5200. (FREE)                     -1    STARTING HEADS Layer   5
+END GRIDDATA

@@ -1,0 +1,11 @@
+LIST          1 drylake.lst
+BAS6          7 drylake.ba6
+LPF          10 drylake.lpf
+PCG          13 drylake.pcg
+OC           17 drylake.oc
+LAK          16 drylake.lak
+DIS          14 drylake.dis
+CHD          21 drylake.chd
+GAGE         22 drylake.gage
+DATA         23 drylake.gage.out replace
+DATA(BINARY) 18 drylake.hds      replace

@@ -1,0 +1,13 @@
+list         16 test029_hole.lst
+BAS6         15 test029_hole.ba6
+LPF          17 test029_hole.lpf
+WEL          12 test029_hole.wel
+PCG          13 test029_hole.pcg
+CHD          33 test029_hole.chd
+OC           14 test029_hole.oc  
+SFR          11 test029_hole.sfr
+DATA(BINARY) 76 test029_hole.hds replace
+DATA(BINARY) 77 test029_hole.cbc replace
+DATA         19 test029_hole_sfr.out replace
+DIS          10 test029_hole.dis
+ZONE         18 test029_hole.zon

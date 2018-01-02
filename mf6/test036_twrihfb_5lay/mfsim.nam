@@ -1,0 +1,20 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  test036_twrihfb.tdis
+END Timing
+
+BEGIN Models
+  GWF6  test036_twrihfb.nam  twrihfb_5lay
+END Models
+
+BEGIN Exchanges
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  test036_twrihfb.ims  twrihfb_5lay
+END SOLUTIONGROUP

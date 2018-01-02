@@ -1,0 +1,21 @@
+#TESTING OF GHOST-NODE METHOD
+LGR
+2
+PARENT.nam
+PARENTONLY           ;ISCHILD
+00 00                ;IUBFSV, IUBHSV
+CHILD.nam
+CHILDONLY            ;ISCHILD
+1  59 00 00          ;ISHFLG, IBFLG, IUBHSV, IUBFSV
+15  01                ;MXLGRITER, IOUTLGR
+0.50  0.50           ;RFH, RFF   relaxation for heads and flows
+1.0E-04 1.0E-4       ;HCLOSELGR, FCLOSELGR
+1 20 23              ;NPLBEG,NPRBEG,NPCBEG
+1 31 38              ;NPLEND,NPREND,NPCEND
+9                    ;NCPP
+1                    ;NCPPL
+
+
+
+1 19 22              ;NPLBEG,NPRBEG,NPCBEG
+1 32 39              ;NPLEND,NPREND,NPCEND

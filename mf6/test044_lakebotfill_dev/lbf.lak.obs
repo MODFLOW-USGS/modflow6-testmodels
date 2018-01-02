@@ -1,0 +1,10 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin Continuous FILEOUT lbf.lak.csv
+  M1HEAD   STAGE 1
+  VFLOW   LAK 1 1
+  HFLOW   LAK 1 2
+end Continuous

@@ -1,0 +1,12 @@
+LIST          10 l4_il.lst
+DIS           15 l4_il.dis
+BAS6          11 l4_il.ba6
+OC            12 l4_il.oc
+LPF           13 l4_il.lpf
+RCH           14 l4_il.rch
+LAK           19 l4_il.lak
+GAGE          22 l4_il.gag
+SIP           34 l4_il.sip
+DATA(BINARY)  23 l4_il.hds        replace
+DATA          26 l4_il.gage1.out  replace
+DATA          27 l4_il.gage3.out  replace

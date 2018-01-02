@@ -1,0 +1,14 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+end options
+
+begin dimensions
+  MAXBOUND 2
+end dimensions
+
+begin period 1
+  1 0.6 
+  7 0.5 
+end period

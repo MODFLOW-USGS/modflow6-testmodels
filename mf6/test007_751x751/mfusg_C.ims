@@ -1,0 +1,24 @@
+begin options
+  PRINT_OPTION SUMMARY
+end options
+
+begin nonlinear
+	outer_hclose 1.e-6
+	outer_maximum 100 
+	under_relaxation none
+end nonlinear
+
+begin linear
+	inner_hclose 1.0e-6
+	inner_rclose 0.01
+	inner_maximum 100
+	LINEAR_ACCELERATION cg
+	scaling_method none
+	REORDERING_METHOD none
+	relaxation_factor 1.0
+end linear
+
+
+#note for this 751.751 problem, the solution is very sensitive to relaxpcgu
+#if 1.0 is used, then problem converges nicely.  If 0.97 is used, then
+#it does not converge.  (cdl 5/19/2014)

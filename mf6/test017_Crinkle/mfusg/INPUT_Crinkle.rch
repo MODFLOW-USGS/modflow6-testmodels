@@ -1,0 +1,1962 @@
+#   NRCHOP—is the recharge option code. Recharge fluxes are defined in a layer variable, RECH, with one value
+#   for each vertical column. Accordingly, recharge is applied to one cell in each vertical column, and the option code
+#   determines which cell in the column is selected for recharge.
+#   1—Recharge is only to the top grid layer.
+#   2—Vertical distribution of recharge is specified in layer variable IRCH.
+#   3—Recharge is applied to the highest active cell in each vertical column. A constant-head node intercepts
+#   recharge and prevents deeper infiltration.
+         3         0             NRCHOP IRCHCB
+         1                       INRECH INIRCH
+OPEN/CLOSE    Array.MF-RechDIST.txt            0.000159       (FREE)    -1    TOP of Layer   2
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.6744E-03       (FREE)    -1    SP002
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1686E-03       (FREE)    -1    SP003
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.9215E-04       (FREE)    -1    SP004
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.3037E-05       (FREE)    -1    SP005
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.8259E-05       (FREE)    -1    SP006
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.5648E-06       (FREE)    -1    SP007
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1412E-06       (FREE)    -1    SP008
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.8530E-07       (FREE)    -1    SP009
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            7.1326E-08       (FREE)    -1    SP010
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7831E-08       (FREE)    -1    SP011
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.4578E-09       (FREE)    -1    SP012
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.1145E-09       (FREE)    -1    SP013
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            2.7862E-10       (FREE)    -1    SP014
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            6.9654E-11       (FREE)    -1    SP015
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            1.7413E-11       (FREE)    -1    SP016
+         1                       INRECH INIRCH     
+OPEN/CLOSE    Array.MF-RechDIST.txt            4.3534E-12       (FREE)    -1    SP017

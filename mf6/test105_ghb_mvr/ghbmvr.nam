@@ -1,0 +1,15 @@
+BEGIN Options
+  LIST       ghbmvr.lst
+END Options
+
+BEGIN Packages
+  DIS6       ghbmvr.dis
+  IC6        ghbmvr.ic
+  NPF6       ghbmvr.npf
+  OC6        ghbmvr.oc
+  GHB6       ghbmvr.ghb
+  CHD6       ghbmvr.ibound.chd  'CHD-FROM-IBOUND' 
+  MAW6       ghbmvr.maw
+  MVR6       ghbmvr.mvr
+END Packages
+

@@ -1,0 +1,16 @@
+BEGIN Options
+  LIST       mf6-gwt.lst
+END Options
+
+BEGIN Packages
+  DIS6       mf6-gwt.dis
+  IC6        mf6-gwt.ic
+  NPF6       mf6-gwt.npf
+  OC6        mf6-gwt.oc
+  RCH6       mf6-gwt.rch
+  SFR6       mf6-gwt.sfr  'SFR-1'           
+  LAK6       mf6-gwt.lak  'LAK-1'           
+  CHD6       mf6-gwt.chd  'CHD-1'
+  MVR6       mf6-gwt.mvr 
+END Packages
+

@@ -1,0 +1,26 @@
+         0  0.00E+00         0   CONSTANTCV   STORAGECOEFFICIENT #IBCFCB,HDRY,IWDFLG,OPTIONS
+ 4 4 4 4 4
+ 0 0 0 0 0
+ 1.0 1.0 1.0 1.0 1.0
+ 0 0 0 0 0 0
+ 0 0 0 0 0
+CONSTANT            30.  HY layer   1
+CONSTANT            30.  VKA layer  1
+CONSTANT   3.000000E-04  SS layer   1
+CONSTANT   0.20          SY layer   1
+CONSTANT            30.  HY layer   2
+CONSTANT            30.  VKA layer  2
+CONSTANT   3.000000E-04  SS layer   2
+CONSTANT   0.20          SY layer   2
+CONSTANT            30.  HY layer   3
+CONSTANT            30.  VKA layer  3
+CONSTANT   3.000000E-04  SS layer   3
+CONSTANT   0.20          SY layer   3
+CONSTANT            30.  HY layer   4
+CONSTANT            30.  VKA layer  4
+CONSTANT   3.000000E-04  SS layer   4
+CONSTANT   0.20          SY layer   4
+CONSTANT            30.  HY layer   5
+CONSTANT            30.  VKA layer  5
+CONSTANT   3.000000E-04  SS layer   5
+CONSTANT   0.20          SY layer   5

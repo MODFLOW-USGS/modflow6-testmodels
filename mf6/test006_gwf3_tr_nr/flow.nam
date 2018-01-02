@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+  DISU6         flow.disu
+  IC6           flow.ic
+  CHD6          flow.chd
+  NPF6          flow.npf
+  STO6          flow.sto
+  OC6           flow.oc
+END PACKAGES
+

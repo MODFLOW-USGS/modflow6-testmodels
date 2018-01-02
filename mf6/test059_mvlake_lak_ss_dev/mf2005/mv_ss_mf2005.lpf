@@ -1,0 +1,20 @@
+     0 -1.e30     0  CONSTANTCV NOVFC         ILPFCB, HDRY, NPLPF
+ 1 0 0 0 0                                    LAYTYP
+ 0 0 0 0 0                                    LAYAVG
+ 1.0 1.0 1.0 1.0 1.0                          CHANI
+ 0 0 0 0 0                                    LAYVKA
+ 0 0 0 0 0                                    LAYWET
+open/close ../k_aq.ref   1.00 (free) -1  HY layer   1
+open/close ../k_aq.ref   0.25 (free) -1  VK layer   1
+open/close ../k_aq.ref   1.00 (free) -1  HY layer   2
+open/close ../k_aq.ref   0.25 (free) -1  VK layer   2
+open/close ../k_clay.txt 1.00 (free) -1  HY layer   3
+open/close ../k_clay.txt 1.00 (free) -1  VK layer   3
+open/close ../k_aq.ref   1.00 (free) -1  HY layer   4
+open/close ../k_aq.ref   0.25 (free) -1  VK layer   4
+open/close ../k_aq.ref   1.00 (free) -1  HY layer   5
+open/close ../k_aq.ref   0.25 (free) -1  VK layer   5
+
+
+constant   1e-5                          SS layer 1
+constant   0.05                          SY layer 1

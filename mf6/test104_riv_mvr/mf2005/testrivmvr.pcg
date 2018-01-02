@@ -1,0 +1,2 @@
+ 120  5     MXITER ITER1 NPCOND
+        1.    .000001         1         0         5   ACCL HCLOSE IPCALC WSEED IPRSIP

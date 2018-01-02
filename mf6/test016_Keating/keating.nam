@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           keating.ic
+  NPF6          keating.npf
+  OC6           keating.oc
+  DIS6          keating.dis
+  RCH6          keating.rch
+  CHD6          keating.chd
+END PACKAGES
+

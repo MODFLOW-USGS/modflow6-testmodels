@@ -1,0 +1,13 @@
+
+begin options
+  NEWTON
+end options
+
+begin dimensions
+  NEXG 1
+end dimensions
+
+  # nodem1 nodem2  ihc  cl1   cl2    hwva
+begin exchangedata
+    1 1 5   1 1 1    1  50.   50.   1000.
+end exchangedata

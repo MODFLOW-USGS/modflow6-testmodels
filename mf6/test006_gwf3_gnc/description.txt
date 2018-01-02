@@ -1,0 +1,1 @@
+This is the first test problem presented in the MODFLOW-USG documentation.  It is included as an example problem to demonstrate a simple unstructured groundwater flow model.  The model uses ghost nodes to improve the accuracy of the groundwater flow solution.

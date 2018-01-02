@@ -1,0 +1,14 @@
+LIST    8 TM9_parent_GN.lst
+BAS6    1 TM9_parent_GN.bas
+DIS    27 TM9_parent_GN.dis
+LPF    10 TM9_parent_GN.lpf
+RIV    15 TM9_parent_GN.riv
+RCH    22 TM9_parent_GN.rch
+OC     25 TM9_parent_GN.oc
+PCG    17 TM9_parent_GN.pcg
+DATA	     30 TM9_parent_GN_ascii.hds
+#DATA(BINARY) 30 TM9_parent_GN.hds
+DATA(BINARY) 50 TM9_parent_GN.cbb
+#DATA	     30 TM9_parent_GN.hds
+#DATA(BINARY) 30 TM9_parent_GN.hds
+#DATA(BINARY) 40 TM9_parent_GN.cbb

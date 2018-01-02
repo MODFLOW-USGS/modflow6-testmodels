@@ -1,0 +1,20 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  welmvr.tdis
+END Timing
+
+BEGIN Models
+  GWF6  welmvr.nam  welmvr
+END Models
+
+BEGIN Exchanges
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  welmvr.ims  welmvr
+END SOLUTIONGROUP

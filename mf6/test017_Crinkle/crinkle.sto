@@ -1,0 +1,20 @@
+begin options
+  SAVE_FLOWS
+end options
+
+BEGIN GRIDDATA
+  iconvert
+    constant 1
+  ss
+    constant 2.0e-06
+  sy
+    constant 0.2
+END GRIDDATA
+ 
+begin period 1
+  steady-state
+end period
+
+begin period 2
+  transient
+end period

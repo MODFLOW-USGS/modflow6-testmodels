@@ -1,0 +1,19 @@
+BEGIN OPTIONS
+  #PRINT_INPUT
+  #PRINT_FLOWS
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           test1tr.ic
+  NPF6          test1tr.npf
+  STO6          test1tr.sto
+  OC6           test1tr.oc
+  DIS6          test1tr.dis
+  WEL6          test1tr.wel
+  EVT6          test1tr.evt
+  RCH6          test1tr.rch
+  GHB6          test1tr.ghb
+  SFR6          test1tr.sfr
+END PACKAGES
+

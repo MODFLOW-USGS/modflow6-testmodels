@@ -1,0 +1,13 @@
+LIST  1 l1b_1layer.lst
+BAS6  7 l1b_1layer.ba6
+BCF6 10 l1b_1layer.bc6
+EVT  11 l1b_1layer.evt
+RCH  12 l1b_1layer.rch
+PCG  13 l1b_1layer.pcg
+OC   17 l1b_1layer.oc
+LAK  16 l1b_1layer.lak
+DIS  14 l1b_1layer.dis
+CHD  21 l1b_1layer.chd
+GAGE 22 l1b_1layer.gage
+DATA 23 l1b_1layer.gage.out replace
+DATA(BINARY) 18 l1b_1layer.hds replace

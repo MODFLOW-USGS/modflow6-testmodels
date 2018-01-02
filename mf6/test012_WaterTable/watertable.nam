@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           watertable.ic
+  NPF6          watertable.npf
+  OC6           watertable.oc
+  DIS6          watertable.dis
+  #CHD6          watertable.chd
+  GHB6          watertable.ghb
+  RCH6          watertable.rch
+END PACKAGES
+

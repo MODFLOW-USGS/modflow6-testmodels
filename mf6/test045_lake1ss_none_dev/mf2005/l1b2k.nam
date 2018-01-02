@@ -1,0 +1,13 @@
+LIST  1 l1b2k.lst
+BAS6  7 l1b2k.ba6
+BCF6 10 l1b2k.bc6
+EVT  11 l1b2k.evt
+RCH  12 l1b2k.rch
+PCG  13 l1b2k.pcg
+OC   17 l1b2k.oc
+LAK  16 l1b2k.lak
+DIS  14 l1b2k.dis
+CHD  21 l1b2k.chd
+GAGE 22 l1b2k.gage
+DATA 23 l1b2k.gage.out
+DATA(BINARY) 18 l1b2k.hds replace

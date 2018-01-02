@@ -1,0 +1,14 @@
+# OC8 input file, prepared by MF5to6 on 3/14/2016 at 12:30:00.
+
+BEGIN Options
+  BUDGET FILEOUT  parent.output.cbb
+  HEAD FILEOUT  parent.output.hds
+  HEAD PRINT_FORMAT  COLUMNS 9  WIDTH 13  DIGITS 6  GENERAL
+END Options
+
+BEGIN PERIOD 1
+  SAVE BUDGET ALL
+  PRINT BUDGET ALL
+  SAVE HEAD ALL
+  PRINT HEAD ALL
+END PERIOD

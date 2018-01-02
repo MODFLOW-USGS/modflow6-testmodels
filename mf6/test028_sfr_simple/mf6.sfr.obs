@@ -1,0 +1,16 @@
+begin options
+  digits 16
+  print_input
+end options
+
+begin Continuous FILEOUT mf6.sfr.csv
+  GAGE1STAGE  STAGE  4
+  GAGE2STAGE  STAGE  7
+  GAGE3STAGE  STAGE 14
+  GAGE4STAGE  STAGE 18
+  GAGE5STAGE  STAGE 22
+  GAGE6STAGE  STAGE 27
+  GAGE7STAGE  STAGE 30
+  GAGE8STAGE  STAGE 36
+  GAGE9STAGE  STAGE 10 
+end Continuous

@@ -1,0 +1,1 @@
+This is a one-layer steady-state problem involving wetting and drying.  There is a rise in the bottom surface of the model, and groundwwater flows around the rise.

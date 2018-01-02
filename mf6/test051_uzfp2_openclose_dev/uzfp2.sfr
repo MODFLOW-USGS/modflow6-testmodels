@@ -1,0 +1,30 @@
+# SFR8 input file, prepared by MF5to6 on 7/28/2016 at 10:09:45.
+
+BEGIN Options
+  PRINT_INPUT
+  MAXIMUM_DEPTH_CHANGE   0.10000000E-05
+  UNIT_CONVERSION    1.4860000    
+  PRINT_STAGE
+  PRINT_FLOWS   
+END Options
+
+BEGIN Dimensions
+  NREACHES  36
+END Dimensions
+
+BEGIN PACKAGEDATA
+  open/close uzfp2.sfr.reaches.ref
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+  open/close uzfp2.sfr.connect.ref
+END CONNECTIONDATA
+
+BEGIN DIVERSIONS
+  # rno idv iconr iprior
+      4   1    10 upto 0
+END DIVERSIONS
+
+BEGIN PERIOD 1
+  open/close uzfp2.sfr.per1.ref
+END PERIOD

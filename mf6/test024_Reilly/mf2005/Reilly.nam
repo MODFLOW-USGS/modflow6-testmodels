@@ -1,0 +1,16 @@
+# MNW2 Sample Problem for Documentation
+#   Pumping with constraints
+LIST   14 Reilly.list
+DIS    15 Reilly.dis
+BAS6   18 Reilly.bas
+OC     19 Reilly.oc
+LPF    20 Reilly.lpf
+RCH    21 Reilly.rch
+PCG    22 Reilly.pcg
+MNW2   23 Reilly.mnw2
+MNWI   79 Reilly.mnwi
+DATA   81 Reilly.qsu
+DATA   82 Reilly.byn
+DATA   45 Reilly.wlA
+DATA(BINARY)   51 Reilly.hds REPLACE
+DATA(BINARY)   53 Reilly.cbc REPLACE

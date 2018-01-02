@@ -1,0 +1,17 @@
+BEGIN OPTIONS
+  READASARRAYS
+  FIXED_CELL
+END OPTIONS
+
+BEGIN PERIOD 1
+  RECHARGE
+    CONSTANT 3.E-8
+END PERIOD 1
+
+         1         0    NRCHOP,IRCHBD
+         1              INRECH
+         0     3.E-8                                  RECH-1
+
+         
+         
+         

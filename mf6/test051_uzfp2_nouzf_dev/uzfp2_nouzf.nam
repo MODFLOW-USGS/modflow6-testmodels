@@ -1,0 +1,17 @@
+BEGIN Options
+  LIST       uzfp2_nouzf.lst
+END Options
+
+BEGIN Packages
+  DIS6       uzfp2_nouzf.dis
+  IC6        uzfp2_nouzf.ic
+  NPF6       uzfp2_nouzf.npf
+  STO6       uzfp2_nouzf.sto
+  OC6        uzfp2_nouzf.oc
+  SFR6       uzfp2_nouzf.sfr  'SFR_1'           
+  WEL6       uzfp2_nouzf.wel
+  GHB6       uzfp2_nouzf.ghb
+  RCH6       uzfp2_nouzf.rch  'RCH-1'        
+  EVT6       uzfp2_nouzf.evt  'EVT-1'             
+END Packages
+

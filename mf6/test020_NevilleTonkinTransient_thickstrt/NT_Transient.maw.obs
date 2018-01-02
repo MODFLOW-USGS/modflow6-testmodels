@@ -1,0 +1,16 @@
+begin options
+  digits 10
+  print_input
+end options
+
+#
+# Blocks defining continuous observations
+#
+
+begin continuous FILEOUT NT_MAW.maw.csv
+  M1HEAD0   HEAD        1
+  M1RATE0   RATE        1
+  CONDUCT   CONDUCTANCE ntwell 
+  CONDUCT1  CONDUCTANCE 1 1
+  CONDUCT2  CONDUCTANCE 1 2 
+end continuous

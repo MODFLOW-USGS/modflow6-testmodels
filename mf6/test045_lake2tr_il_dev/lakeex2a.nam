@@ -1,0 +1,13 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          lakeex2a.dis
+  IC6           lakeex2a.ic
+  NPF6          lakeex2a.npf
+  STO6          lakeex2a.sto
+  OC6           lakeex2a.oc
+  CHD6          lakeex2a.chd
+  LAK6          lakeex2a_il.lak
+END PACKAGES
+

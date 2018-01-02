@@ -1,0 +1,1 @@
+Based on test053_npf-a but a HANI value of 0.1 is specified for entire grid.

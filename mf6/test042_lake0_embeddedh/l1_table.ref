@@ -1,0 +1,16 @@
+# square lake
+begin dimensions
+  NROW  7
+  NCOL  4
+end dimensions
+
+begin table
+# stage volume sarea warea
+      4      0   100   100
+      5    100   100   140
+      6    200   100   180
+      7    300   100   220
+      8    400   100   260
+      9    500   100   300
+     10    600   100   340
+end table

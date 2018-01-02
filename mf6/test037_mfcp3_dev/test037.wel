@@ -1,0 +1,12 @@
+# WEL8 input file, prepared by mf5to15 on 7/9/2015 at 12:54:15.
+
+BEGIN Options
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  1
+END Dimensions
+
+BEGIN PERIOD 2
+  1  11  10   -100000.00
+END PERIOD

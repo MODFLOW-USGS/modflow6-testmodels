@@ -1,0 +1,14 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin Continuous FILEOUT drylake.lak.csv
+  L1STAGE  STAGE 1
+  L1VOL    VOLUME 1
+  VFLOW    LAK 1 1
+  HFLOW1   LAK 1 2
+  HFLOW2   LAK 1 3
+  HFLOW3   LAK 1 4
+  HFLOW4   LAK 1 5
+end Continuous

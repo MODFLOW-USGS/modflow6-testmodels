@@ -1,0 +1,20 @@
+# Flow-property file for MF6
+begin options
+  PRINT_FLOWS
+  SAVE_FLOWS
+  XT3D
+end options
+
+BEGIN GRIDDATA
+  #icelltype(nodes) is 0:confined, 1:convertible
+  icelltype
+    constant 0
+  K
+    constant   1.500000000000E+000    
+  k22
+    constant   0.5
+  K33
+    constant   1.500000000000E+000    
+  angle1
+    constant  -4.500000000000E+001
+END GRIDDATA

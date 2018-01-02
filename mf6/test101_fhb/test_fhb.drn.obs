@@ -1,0 +1,10 @@
+BEGIN OPTIONS
+  DIGITS 10
+  PRINT_INPUT
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT test_fhb.continuous.drn.csv
+# obsname     obstype   ID
+  drn_r1      DRN       drain_r1
+  drn_r3      DRN       1 3 5
+END CONTINUOUS

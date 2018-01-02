@@ -1,0 +1,12 @@
+list         16 test029.lst
+BAS6         15 test029.ba6
+LPF          17 test029.lpf
+WEL          12 test029.wel
+PCG          13 test029.pcg
+OC           14 test029.oc  
+SFR          11 test029.sfr
+DATA(BINARY) 76 test029.hds
+DATA(BINARY) 77 test029.cbc
+DATA         19 test029_sfr.out
+DIS          10 test029.dis
+ZONE         18 test029.zon

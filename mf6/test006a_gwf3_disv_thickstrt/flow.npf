@@ -1,0 +1,38 @@
+BEGIN OPTIONS
+  SAVE_FLOWS
+  THICKSTRT
+END OPTIONS
+
+BEGIN GRIDDATA
+  ICELLTYPE
+INTERNAL  FACTOR         1           IPRN
+           -1           -1           -1           -1           -1
+           -1           -1           -1           -1           -1
+           -1           -1           -1           -1           -1
+           -1           -1           -1           -1           -1
+           -1           -1           -1           -1           -1
+           -1           -1           -1           -1           -1
+           -1           -1           -1           -1           -1
+           -1           -1           -1           -1           -1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            1            1            1            1            1
+            0
+  K
+    CONSTANT 1.
+  K33
+    CONSTANT 1.
+END GRIDDATA

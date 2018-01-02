@@ -1,0 +1,1 @@
+The is Example 3 from the MODFLOW-LGR2 documentation (Mehl and Hill, 2013) except the SFR Package is used instead of the RIV Package, and the MVR Package is used to pass water from the parent grid to the child grid and then from the child grid back to the parent grid.

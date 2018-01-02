@@ -1,0 +1,24 @@
+# DIS6 input file, prepared by MF5to6 on 6/8/2017 at 12:33:24.
+
+BEGIN Options
+  LENGTH_UNITS  METERS
+END Options
+
+BEGIN Dimensions
+  NLAY  3
+  NROW  1
+  NCOL  21
+END Dimensions
+
+BEGIN GRIDDATA
+  DELR
+    CONSTANT    500.000000        DELR
+  DELC
+    CONSTANT    500.000000        DELC
+  TOP LAYERED
+    CONSTANT    5.000000    
+  BOTM LAYERED
+    CONSTANT   -2.000000    
+    CONSTANT   -3.000000    
+    CONSTANT   -4.000000    
+END GRIDDATA

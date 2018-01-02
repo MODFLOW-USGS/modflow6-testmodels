@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6          parent.ic
+  DIS6         parent.dis
+  NPF6         parent.npf
+  RIV6         parent.riv
+  RCH6         parent.rch
+  OC6          parent.oc
+#  TDIS6        parent.tdis
+#  SMS8         parent.sms
+END PACKAGES
+

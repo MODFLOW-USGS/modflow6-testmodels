@@ -1,0 +1,14 @@
+LIST          10 testcase.lst
+DIS           15 testcase.dis
+BAS6          11 testcase.ba6
+OC            12 testcase.oc
+LPF           13 testcase.lpf
+RCH           14 testcase.rch
+LAK           19 testcase.lak
+GAGE          22 testcase.gag
+SMS           34 testcase.sms
+DATA(BINARY)  23 testcase.hds        replace
+DATA          26 testcase.gage1.out  replace
+DATA          27 testcase.gage2.out  replace
+DATA          28 testcase.gage3.out  replace
+DATA          29 testcase.gage4.out  replace

@@ -1,0 +1,12 @@
+begin options
+end options
+#
+BEGIN GRIDDATA
+  icelltype LAYERED
+    constant 0
+  k LAYERED
+    OPEN/CLOSE hk.ref   FACTOR  1.0  IPRN    0            HY layer  1
+  K33 LAYERED
+    constant 1.
+END GRIDDATA
+

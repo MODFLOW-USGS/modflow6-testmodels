@@ -1,0 +1,4 @@
+ 0  0  0           ; 1. Wel1flag, QSUMflag, BYNDflag
+ 2                 ; 2. MNWOBS
+ pwell 145 0 0     ; 3. WELLID, Unit no., QNDflag, QBHflag
+ iwell 146 0 0     ; 3. WELLID, Unit no., QNDflag, QBHflag

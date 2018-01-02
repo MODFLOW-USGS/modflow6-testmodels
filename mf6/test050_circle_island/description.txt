@@ -1,0 +1,1 @@
+Demonstration of a triangular mesh with the DISV Package to discretize a circular island with a radius of 1500 meters.  The model has 2 layers and uses 2778 vertices (NVERT) to delineate 5240 cells per layer (NCPL).  General-head boundaries are assigned to model layer 1 for cells outside of a 1025 m radius circle.  Recharge is applied to the top of the model. 

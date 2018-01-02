@@ -1,0 +1,25 @@
+# SMS8 input file, prepared by mf5to15 on 4/10/2015 at 9:04:54.
+
+BEGIN Options
+  PRINT_OPTION SUMMARY
+  COMPLEXITY  SIMPLE
+END Options
+
+BEGIN Nonlinear
+  OUTER_HCLOSE   1.E-09
+  OUTER_MAXIMUM  50
+  UNDER_RELAXATION  dbd
+  under_relaxation_theta 1.
+  under_relaxation_kappa 0.
+  under_relaxation_gamma 0.
+  under_relaxation_momentum 0.  
+END Nonlinear
+
+BEGIN LINEAR
+  INNER_MAXIMUM  30
+  INNER_HCLOSE   1.E-09
+  INNER_RCLOSE   1.E-06 RELATIVE RCLOSE
+  LINEAR_ACCELERATION  BICGSTAB
+  NUMBER_ORTHOGONALIZATIONS 5
+  PRECONDITIONER_LEVELS  3
+END LINEAR

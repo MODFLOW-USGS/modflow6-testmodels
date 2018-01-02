@@ -1,0 +1,12 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DISU6         model.disu
+  IC6           model.ic
+  NPF6          model.npf
+  CHD6          model.chd
+  WEL6          model.wel
+  OC6           model.oc
+END PACKAGES
+

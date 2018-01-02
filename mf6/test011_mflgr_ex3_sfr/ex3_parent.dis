@@ -1,0 +1,27 @@
+#The OPTIONS block is optional
+BEGIN OPTIONS
+  LENGTH_UNITS UNKNOWN
+END OPTIONS
+
+#The DIMENSIONS block is required
+BEGIN DIMENSIONS
+  NLAY 3
+  NROW 15
+  NCOL 15
+END DIMENSIONS
+
+#The DISDATA block is required
+BEGIN GRIDDATA
+  DELR
+    CONSTANT 102.94000 
+  DELC
+    CONSTANT 68.626667
+  TOP
+    OPEN/CLOSE ex3_parent.top FACTOR  1.0  IPRN     5  top layer 1
+  BOTM
+    OPEN/CLOSE ex3_parent.bot FACTOR  1.0  IPRN     5  bottom layers 1 to 3
+  IDOMAIN LAYERED
+    OPEN/CLOSE ex3_parent.idomain FACTOR  1  IPRN 1  idomain layer 1                  
+    OPEN/CLOSE ex3_parent.idomain FACTOR  1  IPRN 1  idomain layer 2
+    CONSTANT 1    
+END GRIDDATA

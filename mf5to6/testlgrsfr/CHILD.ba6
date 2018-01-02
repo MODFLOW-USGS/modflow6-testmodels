@@ -1,0 +1,6 @@
+#Ghost-node test:  Modified Child grid from Advances in Water Resources article
+#Steffen Mehl 07/30/2008--> HETEROGENEOUS  Child rows is larger, col is smaller
+FREE CHTOCH
+OPEN/CLOSE child.ibd    1 (144i3)   -9  IBOUND layer   1
+1.0E+30  HNOFLO
+CONSTANT  5.5

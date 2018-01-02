@@ -1,0 +1,14 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          lbf.dis
+  IC6           lbf.ic
+  NPF6          lbf.npf
+  OC6           lbf.oc
+  STO6          lbf.sto
+  LAK6          lbf.lak
+  RCH6          lbf.rch
+  OBS6          lbf.obs
+END PACKAGES
+

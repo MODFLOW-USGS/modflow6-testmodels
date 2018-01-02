@@ -1,0 +1,8 @@
+41 2.0d30  0   Item 1: ILPFCB HDRY NPLPF [OPTIONS]
+ 0             Item 2: LAYTYP
+ 0             Item 3: LAYAVG
+1.0            Item 4: CHANI
+ 1             Item 5: LAYVKA
+ 0             Item 6: LAYWET
+constant 0.12  Item 10: HK
+constant 1.0   Item 11: VKA

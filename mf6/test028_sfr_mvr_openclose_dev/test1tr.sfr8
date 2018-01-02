@@ -1,0 +1,26 @@
+BEGIN OPTIONS
+  PRINT_FLOWS
+  UNIT_CONVERSION 1.486
+  MOVER
+END OPTIONS
+
+#dimension block is required
+BEGIN DIMENSIONS
+  NREACHES 36
+END DIMENSIONS
+
+BEGIN PACKAGEDATA
+  open/close test1tr.sfr.reaches.ref
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+  open/close test1tr.sfr.connect.ref
+END CONNECTIONDATA  
+
+BEGIN DIVERSIONS
+  open/close test1tr.sfr.divert.ref
+END DIVERSIONS
+
+begin period 1  
+  open/close test1tr.sfr.per1.ref
+end period   

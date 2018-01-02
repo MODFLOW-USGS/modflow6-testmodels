@@ -1,0 +1,8 @@
+begin options
+end options
+
+BEGIN GRIDDATA
+  strt LAYERED
+    INTERNAL  FACTOR   1.000E+00 IPRN    0  SHEAD layer  1
+10 10 10 10 10 10 10 10 10  5
+END GRIDDATA

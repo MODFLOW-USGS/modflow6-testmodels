@@ -1,0 +1,14 @@
+# CHD8 input file, prepared by MF5to6 on 1/11/2017 at 17:13:57.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  1
+END Dimensions
+
+BEGIN PERIOD 1
+  1  1  1    0.0000000
+END PERIOD

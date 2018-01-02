@@ -1,0 +1,4 @@
+BEGIN ZONEBUDGET
+  BUD ../test1tr.sfr.cbc
+  ZON zbud_sfr.zon
+END ZONEBUDGET

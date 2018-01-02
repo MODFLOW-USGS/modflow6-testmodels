@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+  newton
+  LIST zaidel5m.list
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6            zaidel5m.ic
+  NPF6           zaidel5m.npf
+  OC6            zaidel5m.oc
+  DIS6           zaidel5m.dis
+  CHD6           zaidel5m.chd
+END PACKAGES
+

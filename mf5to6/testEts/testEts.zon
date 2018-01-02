@@ -1,0 +1,8 @@
+# Zone (ZONE) File created on 10/28/2011 by ModelMuse version 2.11.0.4.
+ 3 # NZN
+ETS_Zone_1  # ZONNAM
+OPEN/CLOSE arrays/testEts.ets.ETS_Zone_1 1 (FREE)  5
+ETS_Zone_2  # ZONNAM
+OPEN/CLOSE arrays/testEts.ets.ETS_Zone_2 1 (FREE)  5
+ETS_Zone_3  # ZONNAM
+OPEN/CLOSE arrays/testEts.ets.ETS_Zone_3 1 (FREE)  5

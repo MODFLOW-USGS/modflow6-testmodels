@@ -1,0 +1,14 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          test_fhb.dis
+  IC6           test_fhb.ic
+  NPF6          test_fhb.npf
+  STO6          test_fhb.sto
+  OC6           test_fhb.oc
+  WEL6          test_fhb.fhb.wel  'WEL-FLOWS(FHB)'
+  CHD6          test_fhb.fhb.chd  'CHD-HEAD(FHB)'
+  DRN6          test_fhb.drn
+END PACKAGES
+

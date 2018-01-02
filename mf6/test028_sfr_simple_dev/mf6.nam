@@ -1,0 +1,17 @@
+BEGIN Options
+  LIST       mf6.lst
+END Options
+
+BEGIN Packages
+  DIS6       mf6.dis6
+  IC6        mf6.ic6
+  NPF6       mf6.npf6
+  STO6       mf6.sto6
+  OC6        mf6.oc6
+  SFR6       mf6.sfr6  'SFR_1'           
+  WEL6       mf6.wel6
+  GHB6       mf6.ghb6
+  EVT6       mf6.evt6
+  RCH6       mf6.rch6
+END Packages
+

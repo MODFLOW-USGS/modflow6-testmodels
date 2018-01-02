@@ -1,0 +1,50 @@
+begin options
+  PRINT_FLOWS
+  SAVE_FLOWS
+  XT3D
+end options
+
+BEGIN GRIDDATA
+  #icelltype(nodes) is 0:confined, 1:convertible
+  icelltype
+    constant 0
+  K
+    constant   1.    
+  k22
+    constant   0.1    
+  K33
+    constant   1.   
+  angle1 layered
+    constant   45.000000    # layer 01 (unit 1)
+    constant   45.000000    # layer 02 (unit 1)
+    constant   45.000000    # layer 03 (unit 1)
+    constant   45.000000    # layer 04 (unit 1)
+    constant   45.000000    # layer 05 (unit 1)
+    constant  -45.000000    # layer 06 (unit 2)
+    constant  -45.000000    # layer 07 (unit 2)
+    constant  -45.000000    # layer 08 (unit 2)
+    constant  -45.000000    # layer 09 (unit 2)
+    constant  -45.000000    # layer 10 (unit 2)
+  angle2 layered
+    constant    0.000000    # layer 01 (unit 1)
+    constant    0.000000    # layer 02 (unit 1)
+    constant    0.000000    # layer 03 (unit 1)
+    constant    0.000000    # layer 04 (unit 1)
+    constant    0.000000    # layer 05 (unit 1)
+    constant    0.000000    # layer 06 (unit 2)
+    constant    0.000000    # layer 07 (unit 2)
+    constant    0.000000    # layer 08 (unit 2)
+    constant    0.000000    # layer 09 (unit 2)
+    constant    0.000000    # layer 10 (unit 2)
+  angle3 layered
+    constant    0.000000    # layer 01 (unit 1)
+    constant    0.000000    # layer 02 (unit 1)
+    constant    0.000000    # layer 03 (unit 1)
+    constant    0.000000    # layer 04 (unit 1)
+    constant    0.000000    # layer 05 (unit 1)
+    constant    0.000000    # layer 06 (unit 2)
+    constant    0.000000    # layer 07 (unit 2)
+    constant    0.000000    # layer 08 (unit 2)
+    constant    0.000000    # layer 09 (unit 2)
+    constant    0.000000    # layer 10 (unit 2)
+END GRIDDATA

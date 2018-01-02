@@ -1,0 +1,15 @@
+LGR
+2                    ;NGRIDS
+TM9_parent_GN.nam
+PARENTONLY           ;GRIDSTATUS
+0 0                  ;IUPBHSV,IUPBFSV 
+Child_GN.nam
+CHILDONLY            ;GRIDSTATUS
+1 59 0 0            ;ISHFLG, IBFLG, IUCBHSV, IUCBFSV
+300 1                 ;MXLGRITER, IOUTLGR
+0.2 0.2          ;RFH, RFF    relaxation for heads and fluxes
+1E-2 1E-2         ;HCLOSELGR FCLOSELGR
+1 20 16              ;NPLBEG,NPRBEG,NPCBEG
+9 49 41              ;NPLEND,NPREND,NPCEND
+3                    ;NCPP  of child cells per width of parent
+1 3 3 3 3 3 3 3 3    ;NCPPL  # of child layers per parent layer

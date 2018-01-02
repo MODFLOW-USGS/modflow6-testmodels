@@ -1,0 +1,74 @@
+# GHB: General-Head Boundary package file created on 4/10/2015 by ModelMuse version 3.5.1.0.
+ 67 -1 AUXILIARY IFACE # DataSet 2: MXACTC IGHBCB Option
+ 67 0 # Data Set 5: ITMP NP Stress period 1
+ 1 45  4  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 43  5  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 44  5  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 45  5  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 46  5  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 47  5  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 45  6  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 46  6  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 47  6  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 48  6  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 49  6  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 47  7  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 48  7  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 49  7  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 50  7  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 51  7  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 48  8  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 49  8  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 50  8  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 51  8  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 52  8  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 50  9  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 51  9  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 52  9  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 53  9  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 54  9  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 52 10  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 53 10  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 54 10  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 55 10  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 56 10  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 53 11  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 54 11  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 55 11  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 56 11  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 57 11  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 58 11  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 55 12  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 56 12  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 57 12  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 58 12  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 59 12  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 60 12  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 57 13  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 58 13  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 59 13  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 60 13  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 61 13  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 62 13  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 58 14  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 59 14  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 60 14  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 61 14  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 62 14  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 63 14  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 64 14  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 60 15  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 61 15  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 62 15  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 63 15  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 64 15  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 65 15  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 66 15  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 62 16  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 63 16  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 64 16  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ 1 65 16  860.0  2.53  0 # Data Set 6: Layer Row Column Bhead Cond IFACE
+ -1 0 # Data Set 5: ITMP NP Stress period 2
+ -1 0 # Data Set 5: ITMP NP Stress period 3
+ -1 0 # Data Set 5: ITMP NP Stress period 4
+ -1 0 # Data Set 5: ITMP NP Stress period 5

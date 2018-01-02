@@ -1,0 +1,9 @@
+LIST           7 OUTPUT_Crinkle.list
+BAS6           1 INPUT_Crinkle.bas
+DIS           29 INPUT_Crinkle.dis
+LPF           11 INPUT_Crinkle.lpf
+OC            22 INPUT_Crinkle.oc
+SMS           19 INPUT_Crinkle.sms
+RCH           18 INPUT_Crinkle.rch
+GHB           16 INPUT_Crinkle.ghb
+DATA(BINARY) 111 OUTPUT_Crinkle.hds REPLACE

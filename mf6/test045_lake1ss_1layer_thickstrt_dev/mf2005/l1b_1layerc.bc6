@@ -1,0 +1,4 @@
+         0    -1.e30         0  1.00E+00         1         0  IBCFCB,HDRY,IWDFLG,WETFCT,IWETIT,IHDWET
+ 0
+CONSTANT   1.000000E+00  TRPY
+CONSTANT          2190.  T layer   1

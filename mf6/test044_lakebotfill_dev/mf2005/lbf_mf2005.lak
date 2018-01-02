@@ -1,0 +1,17 @@
+         1        -1
+      1.00        50     0.001
+       7.5       5.0      15.0
+         1         0         0
+  INTERNAL         1 (FREE)                      3
+  0  0  0  0  0
+  0  0  0  0  0
+  0  0  1  0  0
+  0  0  0  0  0
+  0  0  0  0  0
+  CONSTANT 0
+  CONSTANT 0
+  CONSTANT      1.
+  CONSTANT      1.
+  CONSTANT      1.
+    0
+  0.714275    0.0000       0.0       0.0

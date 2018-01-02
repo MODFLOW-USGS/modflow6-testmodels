@@ -1,0 +1,16 @@
+BEGIN OPTIONS
+  TIME_UNITS days
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NPER 5
+END DIMENSIONS
+
+BEGIN PERIODDATA
+ #perlen nstp  tsmult
+    50.0    10    1.0
+    50.0    10    1.0
+    50.0    10    1.0
+    50.0    10    1.0
+    50.0    10    1.0
+END PERIODDATA

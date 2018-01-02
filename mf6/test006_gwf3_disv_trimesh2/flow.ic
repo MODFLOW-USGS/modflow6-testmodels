@@ -1,0 +1,8 @@
+# Initial-conditions file for MF6
+begin options
+end options
+
+BEGIN GRIDDATA
+  strt
+  constant   75.00000    
+END GRIDDATA

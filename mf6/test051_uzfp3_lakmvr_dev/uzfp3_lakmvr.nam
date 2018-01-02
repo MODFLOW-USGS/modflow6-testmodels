@@ -1,0 +1,18 @@
+BEGIN Options
+  LIST       uzfp3_lakmvr.lst
+END Options
+
+BEGIN Packages
+  DIS6       uzfp3_lakmvr.dis
+  IC6        uzfp3_lakmvr.ic
+  NPF6       uzfp3_lakmvr.npf
+  STO6       uzfp3_lakmvr.sto
+  OC6        uzfp3_lakmvr.oc
+  SFR6       uzfp3_lakmvr.sfr  'SFR_1'           
+  LAK6       uzfp3_lakmvr.lak  'LAK_1'           
+  WEL6       uzfp3_lakmvr.wel
+  GHB6       uzfp3_lakmvr.ghb
+  UZF6       uzfp3_lakmvr.uzf  'UZF_1'           
+  MVR6       uzfp3_lakmvr.mvr
+END Packages
+

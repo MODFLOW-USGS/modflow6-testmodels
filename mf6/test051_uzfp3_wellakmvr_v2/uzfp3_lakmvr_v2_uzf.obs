@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT  uzf.csv
+  ninfil        net-infiltration ag
+  rejinf        rej-inf          ag
+  rejinfmvr     rej-inf-to-mvr   ag
+  infil         infiltration     ag
+  frommvr       from-mvr         ag
+  gwrch         uzf-gwrch        ag
+  gwet          uzf-gwet         ag
+  uzet          uzet             ag
+END CONTINUOUS

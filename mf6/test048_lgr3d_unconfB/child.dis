@@ -1,0 +1,27 @@
+# DIS8 input file, prepared by MF5to6 on 3/14/2016 at 12:30:00.
+
+BEGIN Options
+  LENGTH_UNITS  FEET
+END Options
+
+BEGIN Dimensions
+  NLAY  6
+  NROW  4
+  NCOL  4
+END Dimensions
+
+BEGIN GRIDDATA
+  DELR
+    CONSTANT    750.000000        DELR
+  DELC
+    CONSTANT    600.000000        DELC
+  TOP LAYERED
+    CONSTANT    60.0000000        TOP array
+  BOTM LAYERED
+    CONSTANT    40.0000000        BOTM layer 1
+    CONSTANT    20.0000000        BOTM layer 2
+    CONSTANT    0.00000000        BOTM layer 3
+    CONSTANT   -10.0000000        BOTM layer 4
+    CONSTANT   -20.0000000        BOTM layer 5
+    CONSTANT   -30.0000000        BOTM layer 6
+END GRIDDATA

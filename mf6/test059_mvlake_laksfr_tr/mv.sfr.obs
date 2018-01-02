@@ -1,0 +1,25 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin Continuous FILEOUT mv.sfr.csv
+  r01stage  STAGE  1
+  r02stage  STAGE  2
+  r03stage  STAGE  3
+  r04stage  STAGE  4
+  r05stage  STAGE  5
+  r06stage  STAGE  6
+  r07stage  STAGE  7
+  r08stage  STAGE  8
+  r09stage  STAGE  9 
+  r10stage  STAGE 10 
+  r11stage  STAGE 11
+  r12stage  STAGE 12
+  r13stage  STAGE 13
+  r14stage  STAGE 14
+  r15stage  STAGE 15
+  r16stage  STAGE 16
+  r17stage  STAGE 17
+  r18stage  STAGE 18
+end Continuous

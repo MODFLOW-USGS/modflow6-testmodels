@@ -1,0 +1,12 @@
+# RCH8 input file, prepared by MF5to6 on 4/1/2016 at 11:10:36.
+
+BEGIN Options
+  READASARRAYS
+  FIXED_CELL
+  OBS6 FILEIN rch.obs
+END Options
+
+BEGIN PERIOD 1
+  RECHARGE
+    CONSTANT   0.47900000E-02
+END PERIOD

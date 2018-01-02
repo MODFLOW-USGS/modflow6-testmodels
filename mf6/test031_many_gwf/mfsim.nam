@@ -1,0 +1,39 @@
+BEGIN OPTIONS
+  MEMORY_PRINT_OPTION SUMMARY
+END OPTIONS
+
+BEGIN TIMING
+  TDIS6 simulation.tdis
+END TIMING
+
+BEGIN MODELS
+  GWF6 m1_1.nam GWF1_1
+  GWF6 m1_2.nam GWF1_2
+  GWF6 m1_3.nam GWF1_3
+  GWF6 m2_1.nam GWF2_1
+  GWF6 m2_2.nam GWF2_2
+  GWF6 m2_3.nam GWF2_3
+  GWF6 m3_1.nam GWF3_1
+  GWF6 m3_2.nam GWF3_2
+  GWF6 m3_3.nam GWF3_3
+END MODELS
+
+BEGIN EXCHANGES
+  GWF6-GWF6 gwf1_1-gwf1_2.right.exg GWF1_1 GWF1_2
+  GWF6-GWF6 gwf1_1-gwf2_1.front.exg GWF1_1 GWF2_1
+  GWF6-GWF6 gwf1_2-gwf1_3.right.exg GWF1_2 GWF1_3
+  GWF6-GWF6 gwf1_2-gwf2_2.front.exg GWF1_2 GWF2_2
+  GWF6-GWF6 gwf1_3-gwf2_3.front.exg GWF1_3 GWF2_3
+  GWF6-GWF6 gwf2_1-gwf2_2.right.exg GWF2_1 GWF2_2
+  GWF6-GWF6 gwf2_1-gwf3_1.front.exg GWF2_1 GWF3_1
+  GWF6-GWF6 gwf2_2-gwf2_3.right.exg GWF2_2 GWF2_3
+  GWF6-GWF6 gwf2_2-gwf3_2.front.exg GWF2_2 GWF3_2
+  GWF6-GWF6 gwf2_3-gwf3_3.front.exg GWF2_3 GWF3_3
+  GWF6-GWF6 gwf3_1-gwf3_2.right.exg GWF3_1 GWF3_2
+  GWF6-GWF6 gwf3_2-gwf3_3.right.exg GWF3_2 GWF3_3
+END EXCHANGES
+
+BEGIN SOLUTIONGROUP 1
+  IMS6 simulation.ims GWF1_1 GWF1_2 GWF1_3 GWF2_1 GWF2_2 GWF2_3 GWF3_1 GWF3_2 GWF3_3
+END SOLUTIONGROUP
+

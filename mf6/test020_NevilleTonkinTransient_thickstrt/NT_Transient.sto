@@ -1,0 +1,13 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+  storagecoefficient
+end options
+
+BEGIN GRIDDATA
+  iconvert LAYERED
+    constant 0
+    constant 0
+  ss LAYERED
+    constant 0.0093 Ss 1.e-4 thickness 92.9
+    constant 0.0372 Ss 1.e-4 thickness 372.0
+END GRIDDATA

@@ -1,0 +1,5 @@
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  AUXILIARY testaux
+  OBS6 FILEIN simulation.exg.obs

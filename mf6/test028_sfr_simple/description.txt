@@ -1,0 +1,1 @@
+This is the stream-aquifer interaction example problem (test 1) from the Streamflow Routing Package documentation (Prudic and others, 1989).  This problem is simulated using the Streamflow Routing (SFR) Package in MODFLOW 6 and includes several reaches that use the SIMPLE status option.

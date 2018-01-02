@@ -1,0 +1,21 @@
+begin options
+  #DEV_MINIMUM_SATURATED_THICKNESS 1.D-5
+  #DEV_MODFLOWUSG_UPSTREAM_WEIGHTED_SATURATION #DOES NOT CONVERGE WITH THIS OPTION
+  #ALTERNATIVE_CELL_AVERAGING  AMT-HMK
+end options
+#
+BEGIN GRIDDATA
+  icelltype
+    constant 1
+  k LAYERED
+    CONSTANT    25.00    (FREE)                       0      9.  K(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   1
+    CONSTANT   1.0E-03   (FREE)                       0      9.  K(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   2
+    CONSTANT   1.0E-05   (FREE)                       0      9.  K(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   3
+    CONSTANT   1.0E-05   (FREE)                       0      9.  K(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   3
+  K33 LAYERED
+    CONSTANT    2.500    (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   1
+    CONSTANT   1.0E-04   (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   2
+    CONSTANT   1.0E-06   (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   3
+    CONSTANT   1.0E-06   (FREE)                       0      9.  HK(NCOL,NROW)  HYDRAULIC CONDUCTIVITY Layer   3
+END GRIDDATA
+

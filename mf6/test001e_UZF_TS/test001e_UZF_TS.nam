@@ -1,0 +1,14 @@
+BEGIN Options
+  NEWTON
+END Options
+
+BEGIN PACKAGES
+  DIS6          test001e_UZF_TS.dis
+  IC6           test001e_UZF_TS.ic
+  NPF6          test001e_UZF_TS.npf 
+  STO6          test001e_UZF_TS.sto
+  CHD6          test001e_UZF_TS.chd
+  OC6           test001e_UZF_TS.oc
+  UZF6          test001e_UZF_TS.uzf
+  OBS6          test001e_UZF_TS.obs6
+END PACKAGES

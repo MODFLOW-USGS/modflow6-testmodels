@@ -1,0 +1,10 @@
+head save unit 51   #mfusg_C.hds
+period 1 step 1
+  print budget
+  save head
+period 2 step 10
+  print budget
+  save head
+period 3 step 1
+  print budget
+  save head

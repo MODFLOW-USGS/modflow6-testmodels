@@ -1,0 +1,12 @@
+begin options
+end options
+#
+BEGIN GRIDDATA
+  icelltype LAYERED
+    constant 1
+  k LAYERED
+    constant 50.
+  K33 LAYERED
+    constant 50.
+END GRIDDATA
+

@@ -1,0 +1,20 @@
+BEGIN Options
+  LIST       uzfp3_lakmvr_v2.lst
+  NEWTON UNDER_RELAXATION
+END Options
+
+BEGIN Packages
+  DIS6       uzfp3_lakmvr_v2.dis
+  IC6        uzfp3_lakmvr_v2.ic
+  NPF6       uzfp3_lakmvr_v2.npf
+  STO6       uzfp3_lakmvr_v2.sto
+  OC6        uzfp3_lakmvr_v2.oc
+  SFR6       uzfp3_lakmvr_v2.sfr  SFR-1           
+  LAK6       uzfp3_lakmvr_v2.lak  LAK-1           
+  WEL6       uzfp3_lakmvr_v2.wel  WEL-1
+  GHB6       uzfp3_lakmvr_v2.ghb
+  UZF6       uzfp3_lakmvr_v2.uzf  UZF-1           
+  MVR6       uzfp3_lakmvr_v2.mvr
+  OBS6       uzfp3_lakmvr_v2_head.obs
+END Packages
+

@@ -1,0 +1,37 @@
+begin options
+  print_input
+  print_flows
+  boundnames
+  no_well_storage
+  OBS6 FILEIN Extraction.maw.obs
+  mover
+  no_well_storage
+  HEAD FILEOUT extraction.head.bin
+  BUDGET FILEOUT extraction.cbc
+end options
+
+begin dimensions
+  nmawwells 1
+end dimensions
+
+BEGIN PACKAGEDATA
+#  wellno radius bottom strt   condeqn ngwnodes name          
+#       1   0.15 -100.0 9.14     theim        2 pwell       
+        1   0.15 -100.0 9.14 specified        2 pwell       
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+# wellno conn l  r  c  stop   sbot       k  rskin
+#      1    1 1 51 51     0      0       0      0
+#      1    2 2 51 51     0      0       0      0
+       1    1 1 51 51   -50 -514.9  111.53      0
+       1    2 2 51 51   -50 -514.9  446.62      0
+END CONNECTIONDATA
+
+begin period 1
+   1 rate -1767.
+end period
+
+begin period 2
+  1 rate -2767.
+end period

@@ -1,0 +1,11 @@
+#                                                                
+# NOTE: Test problem in MODFLOW2000 version 1.16  
+#
+LIST  1 l2a_2k.lst
+BAS6  7 l2a_2k.ba6
+LPF  10 l2a_2k.lpf
+PCG  13 l2a_2k.pcg
+CHD  21 l2a_2k.chd
+OC   17 l2a_2k.oc
+DIS  15 l2a_2k.dis
+DATA(BINARY) 18 l2a_2k.hds replace

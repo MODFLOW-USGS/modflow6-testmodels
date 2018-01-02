@@ -1,0 +1,25 @@
+# UZF8 input file, prepared by MF5to6 on 8/2/2016 at 10:54:33.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  SIMULATE_ET
+  LINEAR_GWET
+END Options
+
+BEGIN Dimensions
+  NUZFCELLS  1
+  NTRAILWAVES  10
+  NWAVESETS  20
+END Dimensions
+
+BEGIN PACKAGEDATA
+# no cellid lflg vcon surfdep         vks              thtr             thts             thti              eps
+   1 1  1  2  1  0    1.0000000        1.0000000       0.80000000E-01   0.20000000       0.08000000        3.5000000    
+END PACKAGEDATA
+
+BEGIN PERIOD 1
+#    uzfid      finf             pet            extdp            extwc            ha            hroot            rootact
+        1    1.0000000        0.0000000        0.0000000        0.0000000        0.0000000        0.0000000        0.0000000
+END PERIOD

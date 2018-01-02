@@ -1,0 +1,13 @@
+LIST  7 LakeTestSim2.lst
+BAS6  8 LakeTestSim2.bas
+BCF6 10 LakeTestSim2.bcf
+EVT  11 LakeTestSim2.evt
+RCH  12 LakeTestSim2.rch
+SIP  13 LakeTestSim2.sip
+SFR  14 LakeTestSim2.sfr
+DIS  15 LakeTestSim2.dis
+LAK  16 LakeTestSim2.lak
+OC   17 LakeTestSim2.oc
+FHB  21 LakeTestSim2.fhb
+DATA(BINARY) 18 LakeTestSim2.bhd  REPLACE
+DATA(BINARY) 19 LakeTestSim2.bdn  REPLACE

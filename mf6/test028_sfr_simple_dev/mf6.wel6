@@ -1,0 +1,26 @@
+# WEL6 input file, prepared by MF5to6 on 6/5/2017 at 16:11:43.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  10
+END Dimensions
+
+BEGIN PERIOD 1
+  1  6  4   -10.000000
+  1  6  5   -10.000000
+  1  7  4   -10.000000
+  1  7  5   -10.000000
+  1  8  4   -10.000000
+  1  8  5   -10.000000
+  1  9  4   -10.000000
+  1  9  5   -10.000000
+  1  10  4   -10.000000
+  1  10  5   -10.000000
+END PERIOD
+
+BEGIN PERIOD 2
+END PERIOD

@@ -1,0 +1,10 @@
+# LPF file for parent grid.  Garcia Heterogeneity
+  77  7000.00   0               ;ITEM 1 ILPFCB, HDRY, NPLPF
+   0                            ;ITEM 2 LAYTYP
+   0                            ;ITEM 3 LAYAVG
+  1.                            ;ITEM 4 CHANI
+   0                            ;ITEM 5 LAYVKA
+   0                            ;ITEM 6 LAYWET
+CONSTANT 500.0                  ;HY layer  1
+CONSTANT 1.0                    ;ITEM 12 VKA
+

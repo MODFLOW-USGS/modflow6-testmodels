@@ -1,0 +1,12 @@
+LIST 7 Child_GN.lst
+BAS6  2 Child_GN.bas
+DIS  26 Child_GN.dis
+LPF 11 Child_GN.lpf
+RIV 14 Child_GN.riv
+RCH 18 Child_GN.rch
+OC  24 Child_GN.oc
+PCG 16 Child_GN.pcg
+#GMG 16 Child_GN.gmg
+DATA(BINARY) 41 Child_GN.cbb
+#DATA(BINARY) 31 Child_GN.hds
+DATA	     31 Child_GN_ascii.hds

@@ -1,0 +1,20 @@
+LIST                  9 UzfLakSfrTest.lst
+BAS6                 75 UzfLakSfrTest.ba6
+LPF                   7 UzfLakSfrTest.lpf
+DIS                   8 UzfLakSfrTest.dis
+PCG                  13 UzfLakSfrTest.pcg
+OC                   14 UzfLakSfrTest.oc
+SFR                  15 UzfLakSfrTest.sfr
+LAK                  18 UzfLakSfrTest.lak
+WEL                  16 UzfLakSfrTest.wel
+GHB                  17 UzfLakSfrTest.ghb
+UZF                  19 UzfLakSfrTest.uzf
+DATA(BINARY)         58 UzfLakSfrTest.hds      REPLACE
+DATA(BINARY)         61 UzfLakSfrTest.cbc      REPLACE
+DATA                 65 UzfLakSfrTest.uzf1.out REPLACE
+DATA                 66 UzfLakSfrTest.uzf2.out REPLACE
+DATA                 67 UzfLakSfrTest.uzf3.out REPLACE
+DATA                 68 UzfLakSfrTest.uzf4.out REPLACE
+DATA                 81 UzfLakSfrTest.sfr.out  REPLACE
+data                 82 lake.table.1.txt       OLD
+data                 83 lake.table.2.txt       OLD

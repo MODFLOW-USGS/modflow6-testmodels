@@ -1,0 +1,7 @@
+begin options
+end options
+
+BEGIN GRIDDATA
+  strt LAYERED
+    OPEN/CLOSE ihead.ref FACTOR  1.0  IPRN  0 SHEAD layer  1
+END GRIDDATA

@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  DIS6  mfusg_C.dis
+  IC6  mfusg_C.ic
+  CHD6  mfusg_C.chd
+  NPF6  mfusg_C.npf
+  STO6  mfusg_C.sto
+  WEL6  mfusg_C.wel
+  OC6   mfusg_C.oc
+END PACKAGES
+

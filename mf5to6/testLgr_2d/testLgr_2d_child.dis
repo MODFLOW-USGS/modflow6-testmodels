@@ -1,0 +1,7 @@
+ 1  4  4 1 4 1   # Item 1: NLAY NROW NCOL NPER ITMUNI(4=day) LENUNI(1=ft)
+ 0               # Item 2: LAYCBD
+  CONSTANT 750.0 # Item 3: DELR
+  CONSTANT 600.0 # Item 4: DELC
+  constant 60.0  # Item 5: top layer 1
+  constant  0.0  # Item 6: bottom layer 1
+ 1.  1  1.  SS   # Item 7: PERLEN NSTP TSMULT SS/TR

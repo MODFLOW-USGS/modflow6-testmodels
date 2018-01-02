@@ -1,0 +1,20 @@
+# 1D SFR with stream leakage causing rewetting
+LIST           7 rewet1D.lst
+BAS6           1 rewet1D.bas
+DIS           29 rewet1D.dis
+LPF           11 rewet1D.lpf
+OC            22 rewet1D.oc
+PCG           19 rewet1D.pcg
+SFR           61 rewet1D.sfr
+#DRN           62 rewet1D.drn
+GAGE          63 rewet1D.gag
+DATA          82 rewet1D.ggo1.out replace
+DATA          83 rewet1D.ggo2.out replace
+DATA          84 rewet1D.ggo3.out replace
+DATA          85 rewet1D.ggo4.out replace
+DATA          86 rewet1D.ggo5.out replace
+DATA          87 rewet1D.ggo6.out replace
+DATA          88 rewet1D.ggo7.out replace
+DATA          89 rewet1D.ggo8.out replace
+DATA(BINARY) 111 rewet1D.hds      replace
+DATA(BINARY) 112 rewet1D.cbc      replace

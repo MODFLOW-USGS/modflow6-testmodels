@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  DIS6            ex3_parent.dis
+  IC6             ex3_parent.ic
+  NPF6            ex3_parent.npf
+  OC6             ex3_parent.oc
+  RIV6            ex3_parent.riv
+  CHD6            ex3_parent-left.chd
+  CHD6            ex3_parent-right.chd
+END PACKAGES
+

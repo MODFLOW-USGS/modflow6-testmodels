@@ -1,0 +1,44 @@
+BEGIN OPTIONS
+  LENGTH_UNITS METERS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NLAY 25
+  NROW 90
+  NCOL 78
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  DELR
+    CONSTANT 35.
+  DELC
+    CONSTANT 25.
+  TOP
+    OPEN/CLOSE Child_GN.dis.top.ref FACTOR  1.0  IPRN -1
+  BOTM LAYERED
+    CONSTANT    30.000   BOTTOM of Layer   1
+    CONSTANT    25.000   BOTTOM of Layer   2
+    CONSTANT    20.000   BOTTOM of Layer   3
+    CONSTANT    15.000   BOTTOM of Layer   4
+    CONSTANT    10.000   BOTTOM of Layer   5
+    CONSTANT     5.000   BOTTOM of Layer   6
+    CONSTANT  0.00e+00   BOTTOM of Layer   7
+    CONSTANT    -5.000   BOTTOM of Layer   8
+    CONSTANT   -10.000   BOTTOM of Layer   9
+    CONSTANT   -15.000   BOTTOM of Layer  10
+    CONSTANT   -20.000   BOTTOM of Layer  11
+    CONSTANT   -25.000   BOTTOM of Layer  12
+    CONSTANT   -30.000   BOTTOM of Layer  13
+    CONSTANT   -35.000   BOTTOM of Layer  14
+    CONSTANT   -40.000   BOTTOM of Layer  15
+    CONSTANT   -45.000   BOTTOM of Layer  16
+    CONSTANT   -50.000   BOTTOM of Layer  17
+    CONSTANT   -55.000   BOTTOM of Layer  18
+    CONSTANT   -60.000   BOTTOM of Layer  19
+    CONSTANT   -65.000   BOTTOM of Layer  20
+    CONSTANT   -70.000   BOTTOM of Layer  21
+    CONSTANT   -75.000   BOTTOM of Layer  22
+    CONSTANT   -80.000   BOTTOM of Layer  23
+    CONSTANT   -85.000   BOTTOM of Layer  24
+    CONSTANT   -90.000   BOTTOM of Layer  25
+END GRIDDATA

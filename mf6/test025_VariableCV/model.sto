@@ -1,0 +1,12 @@
+begin options
+  SAVE_FLOWS
+end options
+
+BEGIN GRIDDATA
+  iconvert
+    constant 1
+  ss
+    constant 1.e-5
+  sy
+    constant 0.1
+END GRIDDATA

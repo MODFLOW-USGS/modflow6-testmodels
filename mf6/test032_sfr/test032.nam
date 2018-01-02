@@ -1,0 +1,12 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           test032.ic
+  NPF6          test032.npf
+  OC6           test032.oc
+  DIS6          test032.dis
+  GHB6          test032.ghb
+  SFR6          test032.sfr8
+END PACKAGES
+

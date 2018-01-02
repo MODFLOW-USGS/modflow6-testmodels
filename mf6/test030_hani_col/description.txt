@@ -1,0 +1,2 @@
+Simple steady state model using a regular MODFLOW grid to simulate the response of an anisotropic confined aquifer to a pumping well. A constant-head boundary condition surrounds the active domain.  K22 is set to 100.0, which causes hydraulic conductivity in column direction to be 100 x more than K, which is in row direction.  Drawdown is more pronounced in column direction.
+

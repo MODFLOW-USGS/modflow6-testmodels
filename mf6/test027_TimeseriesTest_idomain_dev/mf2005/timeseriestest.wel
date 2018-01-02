@@ -1,0 +1,24 @@
+# Well file for MODFLOW.
+         1         0
+         1         0 # stress period 1, multiplier: 1.02
+         2        26        26   -1020.0   (was -1000.000000)
+         1         0 # stress period 2, multiplier: 1.03
+         2        26        26   -3090.0   (was -3000.000000)
+         1         0 # stress period 3, multiplier: 1.03
+         2        26        26   -3090.0   (was -3000.000000
+         1         0 # stress period 4, multiplier: 1.03
+         2        26        26   -3090.0   (was -3000.000000
+         1         0 # stress period 5, multiplier: 1.03
+         2        26        26   -3090.0   (was -3000.000000
+         1         0 # stress period 6, multiplier: 1.03
+         2        26        26   -3090.0   (was -3000.000000
+         1         0 # stress period 7, multiplier: 1.04
+         2        26        26   -2101.84  (was -2021.000000
+         1         0 # stress period 8, multiplier: 1.04
+         2        26        26   -2103.92  (was -2023.000000
+         1         0 # stress period 9, multiplier: 1.04
+         2        26        26   -2106.00  (was -2025.000000
+         1         0 # stress period 10, multiplier: 1.04
+         2        26        26   -2108.08  (was -2027.000000
+         1         0 # stress period 11, multiplier: 1.04
+         2        26        26   -2110.16  (was -2029.000000

@@ -1,0 +1,1 @@
+The problem demonstrates coupling of 9 GWF models.  The GWF models are aranged on a 3 by 3 grid and coupled using GWF-GWF exchanges.

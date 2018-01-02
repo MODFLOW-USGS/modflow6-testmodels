@@ -1,0 +1,20 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  lakeex4.tdis
+END Timing
+
+BEGIN Models
+  GWF6  lakeex4.nam  lakeex4
+END Models
+
+BEGIN Exchanges
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  lakeex4.ims  lakeex4
+END SOLUTIONGROUP

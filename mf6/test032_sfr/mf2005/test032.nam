@@ -1,0 +1,11 @@
+list         16 test032.lst
+BAS6         15 test032.ba6
+LPF          17 test032.lpf
+PCG          13 test032.pcg
+OC           14 test032.oc  
+SFR          11 test032.sfr
+DATA(BINARY) 76 test032.hds
+DATA(BINARY) 77 test032.cbc
+DATA         19 test032_sfr.out
+DIS          10 test032.dis
+GHB         111 test032.ghb

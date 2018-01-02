@@ -1,0 +1,23 @@
+BEGIN OPTIONS
+  FIXED_CELL
+  AUXILIARY MYEVTMULT
+  AUXMULTNAME MYEVTMULT
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND 10
+END DIMENSIONS
+
+BEGIN PERIOD 1
+# cellid  surf rate depth myevtmult
+   1 1 1  10.0 0.01    5.       2.0
+   1 1 2  10.0 0.01    5.       2.0
+   1 1 3  10.0 0.01    5.       2.0
+   1 1 4  10.0 0.01    5.       2.0
+   1 1 5  10.0 0.01    5.       2.0
+   1 1 6  10.0 0.01    5.       2.0
+   1 1 7  10.0 0.01    5.       2.0
+   1 1 8  10.0 0.01    5.       2.0
+   1 1 9  10.0 0.01    5.       2.0
+   1 1 10 10.0 0.01    5.       2.0
+END PERIOD

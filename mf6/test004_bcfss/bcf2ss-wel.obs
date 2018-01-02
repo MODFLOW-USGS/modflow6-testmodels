@@ -1,0 +1,8 @@
+BEGIN OPTIONS
+digits 10
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT  obs_wel.csv
+well1 wel 2 3 4 
+well2 wel 2 8 4
+END CONTINUOUS

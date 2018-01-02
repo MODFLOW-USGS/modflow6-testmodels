@@ -1,0 +1,14 @@
+BEGIN Options
+  LIST       PARENT.lst
+END Options
+
+BEGIN Packages
+  DIS6       PARENT.dis
+  IC6        PARENT.ic
+  NPF6       PARENT.npf
+  OC6        PARENT.oc
+  WEL6       PARENT.wel
+  SFR6       PARENT.sfr  'SFR-1'           
+  CHD6       PARENT.chd  'CHD-IB' 
+END Packages
+

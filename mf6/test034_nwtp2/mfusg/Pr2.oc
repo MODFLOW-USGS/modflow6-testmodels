@@ -1,0 +1,25 @@
+HEAD PRINT FORMAT   12
+DRAWDOWN PRINT FORMAT   9
+HEAD SAVE UNIT  30
+COMPACT BUDGET 
+IBOUND SAVE FORMAT (40I2) 
+PERIOD   1 STEP    1
+    SAVE HEAD
+    print budget
+PERIOD   1 STEP    10
+    SAVE HEAD
+    print budget
+PERIOD   2 STEP    2
+    SAVE HEAD
+    print budget            
+PERIOD   3 STEP    1
+    SAVE HEAD
+PERIOD   3 STEP    2
+    SAVE HEAD
+PERIOD   3 STEP    17
+    SAVE HEAD
+    print budget
+PERIOD   4 STEP    1
+    SAVE HEAD
+    print budget
+    

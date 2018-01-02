@@ -1,0 +1,4 @@
+BEGIN ZONEBUDGET
+  BUD ../lak.cbc
+  ZON zbud_lak.zon
+END ZONEBUDGET

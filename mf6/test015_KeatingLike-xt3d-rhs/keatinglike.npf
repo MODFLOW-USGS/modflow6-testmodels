@@ -1,0 +1,67 @@
+begin options
+  SAVE_FLOWS
+  XT3D RHS
+end options
+#
+BEGIN GRIDDATA
+  icelltype LAYERED
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+
+  k LAYERED
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 1
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 2
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 3
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 4
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 5
+       8.475839E-01   8.475840E-07   8.475840E-07
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 6
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 7
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 8
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 9
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #k Layer 10
+       8.475839E-01   8.475839E-01   8.475839E-01
+
+  K33 LAYERED
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 1                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 2                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 3                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 4                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 5                   
+       8.475839E-01   8.475840E-07   8.475840E-07
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 6                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 7                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 8                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 9                   
+       8.475839E-01   8.475839E-01   8.475839E-01
+    INTERNAL  FACTOR               1  IPRN  -1 #vka Layer 10                  
+       8.475839E-01   8.475839E-01   8.475839E-01
+
+END GRIDDATA
+
+
+
+

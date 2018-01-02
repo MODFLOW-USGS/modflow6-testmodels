@@ -1,0 +1,16 @@
+# SMS8 input file, prepared by MF5to6 on 8/23/2016 at 10:22:04.
+
+BEGIN Options
+  PRINT_OPTION  SUMMARY
+  COMPLEXITY  SIMPLE
+END Options
+
+BEGIN Nonlinear
+  OUTER_MAXIMUM  17000
+END Nonlinear
+
+begin linear
+  inner_maximum 50
+  INNER_HCLOSE 1e-6
+  INNER_RCLOSE 0.1 STRICT
+end linear

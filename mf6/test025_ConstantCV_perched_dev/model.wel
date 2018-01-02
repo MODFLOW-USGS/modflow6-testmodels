@@ -1,0 +1,11 @@
+begin dimensions
+  MAXBOUND 1
+end dimensions
+
+begin period 1
+  4 1 1 -0.5
+end period 1
+
+begin period 2
+  4 1 1 0.5
+end period 2

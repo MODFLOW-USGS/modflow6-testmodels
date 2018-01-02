@@ -1,0 +1,12 @@
+BEGIN OPTIONS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+DIS6           model2.dis
+IC6            model2.ic
+NPF6           model2.npf
+STO6           model2.sto
+OC6            model2.oc
+END PACKAGES
+

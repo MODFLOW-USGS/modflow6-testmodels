@@ -1,0 +1,20 @@
+# HFB8 input file, prepared by MF5to6 on 8/1/2016 at 14:29:17.
+
+BEGIN Options
+  PRINT_INPUT
+END Options
+
+BEGIN Dimensions
+  MAXHFB  8
+END Dimensions
+
+BEGIN PERIOD 1
+  1  10  14  1  10  15   0.40000000E-06
+  1  10  13  1  10  14   0.40000000E-06
+  1  10  14  1  11  14   0.40000000E-06
+  1  9  14  1  10  14   0.40000000E-06
+  5  6  12  5  6  13   0.80000000E-07
+  5  6  11  5  6  12   0.80000000E-07
+  5  6  12  5  7  12   0.80000000E-07
+  5  5  12  5  6  12   0.80000000E-07
+END PERIOD

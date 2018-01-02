@@ -1,0 +1,22 @@
+         0  -1.00E+06    0   CONSTANTCV    #IBCFCB,HDRY,NPLPF,OPTIONS
+ 4 4 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 0 
+ 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 
+ 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0
+CONSTANT           250.  HY layer   1
+CONSTANT           125.  VKA layer  1
+CONSTANT           250.  HY layer   2
+CONSTANT           125.  VKA layer  2
+CONSTANT           250.  HY layer   3
+CONSTANT           125.  VKA layer  3
+CONSTANT           250.  HY layer   4
+CONSTANT           125.  VKA layer  4
+CONSTANT           250.  HY layer   5
+CONSTANT           125.  VKA layer  5
+CONSTANT           250.  HY layer   6
+CONSTANT           125.  VKA layer  6
+CONSTANT           250.  HY layer   7
+CONSTANT           125.  VKA layer  7
+CONSTANT           250.  HY layer   8
+CONSTANT           125.  VKA layer  8

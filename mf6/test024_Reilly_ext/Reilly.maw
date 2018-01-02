@@ -1,0 +1,20 @@
+#option block.
+begin options
+  open/close maw_options.ref
+end options
+
+begin dimensions
+  open/close maw_dimensions.ref
+end dimensions
+
+BEGIN PACKAGEDATA
+  open/close maw_well.ref
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+  open/close maw_well_connections.ref
+END CONNECTIONDATA
+
+begin period 1
+  open/close maw_tsdata_per01.ref
+end period

@@ -1,0 +1,20 @@
+#	Simulation	name	file	for	MODFLOW	6
+
+begin	options
+		memory_print_option	all
+end	options
+
+begin	timing
+		tdis6		flow15.tdis
+end	timing
+
+begin	models
+		gwf6		flow15.nam		flow15
+end	models
+
+begin	exchanges
+end	exchanges
+
+begin	solutiongroup	1
+		ims6		flow15.ims		flow15
+end	solutiongroup

@@ -1,0 +1,13 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+end options
+
+begin dimensions
+  MAXBOUND 600
+end dimensions
+
+begin period 1
+         open/close ghb.ref
+end period

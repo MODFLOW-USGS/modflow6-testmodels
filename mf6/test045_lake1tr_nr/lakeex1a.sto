@@ -1,0 +1,25 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+  STORAGECOEFFICIENT
+end options
+
+BEGIN GRIDDATA
+  iconvert LAYERED
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+    constant 1
+  ss LAYERED
+    constant 3.e-4
+    constant 3.e-4
+    constant 3.e-4
+    constant 3.e-4
+    constant 3.e-4
+  sy LAYERED
+    constant 0.2
+    constant 0.2
+    constant 0.2
+    constant 0.2
+    constant 0.2
+END GRIDDATA

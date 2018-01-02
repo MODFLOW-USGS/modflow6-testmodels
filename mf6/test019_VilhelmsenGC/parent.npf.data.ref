@@ -1,0 +1,22 @@
+  ICELLTYPE
+    CONSTANT 0
+  HK LAYERED
+    OPEN/CLOSE parent.npf.hk1.ref  1. (free) -1  Layer 1 
+    OPEN/CLOSE parent.npf.hk2.ref  1. (free) -1  Layer 2 
+    OPEN/CLOSE parent.npf.hk3.ref  1. (free) -1  Layer 3 
+    OPEN/CLOSE parent.npf.hk4.ref  1. (free) -1  Layer 4 
+    OPEN/CLOSE parent.npf.hk5.ref  1. (free) -1  Layer 5 
+    OPEN/CLOSE parent.npf.hk6.ref  1. (free) -1  Layer 6 
+    OPEN/CLOSE parent.npf.hk7.ref  1. (free) -1  Layer 7 
+    OPEN/CLOSE parent.npf.hk8.ref  1. (free) -1  Layer 8 
+    OPEN/CLOSE parent.npf.hk9.ref  1. (free) -1  Layer 9 
+  VK LAYERED
+    OPEN/CLOSE parent.npf.hk1.ref  1. (free) -1  Layer 1 
+    OPEN/CLOSE parent.npf.hk2.ref  1. (free) -1  Layer 2 
+    OPEN/CLOSE parent.npf.hk3.ref  1. (free) -1  Layer 3 
+    OPEN/CLOSE parent.npf.hk4.ref  1. (free) -1  Layer 4 
+    OPEN/CLOSE parent.npf.hk5.ref  1. (free) -1  Layer 5 
+    OPEN/CLOSE parent.npf.hk6.ref  1. (free) -1  Layer 6 
+    OPEN/CLOSE parent.npf.hk7.ref  1. (free) -1  Layer 7 
+    OPEN/CLOSE parent.npf.hk8.ref  1. (free) -1  Layer 8 
+    OPEN/CLOSE parent.npf.hk9.ref  1. (free) -1  Layer 9 

@@ -1,0 +1,12 @@
+BEGIN Options
+  NEWTON
+END Options
+
+BEGIN PACKAGES
+  DIS6          child.dis
+  IC6           child.ic
+  NPF6          child.npf
+  OC6           child.oc
+  #WEL6          child.wel
+END PACKAGES
+

@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  DIS6    twri.dis
+  IC6     twri.ic
+  CHD6    twri.chd
+  NPF6    twri.npf
+  WEL6    twri.wel
+  DRN6    twri.drn
+  RCH6    twri.rch
+  OC6     twri.oc
+END PACKAGES
+

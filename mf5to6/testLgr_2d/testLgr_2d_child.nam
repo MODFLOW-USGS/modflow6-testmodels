@@ -1,0 +1,10 @@
+LIST   21 testLgr_2d_child.lst
+BAS6   22 testLgr_2d_child.ba6
+DIS    24 testLgr_2d_child.dis
+OC     25 testLgr_2d_child.oc
+LPF   23 testLgr_2d_child.lpf
+PCG    26 testLgr_2d_child.pcg
+RIV    27 testLgr_2d_child.riv
+WEL    28 testLgr_2d_child.wel
+DATA(BINARY) 31 testLgr_2d_child.hed  REPLACE
+DATA(BINARY) 41 testLgr_2d_child.flw  REPLACE  

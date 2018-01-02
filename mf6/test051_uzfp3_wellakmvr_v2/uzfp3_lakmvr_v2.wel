@@ -1,0 +1,102 @@
+# WEL8 input file, prepared by MF5to6 on 7/29/2016 at 10:56:36.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  MOVER
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  10
+END Dimensions
+
+BEGIN PERIOD 1
+  1  6  4    0.0000000
+  1  6  5    0.0000000
+  1  7  4    0.0000000
+  1  7  5    0.0000000
+  1  8  4    0.0000000
+  1  8  5    0.0000000
+  1  9  4    0.0000000
+  1  9  5    0.0000000
+  1  10  4   0.0000000
+  1  10  5   0.0000000
+END PERIOD
+
+BEGIN PERIOD 3
+  1  6  4   -0.85
+  1  6  5   -0.85
+  1  7  4   -0.85
+  1  7  5   -0.85
+  1  8  4   -0.85
+  1  8  5   -0.85
+  1  9  4   -0.85
+  1  9  5   -0.85
+  1  10  4  -0.85
+  1  10  5  -0.85
+END PERIOD
+
+BEGIN PERIOD 5
+  1  6  4   -1.70
+  1  6  5   -1.70
+  1  7  4   -1.70
+  1  7  5   -1.70
+  1  8  4   -1.70
+  1  8  5   -1.70
+  1  9  4   -1.70
+  1  9  5   -1.70
+  1  10  4  -1.70
+  1  10  5  -1.70
+END PERIOD
+
+BEGIN PERIOD 6
+END PERIOD
+
+BEGIN PERIOD 7
+  1  6  4   -0.85
+  1  6  5   -0.85
+  1  7  4   -0.85
+  1  7  5   -0.85
+  1  8  4   -0.85
+  1  8  5   -0.85
+  1  9  4   -0.85
+  1  9  5   -0.85
+  1  10  4  -0.85
+  1  10  5  -0.85
+END PERIOD
+
+BEGIN PERIOD 8
+END PERIOD
+
+BEGIN PERIOD 9
+  1  6  4   -0.85
+  1  6  5   -0.85
+  1  7  4   -0.85
+  1  7  5   -0.85
+  1  8  4   -0.85
+  1  8  5   -0.85
+  1  9  4   -0.85
+  1  9  5   -0.85
+  1  10  4  -0.85
+  1  10  5  -0.85
+END PERIOD
+
+BEGIN PERIOD 10
+END PERIOD
+
+BEGIN PERIOD 11
+  1  6  4   -2.55
+  1  6  5   -2.55
+  1  7  4   -2.55
+  1  7  5   -2.55
+  1  8  4   -2.55
+  1  8  5   -2.55
+  1  9  4   -2.55
+  1  9  5   -2.55
+  1  10  4  -2.55
+  1  10  5  -2.55
+END PERIOD
+
+BEGIN PERIOD 12
+END PERIOD

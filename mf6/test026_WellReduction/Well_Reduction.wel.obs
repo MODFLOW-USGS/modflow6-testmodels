@@ -1,0 +1,11 @@
+begin options
+  digits 10
+end options
+
+#
+# Blocks defining continuous observations
+#
+BEGIN CONTINUOUS FILEOUT well_flows.csv
+# obsname        type  lay  row  col (or boundname)
+  rate           WEL                  well1 
+END CONTINUOUS

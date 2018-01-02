@@ -1,0 +1,1 @@
+This is a one-layer steady-state problem designed to test the Newton-Raphson approach.  There is a rise in the bottom surface of the model, and groundwwater flows around the rise.

@@ -1,0 +1,12 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  DIS6 m3_3/model.dis
+  IC6 m3_3/model.ic
+  NPF6 m3_3/model.npf
+  CHD6 m3_3/model.right.chd
+  OC6  m3_3/model.oc
+END PACKAGES
+
+

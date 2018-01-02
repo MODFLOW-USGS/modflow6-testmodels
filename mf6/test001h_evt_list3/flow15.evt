@@ -1,0 +1,53 @@
+BEGIN OPTIONS
+  FIXED_CELL
+  AUXILIARY MYEVTMULT
+#  AUXMULTNAME MYEVTMULT
+  PRINT_FLOWS
+  TS6 FILEIN flow15.evt.ts
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND 10
+END DIMENSIONS
+
+BEGIN PERIOD 1
+  1 1 1  10. etrate 5.0 2.
+  1 1 2  10. etrate 5.0 2.
+  1 1 3  10. etrate 5.0 2.
+  1 1 4  10. etrate 5.0 2.
+  1 1 5  10. etrate 5.0 2.
+  1 1 6  10. etrate 5.0 2.
+  1 1 7  10. etrate 5.0 2.
+  1 1 8  10. etrate 5.0 2.
+  1 1 9  10. etrate 5.0 2.
+  1 1 10 10. etrate 5.0 2.
+END PERIOD
+
+BEGIN PERIOD 2
+END PERIOD
+
+BEGIN PERIOD 3
+  1 1 1  10. etrate 5.0 2.
+  1 1 2  10. etrate 5.0 2.
+  1 1 3  10. etrate 5.0 2.
+  1 1 4  10. etrate 5.0 2.
+  1 1 5  10. etrate 5.0 2.
+  1 1 6  10. etrate 5.0 2.
+  1 1 7  10. etrate 5.0 2.
+  1 1 8  10. etrate 5.0 2.
+  1 1 9  10. etrate 5.0 2.
+  1 1 10 10. etrate 5.0 2.
+END PERIOD
+
+BEGIN PERIOD 4
+  1 1 1  10. 0.01 5.0 2.
+  1 1 2  10. 0.01 5.0 2.
+  1 1 3  10. 0.01 5.0 2.
+  1 1 4  10. 0.01 5.0 2.
+  1 1 5  10. 0.01 5.0 2.
+  1 1 6  10. 0.01 5.0 2.
+  1 1 7  10. 0.01 5.0 2.
+  1 1 8  10. 0.01 5.0 2.
+  1 1 9  10. 0.01 5.0 2.
+  1 1 10 10. 0.01 5.0 2.
+END PERIOD

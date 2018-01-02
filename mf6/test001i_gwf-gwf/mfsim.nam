@@ -1,0 +1,38 @@
+# Simulation name file for MODFLOW 6
+
+BEGIN OPTIONS
+  MEMORY_PRINT_OPTION ALL
+END OPTIONS
+
+BEGIN TIMING
+  TDIS6  flow.tdis
+END TIMING
+
+BEGIN MODELS
+  GWF6  flow-l1.nam   flow-l1
+  GWF6  flow-l2.nam   flow-l2
+  GWF6  flow-l3.nam   flow-l3
+  GWF6  flow-l4.nam   flow-l4
+  GWF6  flow-l5.nam   flow-l5
+  GWF6  flow-l6.nam   flow-l6
+  GWF6  flow-l7.nam   flow-l7
+  GWF6  flow-l8.nam   flow-l8
+  GWF6  flow-l9.nam   flow-l9
+  GWF6  flow-l10.nam  flow-l10
+END MODELS
+
+BEGIN EXCHANGES
+  GWF6-GWF6 flow-1.exg flow-l1 flow-l2
+  GWF6-GWF6 flow-2.exg flow-l2 flow-l3
+  GWF6-GWF6 flow-3.exg flow-l3 flow-l4
+  GWF6-GWF6 flow-4.exg flow-l4 flow-l5
+  GWF6-GWF6 flow-5.exg flow-l5 flow-l6
+  GWF6-GWF6 flow-6.exg flow-l6 flow-l7
+  GWF6-GWF6 flow-7.exg flow-l7 flow-l8
+  GWF6-GWF6 flow-8.exg flow-l8 flow-l9
+  GWF6-GWF6 flow-9.exg flow-l9 flow-l10
+END EXCHANGES
+
+BEGIN SOLUTIONGROUP 1
+  IMS6  flow.ims  flow-l1 flow-l2 flow-l3 flow-l4 flow-l5 flow-l6 flow-l7 flow-l8 flow-l9 flow-l10
+END SOLUTIONGROUP

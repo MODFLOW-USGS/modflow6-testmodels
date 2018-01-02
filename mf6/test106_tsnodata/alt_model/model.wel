@@ -1,0 +1,77 @@
+BEGIN OPTIONS
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  BOUNDNAMES
+  TS6 FILEIN model_well1_pump.ts
+  TS6 FILEIN model_well2_pump.ts
+  TS6 FILEIN model_well3_pump.ts
+  TS6 FILEIN model_well4_pump.ts
+  TS6 FILEIN model_well5_pump.ts
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND 7
+END DIMENSIONS
+
+BEGIN PERIOD 1
+# lay  row  col  Q/TS     name
+   1    17   12  rate_4   well_4
+END PERIOD
+
+BEGIN PERIOD 2
+   1     5    4  rate_2   well_2
+   1    17   12  rate_4   well_4
+   1    24    9  rate_5   well_5
+END PERIOD
+
+BEGIN PERIOD 3
+   1     9   10  rate_1   well_1
+   1     5    4  rate_2   well_2
+   1    17   12  rate_4   well_4
+   1    24    9  rate_5   well_5
+END PERIOD
+
+BEGIN PERIOD 4
+   1     9   10  rate_1   well_1
+   1     5    4  rate_2   well_2
+   1    30   15  rate_3   well_3
+   1    17   12  rate_4   well_4
+   1    24    9  rate_5   well_5
+END PERIOD
+
+BEGIN PERIOD 6
+   1     9   10  rate_1   well_1
+   1     5    4  rate_2   well_2
+   1    30   15  rate_3   well_3
+   1    17   12  rate_4   well_4
+   1    24    9  rate_5   well_5
+   1    31    6   -17.0   well_6
+END PERIOD
+
+BEGIN PERIOD 7
+   1     9   10  rate_1   well_1
+   1     5    4  rate_2   well_2
+   1    30   15  rate_3   well_3
+   1    17   12  rate_4   well_4
+   1    24    9  rate_5   well_5
+   1    31    6   -16.0   well_6
+   1     3   17  rate_5   well_7
+END PERIOD
+
+BEGIN PERIOD 9
+   1     9   10  rate_1   well_1
+   1     5    4  rate_2   well_2
+   1    17   12  rate_4   well_4
+   1    24    9  rate_5   well_5
+   1    31    6   -15.0   well_6
+   1     3   17  rate_5   well_7
+END PERIOD
+
+BEGIN PERIOD 10
+   1     5    4  rate_2   well_2
+   1    17   12  rate_4   well_4
+   1    24    9  rate_5   well_5
+   1    31    6   -14.0   well_6
+   1     3   17  rate_5   well_7
+END PERIOD

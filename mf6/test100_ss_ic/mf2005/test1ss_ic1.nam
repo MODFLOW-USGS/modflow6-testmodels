@@ -1,0 +1,36 @@
+# NAME file for the test1ss test case.
+#
+# This test case is the steady-state simulation of
+# test simulation 1 documented in Appendix 2 of USGS
+# Open-File Report 2004-1042.
+#
+LIST           9 test1ss_ic1.lst    REPLACE
+#
+# Input
+#
+BAS6          75 test1ss_ic1.ba6
+LPF            7 test1ss_ic1.lpf
+DIS            8 test1ss_ic1.dis
+SIP           13 test1ss_ic1.sip
+OC            14 test1ss_ic1.oc
+SFR           15 test1ss_ic1.sfr
+GHB           17 test1ss_ic1.ghb
+EVT           18 test1ss_ic1.evt
+RCH           19 test1ss_ic1.rch
+GAGE          32 test1ss_ic1.gag
+#
+# Output
+#
+DATA(binary)  58 test1ss_ic1.hds    REPLACE
+DATA(binary)  59 test1ss_ic1.et     REPLACE
+DATA(binary)  60 test1ss_ic1.cbc    REPLACE
+DATA          81 test1ss_ic1.flw    REPLACE
+DATA          83 test1ss_ic1.sg1    REPLACE
+DATA          84 test1ss_ic1.sg2    REPLACE
+DATA          85 test1ss_ic1.sg3    REPLACE
+DATA          86 test1ss_ic1.sg4    REPLACE
+DATA          87 test1ss_ic1.sg5    REPLACE
+DATA          88 test1ss_ic1.sg6    REPLACE
+DATA          89 test1ss_ic1.sg7    REPLACE
+DATA          90 test1ss_ic1.sg8    REPLACE
+DATA          91 test1ss_ic1.dvsg9  REPLACE

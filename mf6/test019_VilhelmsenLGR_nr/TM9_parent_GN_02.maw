@@ -1,0 +1,28 @@
+begin options
+  PRINT_INPUT 
+  PRINT_HEAD
+  PRINT_FLOWS  
+  BOUNDNAMES
+  NO_WELL_STORAGE
+end options
+
+begin dimensions
+  NMAWWELLS 1
+end dimensions
+
+BEGIN PACKAGEDATA
+# no radius bottom strt     condeqn ngwnodes  name          
+   1   0.15   -5.0 50.0       THEIM        4  well4       
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+# wellno conn  l  r  c  stop   sbot      K  rskin
+       1    1  1 53 20  100.  -5.00    0.0      0
+       1    2  2 53 20  100.  -5.00    0.0      0
+       1    3  3 53 20  100.  -5.00    0.0      0
+       1    4  4 53 20  100.  -5.00    0.0      0
+END CONNECTIONDATA
+
+begin period 1
+  1 rate -5.e-03
+end period

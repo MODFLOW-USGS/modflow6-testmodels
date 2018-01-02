@@ -1,0 +1,14 @@
+# OC8 input file, prepared by MF5to6 on 1/11/2017 at 17:13:57.
+
+BEGIN Options
+  HEAD FILEOUT  welmvr_a.hds
+  HEAD PRINT_FORMAT  COLUMNS 20  WIDTH 5  DIGITS 2  FIXED               
+  BUDGET FILEOUT  welmvr_a.cbc
+END Options
+
+BEGIN PERIOD 1
+  PRINT BUDGET ALL
+  SAVE HEAD ALL
+  PRINT HEAD ALL
+  SAVE BUDGET ALL
+END PERIOD

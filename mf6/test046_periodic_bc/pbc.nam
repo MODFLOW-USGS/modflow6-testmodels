@@ -1,0 +1,11 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          pbc.dis
+  IC6           pbc.ic
+  NPF6          pbc.npf
+  CHD6          pbc.chd
+  OC6           pbc.oc
+END PACKAGES
+

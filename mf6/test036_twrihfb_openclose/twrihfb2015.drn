@@ -1,0 +1,12 @@
+# DRN8 input file, prepared by mf5to15 on 6/29/2015 at 10:25:19.
+
+BEGIN Options
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  9
+END Dimensions
+
+BEGIN PERIOD 1
+  open/close twrihfb2015.drn.per1.ref
+END PERIOD

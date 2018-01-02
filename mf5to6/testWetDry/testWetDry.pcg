@@ -1,0 +1,3 @@
+# PCG: Preconditioned Conjugate Gradient package file
+ 100  5  1                          # MXITER, ITER1, NPCOND
+ 1.0E-8  1.0E-8  1.0  1  1  0  1.0  # HCLOSE, RCLOSE, RELAX, NBPOL, IPRPCG, MUTPCG, DAMPPCG

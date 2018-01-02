@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+  NEWTON UNDER_RELAXATION
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           keating.ic
+  NPF6          keating.npf
+  OC6           keating.oc
+  DISU6         keating.disu
+  RCH6          keating.rch
+  GHB6          keating.ghb
+END PACKAGES
+

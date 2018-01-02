@@ -1,0 +1,15 @@
+BEGIN Options
+  LIST       test004_lpfss_nr.lst
+  NEWTON
+END Options
+
+BEGIN Packages
+  DIS6       test004_lpfss_nr.dis
+  IC6        test004_lpfss_nr.ic
+  NPF6       test004_lpfss_nr.npf
+  OC6        test004_lpfss_nr.oc
+  WEL6       test004_lpfss_nr.wel
+  RIV6       test004_lpfss_nr.riv
+  RCH6       test004_lpfss_nr.rch
+END Packages
+

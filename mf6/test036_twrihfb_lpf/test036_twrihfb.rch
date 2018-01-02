@@ -1,0 +1,11 @@
+# RCH8 input file, prepared by MF5to6 on 8/1/2016 at 14:29:17.
+
+BEGIN Options
+  READASARRAYS
+  FIXED_CELL
+END Options
+
+BEGIN PERIOD 1
+  RECHARGE
+    CONSTANT   0.30000000E-07
+END PERIOD

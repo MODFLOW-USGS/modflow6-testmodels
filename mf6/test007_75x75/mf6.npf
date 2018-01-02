@@ -1,0 +1,17 @@
+# NPF8 input file, prepared by MF5to6 on 3/8/2017 at 13:18:14.
+
+BEGIN Options
+  PERCHED
+  SAVE_FLOWS
+END Options
+
+BEGIN GRIDDATA
+  Icelltype LAYERED
+    CONSTANT  1
+  k  LAYERED
+    CONSTANT    0.50000000    
+  K33  LAYERED
+    CONSTANT    1.00000000    
+  K22  LAYERED
+    CONSTANT   0.05
+END GRIDDATA

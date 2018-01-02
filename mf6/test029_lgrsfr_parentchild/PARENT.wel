@@ -1,0 +1,9 @@
+# WEL8 input file, prepared by MF5to6 on 8/5/2016 at 18:32:02.
+
+BEGIN Options
+  PRINT_INPUT
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  1
+END Dimensions

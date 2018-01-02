@@ -1,0 +1,9 @@
+# square lake                                         
+begin dimensions                                      
+  nrow  7
+  ncol  5                                         
+end dimensions                                        
+                                                      
+begin table
+  open/close l2_table_data.ref                                           
+end table                                              

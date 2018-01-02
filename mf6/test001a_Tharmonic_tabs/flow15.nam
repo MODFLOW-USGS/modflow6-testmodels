@@ -1,0 +1,10 @@
+BEGIN	OPTIONS
+END	OPTIONS
+
+BEGIN	PACKAGES
+		dis6	flow15.dis
+		ic6											flow15.ic
+		npf6										flow15.npf
+		chd6										flow15_constant.chd
+		oc6											flow15.oc
+END	PACKAGES

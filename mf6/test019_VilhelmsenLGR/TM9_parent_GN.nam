@@ -1,0 +1,12 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6          TM9_parent_GN.ic
+  DIS6         TM9_parent_GN.dis
+  NPF6         TM9_parent_GN.npf
+  RIV6         TM9_parent_GN.riv
+  RCH6         TM9_parent_GN.rch
+  OC6          TM9_parent_GN.oc
+END PACKAGES
+

@@ -1,0 +1,14 @@
+# OC8 input file, prepared by MF5to6 on 3/25/2016 at 16:26:25.
+
+BEGIN Options
+  BUDGET FILEOUT  test1ss_ic_test1ss_ic1.cbc
+  HEAD FILEOUT  test1ss_ic_test1ss_ic1.hds
+  HEAD PRINT_FORMAT  COLUMNS 15  WIDTH 7  DIGITS 2  FIXED
+END Options
+
+BEGIN PERIOD 1
+  SAVE BUDGET ALL
+  PRINT BUDGET ALL
+  SAVE HEAD ALL
+  PRINT HEAD ALL
+END PERIOD

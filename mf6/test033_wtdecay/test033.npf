@@ -1,0 +1,12 @@
+begin options
+end options
+#
+BEGIN GRIDDATA
+  icelltype LAYERED
+    constant 1
+  k LAYERED
+    open/close   K.ref       FACTOR  1.0  IPRN           +1     HYDRAULIC CONDUCTIVITY Layer   1
+  K33 LAYERED
+    open/close   K.ref       FACTOR  1.0  IPRN           +1     VERTICAL HYDRAULIC CONDUCTIVITY Layer   1
+END GRIDDATA
+

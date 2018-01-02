@@ -1,0 +1,16 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           MNW2-Fig28.ic
+  NPF6          MNW2-Fig28.npf
+  STO6          MNW2-Fig28.sto
+  OC6           MNW2-Fig28.oc
+  DIS6          MNW2-Fig28.dis
+  CHD6          MNW2-Fig28.chd
+  WEL6          MNW2-Fig28.wel
+  MAW6          MNW2-Fig28.maw  'MAW-NT_Well' (16 character limit)
+  RCH6          MNW2-Fig28.rch
+  OBS6          MNW2-Fig28.obs
+END PACKAGES
+

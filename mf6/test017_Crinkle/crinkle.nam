@@ -1,0 +1,15 @@
+BEGIN OPTIONS
+  NEWTON UNDER_RELAXATION
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           crinkle.ic
+  NPF6          crinkle.npf
+  STO6          crinkle.sto
+  OC6           crinkle.oc
+  DIS6          crinkle.dis
+  GHB6          crinkle.ghb
+  RCH6          crinkle.rch
+  CHD6          crinkle.chd
+END PACKAGES
+

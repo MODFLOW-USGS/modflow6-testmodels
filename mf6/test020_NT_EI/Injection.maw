@@ -1,0 +1,34 @@
+begin options
+  print_input
+  print_flows
+  boundnames
+  no_well_storage
+  OBS6 FILEIN Injection.maw.obs
+  mover
+  HEAD FILEOUT injection.head.bin
+  BUDGET FILEOUT injection.cbc
+end options
+
+begin dimensions
+  nmawwells 1
+end dimensions
+
+BEGIN PACKAGEDATA
+#  wellno radius bottom strt   condeqn ngwnodes name          
+#       1   0.25 -100.0 9.14     theim        1 iwell       
+        1   0.25 -100.0 9.14 specified        1 iwell       
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+# wellno conn l  r  c  stop   sbot      k  rskin
+#      1    1 2 25 25    0       0      0      0
+       1    1 2 25 25   -50 -514.9 494.93      0
+END CONNECTIONDATA
+
+begin period 1
+    1 status inactive
+end period
+
+begin period 2
+    1 status active
+end period

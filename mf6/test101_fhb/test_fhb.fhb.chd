@@ -1,0 +1,17 @@
+# CHD8 input file, prepared by MF5to6 on 3/25/2016 at 17:10:31.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  TS6 FILEIN  test_fhb.fhb.chd.ts
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  3
+END Dimensions
+
+BEGIN PERIOD 1
+  1  1  10  HEAD_L1_R1_C10_1        
+  1  2  10  HEAD_L1_R2_C10_2        
+  1  3  10  HEAD_L1_R3_C10_3        
+END PERIOD

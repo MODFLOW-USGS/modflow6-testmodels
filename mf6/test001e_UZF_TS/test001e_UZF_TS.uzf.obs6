@@ -1,0 +1,10 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT  test001e_UZF_TS.uzf.csv
+  ID3_DPTH=8.0  WATER-CONTENT    4 3.0
+  ID3_DPTH=24.0 WATER-CONTENT    6 4.0
+  ID3_RCH       uzf-gwrch        6
+  inf           infiltration     6
+  netinf        net-infiltration 6
+END CONTINUOUS

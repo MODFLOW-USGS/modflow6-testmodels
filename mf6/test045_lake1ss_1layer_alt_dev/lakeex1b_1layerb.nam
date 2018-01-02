@@ -1,0 +1,15 @@
+BEGIN Options
+  LIST       lakeex1b_1layerb.lst
+END Options
+
+BEGIN Packages
+  DIS6       lakeex1b_1layerb.dis
+  IC6        lakeex1b_1layerb.ic
+  NPF6       lakeex1b_1layerb.npf
+  OC6        lakeex1b_1layerb.oc
+  EVT6       lakeex1b_1layerb.evt  'EVT'             
+  RCH6       lakeex1b_1layerb.rch  'RCH'        
+  LAK6       lakeex1b_1layerb.lak  'LAK_1'           
+  CHD6       lakeex1b_1layerb.chd
+END Packages
+

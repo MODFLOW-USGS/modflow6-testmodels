@@ -1,0 +1,30 @@
+# NAME file for the test1tr test case
+#
+# This test case is the transient simulation of
+# test simulation 1 documented in Appendix 2 of USGS
+# Open-File Report 2004-1042.
+#
+LIST                  9 test1tr.lst
+BAS6                 75 test1tr.ba6
+LPF                   7 test1tr.lpf
+DIS                   8 test1tr.dis
+PCG                  13 test1tr.pcg
+OC                   14 test1tr.oc
+SFR                  15 test1tr.sfr
+WEL                  16 test1tr.wel
+GHB                  17 test1tr.ghb
+EVT                  18 test1tr.evt
+RCH                  19 test1tr.rch
+GAGE                 32 test1tr.gag
+DATA(binary)         58 test1tr.hds       replace
+DATA(binary)         59 test1tr.cbc       replace
+DATA                 81 test1tr.sfr.out   replace
+DATA                 83 test1tr.sg1.out   replace
+DATA                 84 test1tr.sg2.out   replace
+DATA                 85 test1tr.sg3.out   replace
+DATA                 86 test1tr.sg4.out   replace
+DATA                 87 test1tr.sg5.out   replace
+DATA                 88 test1tr.sg6.out   replace
+DATA                 89 test1tr.sg7.out   replace
+DATA                 90 test1tr.sg8.out   replace
+DATA                 91 test1tr.dvsg9.out replace

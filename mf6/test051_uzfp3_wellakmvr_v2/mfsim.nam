@@ -1,0 +1,20 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  uzfp3_lakmvr_v2.tdis
+END Timing
+
+BEGIN Models
+  GWF6  uzfp3_lakmvr_v2.nam  uzfp3_lakmvr
+END Models
+
+BEGIN Exchanges
+END Exchanges
+
+BEGIN SOLUTIONGROUP 1
+  MXITER  1
+  IMS6  uzfp3_lakmvr_v2.ims  uzfp3_lakmvr
+END SOLUTIONGROUP

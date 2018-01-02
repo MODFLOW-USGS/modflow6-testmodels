@@ -1,0 +1,12 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6          Child_GN.ic
+  DIS6         Child_GN.dis
+  NPF6         Child_GN.npf
+  RIV6         Child_GN.riv
+  RCH6         Child_GN.rch
+  OC6          Child_GN.oc
+END PACKAGES
+

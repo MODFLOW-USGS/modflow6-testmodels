@@ -1,0 +1,15 @@
+# DIS input file, prepared by mf5to15 on 4/10/2015 at 9:04:54.
+3  1  10  5  4  2  NLAY,NROW,NCOL,NPER,ITMUNI,LENUNI
+ 0 0 0
+CONSTANT   100.0              DELR
+CONSTANT   1000.0             DELC
+CONSTANT    0.0               TOP
+CONSTANT   -5.0               BOT LAYER 1
+CONSTANT  -20.0               BOT LAYER 2
+CONSTANT  -30.0               BOT LAYER 3
+   50.0       10    1.00  TR            STRESS PERIOD  1
+   50.0       10    1.00  TR            STRESS PERIOD  2
+   50.0       10    1.00  TR            STRESS PERIOD  3
+   50.0       10    1.00  TR            STRESS PERIOD  4
+   50.0       10    1.00  TR            STRESS PERIOD  5
+    

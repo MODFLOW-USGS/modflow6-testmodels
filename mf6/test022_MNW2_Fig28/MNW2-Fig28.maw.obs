@@ -1,0 +1,9 @@
+begin options
+  digits 10
+end options
+
+begin continuous FILEOUT MNW2-Fig28-MAW.csv
+  M1HEAD   HEAD  1
+  M1RATE   RATE  1
+end continuous
+

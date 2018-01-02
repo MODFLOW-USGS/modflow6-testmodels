@@ -1,0 +1,23 @@
+# NAME file for the test1tr_icalc012 test case
+#
+# This test case is loosely based on the transient
+# simulation of test simulation 1 documented in
+# Appendix 2 of USGS Open-File Report 2004-1042,
+# with some additions/alterations.
+#
+LIST                  9 test1tr_icalc012.lst
+BAS6                 75 test1tr_icalc012.ba6
+LPF                   7 test1tr_icalc012.lpf
+DIS                   8 test1tr_icalc012.dis
+SIP                  13 test1tr_icalc012.sip
+OC                   14 test1tr_icalc012.oc
+SFR                  15 test1tr_icalc012.sfr
+WEL                  16 test1tr_icalc012.wel
+GHB                  17 test1tr_icalc012.ghb
+EVT                  18 test1tr_icalc012.evt
+RCH                  19 test1tr_icalc012.rch
+CHD                  20 test1tr_icalc012.chd
+DATA(binary)         58 test1tr_icalc012.hds    REPLACE
+DATA(binary)         59 test1tr_icalc012.et     REPLACE
+DATA(binary)         60 test1tr_icalc012.cbc    REPLACE
+DATA                 81 test1tr_icalc012.flw    REPLACE

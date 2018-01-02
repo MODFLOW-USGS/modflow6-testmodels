@@ -1,0 +1,14 @@
+#Hypothetical simulator of lake and surficial aquifer interaction. ------------
+#Shows convergence to equilibrium in transient mode.                           
+FREE
+open/close ../idomain_layer_1.ref 1 (free) -1  IBOUND layer   1
+constant 1                                     IBOUND layer   2
+constant 1                                     IBOUND layer   3
+constant 1                                     IBOUND layer   4
+constant 1                                     IBOUND layer   5
+    1.0e30  HNOFLO
+CONSTANT   11.  Initial Head layer   1
+CONSTANT   11.  Initial Head layer   2
+CONSTANT   11.  Initial Head layer   3
+CONSTANT   11.  Initial Head layer   4
+CONSTANT   11.  Initial Head layer   5

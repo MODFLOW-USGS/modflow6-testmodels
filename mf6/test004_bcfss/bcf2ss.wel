@@ -1,0 +1,17 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+  AUXILIARY var1 var2 var3
+  PRINT_INPUT (echo input to listing file)
+  PRINT_FLOWS  (print the flows to the listing file)
+  SAVE_FLOWS  bcf2ss.cbb (file for binary flow information; must be opened using DATA(BINARY))
+end options
+
+begin dimensions
+  MAXBOUND 2
+end dimensions
+
+#        k         i         j      flux     var1 var2 var3
+begin period 2
+         2         3         4   -35000.     1       2    3
+         2         8         4   -35000.     4       5    6
+end period

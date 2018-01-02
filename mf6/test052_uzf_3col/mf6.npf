@@ -1,0 +1,16 @@
+# NPF8 input file, prepared by MF5to6 on 8/2/2016 at 10:54:33.
+
+BEGIN Options
+  PERCHED
+  VARIABLECV  DEWATERED
+  SAVE_FLOWS
+END Options
+
+BEGIN GRIDDATA
+  Icelltype LAYERED
+    CONSTANT  1
+  k  LAYERED
+    CONSTANT    1.00000000    
+  K33  LAYERED
+    CONSTANT    1.00000000    
+END GRIDDATA

@@ -1,0 +1,24 @@
+# MAW8 input file, prepared by MF5to6 on 8/3/2016 at 10:39:13.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  BOUNDNAMES
+  NO_WELL_STORAGE
+END Options
+
+BEGIN Dimensions
+  NMAWWELLS  1
+END Dimensions
+
+BEGIN PACKAGEDATA
+  open/close test020_mawconfined.maw.wells.ref
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+  open/close test020_mawconfined.maw.connect.ref
+END CONNECTIONDATA
+
+BEGIN PERIOD 1 
+  open/close test020_mawconfined.maw.per1.ref
+END PERIOD

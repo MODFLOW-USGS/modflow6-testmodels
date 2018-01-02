@@ -1,0 +1,1 @@
+This is the Local Grid Refinement (LGR) model described in Vilhelmsen et al. (2012) with 4 multi-aquifer wells in the parent model and 3 multi-aquifer wells in the child model.

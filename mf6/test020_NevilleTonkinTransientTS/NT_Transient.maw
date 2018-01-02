@@ -1,0 +1,38 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  BOUNDNAMES
+  AUXILIARY aux1 aux2
+  TS6 FILEIN maw_rates.ts
+  OBS6 FILEIN  NT_Transient.maw.obs
+  NO_WELL_STORAGE
+end options
+
+begin dimensions
+  NMAWWELLS 1
+end dimensions
+
+BEGIN PACKAGEDATA
+# no radius bottom strt     condeqn ngwnodes aux1 aux2 name          
+   1   0.15 -514.9 9.14    SPECIFIED       2  100  1.0 ntwell       
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+#   conn l  r  c  stop   sbot      K  rskin
+  1    1 1 51 51   -50 -514.9 111.53      0
+  1    2 2 51 51   -50 -514.9 446.62      0
+END CONNECTIONDATA
+
+begin period 1
+  1 rate mawq1
+end period
+
+begin period 2
+  1 rate 0.
+  1  auxiliary aux1 aux1
+  1  auxiliary aux2 aux2   
+end period
+
+begin period 3
+  1 rate mawq2
+end period

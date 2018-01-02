@@ -1,0 +1,12 @@
+LIST  1 mv_ss_mf2005.lst
+BAS6  7 mv_ss_mf2005.ba6
+LPF  10 mv_ss_mf2005.lpf
+RCH  12 mv_ss_mf2005.rch
+PCG  13 mv_ss_mf2005.pcg
+#GMG  13 mv_ss_mf2005.gmg
+OC   17 mv_ss_mf2005.oc
+LAK  16 mv_ss_mf2005.lak
+DIS  14 mv_ss_mf2005.dis
+WEL  21 mv_ss_mf2005.wel
+RIV  22 mv_ss_mf2005.riv
+DATA(BINARY) 18 mv_ss_mf2005.hds replace

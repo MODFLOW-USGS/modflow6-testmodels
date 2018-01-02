@@ -1,0 +1,23 @@
+begin options
+  digits 10
+end options
+
+#
+# Blocks defining continuous observations
+#
+
+# for structured option
+begin continuous FILEOUT Reilly_GWF.csv
+  L02          head   2  16 14   # lay row col
+  L03          head   3  16 14   # lay row col
+  L04          head   4  16 14   # lay row col
+  L05          head   5  16 14   # lay row col
+  L06          head   6  16 14   # lay row col
+  L07          head   7  16 14   # lay row col
+  L08          head   8  16 14   # lay row col
+  L09          head   9  16 14   # lay row col
+  L10          head  10  16 14   # lay row col
+  L11          head  11  16 14   # lay row col
+  L12          head  12  16 14   # lay row col
+  L13          head  13  16 14   # lay row col
+end continuous

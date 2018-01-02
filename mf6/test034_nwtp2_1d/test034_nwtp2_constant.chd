@@ -1,0 +1,19 @@
+# CHD8 input file, prepared by mf5to15 on 6/26/2015 at 12:54:27.
+
+BEGIN Options
+  PRINT_FLOWS
+  SAVE_FLOWS
+  TS6 FILEIN test034_nwtp2_constant.ts
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  5
+END Dimensions
+
+BEGIN Period 1
+  10  1   1    L10HEAD   
+  11  1   1    L10HEAD   
+  12  1   1    L10HEAD   
+  13  1   1    L10HEAD   
+  14  1   1    L10HEAD   
+END Period

@@ -1,0 +1,12 @@
+# OC8 input file, prepared by MF5to6 on 8/9/2016 at 17:58:04.
+
+BEGIN Options
+  HEAD FILEOUT  test004_lpfss_nr.hds
+  HEAD PRINT_FORMAT  COLUMNS 15  WIDTH 7  DIGITS 2  FIXED       
+END Options
+
+BEGIN PERIOD 1
+  PRINT BUDGET ALL
+  SAVE HEAD ALL
+  PRINT HEAD ALL
+END PERIOD

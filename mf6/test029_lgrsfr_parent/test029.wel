@@ -1,0 +1,16 @@
+
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  BOUNDNAMES
+end options
+
+begin dimensions
+  MAXBOUND 2
+end dimensions
+
+#        k         i         j      flux    name 
+begin period 1
+         1        26        30    -.8500     w01
+         1        26        79    -.8500     w02
+end period

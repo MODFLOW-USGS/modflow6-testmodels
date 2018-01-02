@@ -1,0 +1,13 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          lakeex4_il.dis
+  IC6           lakeex4_il.ic
+  NPF6          lakeex4_il.npf
+  CHD6          lakeex4_il.ibound.chd  'CHD-IB'
+  OC6           lakeex4_il.oc
+  RCH6          lakeex4_il.rch
+  LAK6          lakeex4_il.lak
+END PACKAGES
+

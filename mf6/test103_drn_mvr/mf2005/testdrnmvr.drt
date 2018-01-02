@@ -1,0 +1,6 @@
+4  0  0  0  RETURNFLOW             Item 1: MXADRT IDRTCB NPDRT MXL Option
+4  0                               Item 4: ITMP NP
+1 5 15   50.0  100.0  0  0 0  1.0  Item 5: lay row col elev cond layr rowr colr rfprop
+1 6 16  -10.0  100.0  1 16 6  1.0  Item 5: lay row col elev cond layr rowr colr rfprop
+1 7 17   50.0  100.0  0  0 0  1.0  Item 5: lay row col elev cond layr rowr colr rfprop
+1 8 18   50.0  100.0  0  0 0  1.0  Item 5: lay row col elev cond layr rowr colr rfprop

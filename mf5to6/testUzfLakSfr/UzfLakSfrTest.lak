@@ -1,0 +1,38 @@
+2    -1                       # Item 1b: NLAKES ILKCB
+0.5  50  0.01  0.2            # Item 2: THETA {NSSITR SSCNCR SURFDEP}
+1040.0  1015.0  1050.0        # Item 3: STAGES {SSMN SSMX}, lake 1
+1010.0   990.0  1020.0        # Item 3: STAGES {SSMN SSMX}, lake 2
+1  1  0                       # Item 4: ITMP ITMP1 LWRT, stress period 1
+internal 1 (free) 0           # Item 5: LKARR, layer 1, stress period 1
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    1    1    0    0
+   0    0    2    2    2    0    1    1    0    0
+   0    0    2    2    2    0    0    0    0    0
+   0    0    2    2    2    0    0    0    0    0
+   0    0    2    2    2    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+constant  0                   # Item 5: LKARR, layer 2, stress period 1
+constant  2.0e-8              # Item 6: BDLKNC, layer 1, stress period 1
+constant  2.0e-8              # Item 6: BDLKNC, layer 2, stress period 1
+0                             # Item 7: NSLMS, stress period 1
+5.0e-8  1.0e-8  1.5  0.0      # Item 9: PRCPLK EVAPLK RNF WTHDRW, lake 1, stress period 1
+1.2e-8  1.1e-8  3.0  1.2e-1   # Item 9: PRCPLK EVAPLK RNF WTHDRW, lake 2, stress period 1
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 2
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 3
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 4
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 5
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 6
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 7
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 8
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 9
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 10
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 11
+-1  -1  0                     # Item 4: ITMP ITMP1 LWRT, stress period 12

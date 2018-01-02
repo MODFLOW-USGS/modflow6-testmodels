@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           FW_Transient.ic
+  NPF6          FW_Transient.npf
+  STO6          FW_Transient.sto
+  OC6           FW_Transient.oc
+  DIS6          FW_Transient.dis
+  MAW6          FW_Transient.maw  'MAW-NT_Well' (16 character limit)
+  OBS6          FW_Transient.obs
+END PACKAGES
+

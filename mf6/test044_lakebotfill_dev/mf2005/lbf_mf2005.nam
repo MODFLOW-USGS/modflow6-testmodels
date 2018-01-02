@@ -1,0 +1,11 @@
+LIST          1 lbf_mf2005.lst
+BAS6          7 lbf_mf2005.ba6
+LPF          10 lbf_mf2005.lpf
+PCG          13 lbf_mf2005.pcg
+OC           17 lbf_mf2005.oc
+LAK          16 lbf_mf2005.lak
+DIS          14 lbf_mf2005.dis
+RCH          21 lbf_mf2005.rch
+GAGE         22 lbf_mf2005.gage
+DATA         23 lbf_mf2005.gage.out replace
+DATA(BINARY) 18 lbf_mf2005.hds      replace

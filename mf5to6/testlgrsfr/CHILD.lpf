@@ -1,0 +1,20 @@
+# LPF file for child grid.  Garcia heterogeneity
+  88 -1.00E+30  5               ;ITEM 1 ILPFCB, HDRY, NPLPF
+   0                            ;ITEM 2 LAYTYP
+   0                            ;ITEM 3 LAYAVG
+  1.                            ;ITEM 4 CHANI
+   0                            ;ITEM 5 LAYVKA
+   0                            ;ITEM 6 LAYWET
+   T110   HK   4.250e-05  1     ;ITEM 8 PARNAM PARTYP PARVAL NCLU
+    1 NONE  czone  110          ;ITEM 9 LAYER MLTARR ZONARR IZ
+   T70    HK  13.5E-5   1       ;ITEM 8 PARNAM PARTYP PARVAL NCLU
+    1 NONE  czone  70           ;ITEM 9 LAYER MLTARR ZONARR IZ
+   T30    HK  161.1E-5  1       ;ITEM 8 PARNAM PARTYP PARVAL NCLU
+    1 NONE  czone  30           ;ITEM 9 LAYER MLTARR ZONARR IZ
+   T16    HK  430.6E-5  1       ;ITEM 8 PARNAM PARTYP PARVAL NCLU
+    1 NONE  czone  16           ;ITEM 9 LAYER MLTARR ZONARR IZ
+   T08     HK  1.200e-02   1    ;ITEM 8 PARNAM PARTYP PARVAL NCLU
+    1 NONE  czone   8           ;ITEM 9 LAYER MLTARR ZONARR IZ
+   20                           ;ITEM 10 print code for HK, layer 1
+CONSTANT 1.0                    ;ITEM 12 VKA
+

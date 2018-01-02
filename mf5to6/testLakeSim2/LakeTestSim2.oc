@@ -1,0 +1,481 @@
+-14 9 18 19  ; ITEM 1: IHEDFM IDDNFM IHEDUN IDDNUN
+0 0 0 1      ; ITEM 2: INCODE IHDDFL IBUDFL ICBCFL, time step **1
+0 0 0 0      ; ITEM 3: Hdpr Ddpr Hdsv Ddsv, time step **1
+0 0 0 1      ; ITEM 2, time step **2
+0 0 0 0      ; ITEM 3
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 1      ; output options, time step **1
+0 0 0 0      ; head-drawdown print/file options, time step **1
+0 0 0 1      ; time step **2
+0 0 0 0
+0 0 0 1      ; time step **3
+0 0 0 0
+0 0 0 1      ; time step **4
+0 0 0 0
+0 0 0 1      ; time step **5
+0 0 0 0
+0 0 0 1      ; time step **6
+0 0 0 0 
+0 0 0 1      ; time step **7
+0 0 0 0
+0 0 0 1      ; time step **8
+0 0 0 0
+0 0 0 1      ; time step **9
+0 0 0 0
+1 1 1 1      ; time step *10
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 0 0

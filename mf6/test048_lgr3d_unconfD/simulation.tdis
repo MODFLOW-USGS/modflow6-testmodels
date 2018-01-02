@@ -1,0 +1,13 @@
+# TDIS8 input file, prepared by MF5to6 on 3/14/2016 at 12:30:00.
+
+BEGIN Options
+  TIME_UNITS DAYS
+END Options
+
+BEGIN Dimensions
+  NPER 1
+END Dimensions
+
+BEGIN PERIODDATA
+    1.0000000               1    1.0000000      Items: PERLEN NSTP TSMULT
+END PERIODDATA

@@ -1,0 +1,24 @@
+begin options
+  SAVE_FLOWS   (save constant head and flowja terms to binary output file)
+  print_FLOWS  (print the constant head terms to listing file)
+end options
+#
+BEGIN GRIDDATA
+#
+#apply these arrays for the entire simulation
+#
+#icelltype(nodes) is 0:confined, 1:convertible, 4:upstream?
+  icelltype
+    constant 0
+#	
+#K(nodes) horizontal hydraulic conductivity
+  K
+    constant 1.
+#
+#K33(nodes) vertical hydraulic conductivity
+  K33
+    constant 1.
+#
+#this will crash it  funkyarray
+#	constant
+END GRIDDATA

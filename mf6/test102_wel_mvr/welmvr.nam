@@ -1,0 +1,15 @@
+BEGIN Options
+  LIST       welmvr.lst
+END Options
+
+BEGIN Packages
+  DIS6       welmvr.dis
+  IC6        welmvr.ic
+  NPF6       welmvr.npf
+  OC6        welmvr.oc
+  WEL6       welmvr.wel
+  CHD6       welmvr.ibound.chd  'CHD-FROM-IBOUND' 
+  MAW6       welmvr.maw
+  MVR6       welmvr.mvr
+END Packages
+

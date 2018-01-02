@@ -1,0 +1,13 @@
+LIST   26 testLgr_child.out
+#LIST   26 testLgr_child_bfh.out
+BAS6    2 testLgr_child.ba6
+BCF6   21 testLgr_child.bc6
+DIS    29 testLgr_child.dis
+OC     20 testLgr_child.oc
+PCG    22 testLgr_child.pcg
+RIV    25 testLgr_child.riv
+DATA   80 testLgr_child_bfh.hed    REPLACE
+DATA   81 testLgr_child_bfh.flw    REPLACE
+#DATA   51 testLgr_child.bot        OLD
+DATA(BINARY) 31 testLgr_child.hed  REPLACE
+DATA(BINARY) 41 testLgr_child.flw  REPLACE  

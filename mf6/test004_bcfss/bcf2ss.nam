@@ -1,0 +1,14 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           bcf2ss.ic
+  NPF6          bcf2ss.npf
+  WEL6          bcf2ss.wel
+  RIV6          bcf2ss.riv
+  RCH6          bcf2ss.rch
+  OC6           bcf2ss.oc
+  DIS6          bcf2ss.dis
+END PACKAGES
+
+

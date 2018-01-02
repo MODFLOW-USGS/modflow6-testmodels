@@ -1,0 +1,11 @@
+These files are from the "bigger_child" model used to compare 
+example 1 in the LGR documentation.  The reason this is used is because the
+number of rows is larger but the number of columns is smaller
+so it has approximately the same number of refined cells.
+
+
+The directory 'shared' contains the ex1 test case in the shared node version.
+
+There are different LPF and zone files to explore different contrasts and 
+configurations of heterogenity.  As it is set up currenlty, it is the ex1
+heterogeneity from the LGR documentation.

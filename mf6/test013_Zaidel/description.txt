@@ -1,0 +1,1 @@
+This is the stair-step problem described in Zaidel (2013).  In this simulation, the Newton-Raphson formulation is used to improve simulation convergence.

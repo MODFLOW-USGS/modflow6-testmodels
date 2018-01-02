@@ -1,0 +1,22 @@
+BEGIN OPTIONS
+#none
+END OPTIONS
+
+BEGIN TIMING
+  TDIS6 TM9_global_gv.tdis
+END TIMING
+
+BEGIN MODELS
+  #modeltype          namefile            modelname
+         GWF6 TM9_global_gv.nam               PARENT
+END MODELS
+
+BEGIN EXCHANGES
+END EXCHANGES
+
+#implicit coupling
+BEGIN SOLUTIONGROUP 1
+  MXITER 1
+  IMS6 TM9_global_gv.ims PARENT
+END SOLUTIONGROUP
+

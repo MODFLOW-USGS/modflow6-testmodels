@@ -1,0 +1,1 @@
+This problem is included with the MODFLOW-2005 examples. This problem demonstrates how the time-series functionality, combined with the Constant-Head and Well Packages, can be used to replace the Flow and Head Boundary (FHB) Package.

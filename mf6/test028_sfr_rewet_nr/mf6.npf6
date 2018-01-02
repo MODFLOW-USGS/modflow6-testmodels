@@ -1,0 +1,19 @@
+# NPF6 input file, prepared by MF5to6 on 6/8/2017 at 12:33:24.
+
+BEGIN Options
+END Options
+
+BEGIN GRIDDATA
+  Icelltype LAYERED
+    CONSTANT  1
+    CONSTANT  1
+    CONSTANT  1
+  K  LAYERED
+    CONSTANT    10.0000000    
+    CONSTANT    10.0000000    
+    CONSTANT    10.0000000    
+  K33  LAYERED
+    CONSTANT    10.0000000    
+    CONSTANT    10.0000000    
+    CONSTANT    10.0000000    
+END GRIDDATA

@@ -1,0 +1,10 @@
+LIST         1   test001e_noUZF_3lay.lst
+DIS          12  test001e_noUZF_3lay.dis
+BAS6         13  test001e_noUZF_3lay.bas
+LPF          14  test001e_noUZF_3lay.lpf 
+CHD          15  test001e_noUZF_3lay.chd
+OC           16  test001e_noUZF_3lay.oc
+SMS          18  test001e_noUZF_3lay.sms
+DATA(BINARY) 19  test001e_noUZF_3lay.hds REPLACE
+DATA(BINARY)  8  test001e_noUZF_3lay.ddn REPLACE
+DATA(BINARY)  9  test001e_noUZF_3lay.cbc REPLACE

@@ -1,0 +1,21 @@
+# Discretization File created on 4/10/2015 by ModelMuse version 3.5.1.0.
+# Upper left corner: (0, 0)
+# Lower left corner: (0, -7500)
+# Upper right corner: (6500, 0)
+# Lower right corner: (6500, -7500)
+# Grid angle (in degrees counterclockwise): 0
+ 4 75 65 5 4 2       # NLAY, NROW, NCOL, NPER, ITMUNI, LENUNI
+ 0 0 1 0             # LAYCB
+CONSTANT    100.0    # DELR
+CONSTANT    100.0    # DELC
+CONSTANT    1000.0   # TOP
+CONSTANT    700.0    # BOTM, Upper Aquifer
+CONSTANT    600.0    # BOTM, Confining Unit 1
+CONSTANT    200.0    # BOTM, Middle Aquifer
+CONSTANT    100.0    # BOTM, Confining Unit 2
+CONSTANT    0.0      # BOTM, Lower Aquifer
+   1.0   1  1.0   SS # PERLEN NSTP TSMULT Ss/tr (Stress period 1)
+ 300.0  32  1.05  TR # PERLEN NSTP TSMULT Ss/tr (Stress period 2)
+ 300.0  32  1.05  TR # PERLEN NSTP TSMULT Ss/tr (Stress period 3)
+ 300.0  32  1.05  TR # PERLEN NSTP TSMULT Ss/tr (Stress period 4)
+ 300.0  32  1.05  TR # PERLEN NSTP TSMULT Ss/tr (Stress period 5)

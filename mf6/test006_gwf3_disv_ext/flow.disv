@@ -1,0 +1,23 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  open/close flow.disv.dimensions.ref
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  TOP
+    CONSTANT 0.
+  BOTM
+    CONSTANT -100
+  IDOMAIN
+    CONSTANT 1
+END GRIDDATA
+
+BEGIN VERTICES
+  open/close flow.disv.vertices.ref
+END VERTICES
+
+BEGIN CELL2D
+  open/close flow.disv.cell2d.ref
+END CELL2D

@@ -1,0 +1,14 @@
+
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+end options
+
+begin dimensions
+  NEXG 190
+end dimensions
+
+begin exchangedata
+  open/close pbc.exg.exgdata.ref
+END exchangedata

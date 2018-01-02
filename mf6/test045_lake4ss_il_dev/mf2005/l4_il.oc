@@ -1,0 +1,6 @@
+HEAD SAVE UNIT 23
+PERIOD         1   STEP         1
+PRINT HEAD
+PRINT BUDGET
+SAVE HEAD
+save budget

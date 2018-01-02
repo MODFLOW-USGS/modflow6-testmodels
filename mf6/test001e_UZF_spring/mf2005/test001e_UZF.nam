@@ -1,0 +1,11 @@
+LIST         1  test001e_UZF.lst
+DIS          12  test001e_UZF.dis
+BAS6         13  test001e_UZF.bas
+LPF          14  test001e_UZF.lpf 
+CHD          15  test001e_UZF.chd
+OC           16  test001e_UZF.oc
+UZF          17  test001e_UZF.uzf
+PCG          18  test001e_UZF.pcg 
+DATA(BINARY) 19  test001e_UZF.hds REPLACE
+DATA(BINARY) 8 test001e_UZF.ddn REPLACE
+DATA(BINARY) 9 test001e_UZF.cbc REPLACE

@@ -1,0 +1,37 @@
+# LPF: Layer Property Flow package file created on 3/17/2009 by ModelMuse version 1.0.9.0.
+ 9 -1.d30   7      # Item 1: ILPFCB, HDRY, NPLPF
+ 1  1  0           # Item 2: LAYTYP
+ 0  0  0           # Item 3: LAYAVG
+ 1.0  1.0  1.0     # Item 4: CHANI
+ 1  1  1           # Item 5: LAYVKA
+ 1  1  0           # Item 6: LAYWET
+ 0.5  4  0         # Item 7: WETFCT IWETIT IHDWET
+HK_1 HK 4.2E-4  1  # Item 8: PARNAM, PARTYP, PARVAL, NCLU
+ 1 NONE ALL     1  # Item 9: Layer, MLTARR, ZONARR IZ
+HK_2 HK 4.8E-5  1  # Item 8: PARNAM, PARTYP, PARVAL, NCLU
+ 2 HK_2_M2 ALL  1  # Item 9: Layer, MLTARR, ZONARR IZ
+HK_3 HK 3.5E-3  1  # Item 8: PARNAM, PARTYP, PARVAL, NCLU
+ 3 HK_2_M2 ALL  1  # Item 9: Layer, MLTARR, ZONARR IZ
+VANI VANI 1.0   3  # Item 8: PARNAM, PARTYP, PARVAL, NCLU
+ 1 NONE ALL        # Item 9: Layer, MLTARR, ZONARR
+ 2 NONE ALL        # Item 9: Layer, MLTARR, ZONARR
+ 3 NONE ALL        # Item 9: Layer, MLTARR, ZONARR
+SS_1 SS 2.3E-5  1  # Item 8: PARNAM, PARTYP, PARVAL, NCLU
+ 1 NONE ALL     1  # Item 9: Layer, MLTARR, ZONARR IZ
+SS_2 SS 1.2E-6  1  # Item 8: PARNAM, PARTYP, PARVAL, NCLU
+ 2 NONE ALL     1  # Item 9: Layer, MLTARR, ZONARR IZ
+SS_3 SS 1.0E-6  1  # Item 8: PARNAM, PARTYP, PARVAL, NCLU
+ 3 NONE ALL     1  # Item 9: Layer, MLTARR, ZONARR IZ
+ 10                # HK Layer 1
+ 11                # VKA Layer 1
+ 12                # SS Layer 1
+constant 0.3       # SY Layer 1
+constant -2.0      # WETDRY Layer 1
+ 14                # HK Layer 2
+ 15                # VKA Layer 2
+ 16                # SS Layer 2
+constant 0.2       # SY Layer 1
+constant -2.0      # WETDRY Layer 2
+ 18                # HK Layer 3
+ 19                # VKA Layer 3
+ 20                # SS Layer 3

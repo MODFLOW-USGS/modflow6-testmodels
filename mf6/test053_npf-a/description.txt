@@ -1,0 +1,1 @@
+Relatively simple problem to test 3d heterogeneity between mf6 and mf2005.  Used 5 layers, 20 columns, and 25 rows.  Used different DELR and DELC to rigorously test conductance calculations.  Did not use HANI for this simulation.

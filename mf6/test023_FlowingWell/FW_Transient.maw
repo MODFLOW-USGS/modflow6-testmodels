@@ -1,0 +1,28 @@
+#option block.  Note -- no comments allowed on auxiliary line
+begin options
+  PRINT_INPUT (echo input to listing file)
+  PRINT_FLOWS  (print the flows to the listing file)
+  BOUNDNAMES
+  FLOWING_WELLS
+  OBS6 FILEIN        FW_Transient.maw.obs
+end options
+
+begin dimensions
+  NMAWWELLS 1
+end dimensions
+
+BEGIN PACKAGEDATA
+#      no radius bottom strt     condeqn ngwnodes  name          
+        1   0.15 -514.9 9.14   SPECIFIED        2  ntwell       
+END PACKAGEDATA
+
+BEGIN CONNECTIONDATA
+#        conn l  r  c  stop   sbot         K  rskin
+       1    1 1 51 51   -50 -514.9  111.3763      0
+       1    2 2 51 51   -50 -514.9  445.9849      0
+END CONNECTIONDATA
+
+begin period 1
+       1 rate 0  #-1767.
+       1 flowing_well 0. 7500. 0.5 #comment
+end period

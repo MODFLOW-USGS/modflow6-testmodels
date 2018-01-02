@@ -1,0 +1,22 @@
+# LPF: Layer Property Flow package file created on 4/10/2015 by ModelMuse version 3.5.1.0.
+ -1 2.0000000000000E+030  0 NOCVCORRECTION NOVFC # ILPFCB, HDRY, NPLPF Options
+ 1 0 1 0 # LAYTYP
+ 0 0 0 0 # LAYAVG
+ 1 1 1 1 # CHANI
+ 0 0 0 0 # LAYVKA
+ 0 0 0 0 # LAYWET
+constant 0.56           # HK Upper Aquifer Layer 1
+constant 0.056          # VKA Upper Aquifer Layer 1
+constant 1.34e-6        # SS Upper Aquifer Layer 1
+CONSTANT 2.0E-1         # SY Upper Aquifer Layer 1
+constant 0.56           # HK Confining Unit 1 Layer 2
+constant 0.056          # VKA Confining Unit 1 Layer 2
+constant 1.34e-6        # SS Confining Unit 1 Layer 2
+constant 0.56           # HK Middle Aquifer Layer 3
+constant 0.056          # VKA Middle Aquifer Layer 3
+constant 1.34e-6        # SS Middle Aquifer Layer 3
+CONSTANT 2.0E-1         # SY Middle Aquifer Layer 3
+constant 0.056          # VKCB Confining Unit 2 Layer 3
+constant 0.56           # HK Lower Aquifer Layer 4
+constant 0.056          # VKA Lower Aquifer Layer 4
+constant 1.34e-6        # SS Lower Aquifer Layer 4

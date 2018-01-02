@@ -1,0 +1,12 @@
+LIST                  2 PS3A.LST
+DIS                   3 PS3A.DIS
+BAS6                  4 PS3A.BA6
+WEL                  12 PS3A.WEL
+RIV                  14 PS3A.RIV
+RCH                  18 PS3A.RCH
+OC                   22 PS3A.OC
+PCG                  23 PS3A.PCG
+LPF                  33 PS3A.LPF
+DATA(BINARY)         50 PS3A.HDS        REPLACE
+DATA(BINARY)         52 PS3A.DDN        REPLACE
+DATA(BINARY)         53 PS3BASE.BIN.REF OLD

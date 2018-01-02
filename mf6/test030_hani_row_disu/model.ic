@@ -1,0 +1,8 @@
+
+BEGIN Options
+END Options
+
+BEGIN GRIDDATA
+  STRT
+    constant 0.
+END GRIDDATA

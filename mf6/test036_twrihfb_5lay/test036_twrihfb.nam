@@ -1,0 +1,16 @@
+BEGIN Options
+  LIST       test036_twrihfb.lst
+END Options
+
+BEGIN Packages
+  DIS6       test036_twrihfb.dis
+  IC6        test036_twrihfb.ic
+  NPF6       test036_twrihfb.npf
+  OC6        test036_twrihfb.oc
+  WEL6       test036_twrihfb.wel
+  DRN6       test036_twrihfb.drn  'DRN'           
+  RCH6       test036_twrihfb.rch  'RCH'        
+  HFB6       test036_twrihfb.hfb  'HFB'             
+  CHD6       test036_twrihfb.ibound.chd  'CHD-IB' 
+END Packages
+

@@ -1,0 +1,496 @@
+# UZF8 input file, prepared by MF5to6 on 7/28/2016 at 10:09:45.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  SIMULATE_ET
+  LINEAR_GWET
+  SIMULATE_GWSEEP
+  BOUNDNAMES
+  OBS6 FILEIN uzfp2.uzf.obs
+  TS6 FILEIN uzfp2.uzf.ts
+  TS6 FILEIN uzfp2.uzf.finf.ts 
+  BUDGET FILEOUT uzf.cbc
+  AUXILIARY mult
+  AUXMULTNAME mult
+END Options
+
+BEGIN Dimensions
+  NUZFCELLS   232
+  NTRAILWAVES  25
+  NWAVESETS  20
+END Dimensions
+
+BEGIN PACKAGEDATA
+#no  cellid     lflg  vcon surfdep    vks             thtr        thts        thti        eps        boundname
+  1  1   1   1  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  uzf_1_1
+  2  1   1   2  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  uzf_1_2
+  3  1   2   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_2_1
+  4  1   2   2  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  uzf_2_2
+  5  1   2   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  uzf_2_3
+  6  1   2   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_2_6
+  7  1   2   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_2_7
+  8  1   2   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_2_8
+  9  1   3   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_3
+ 10  1   3   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 11  1   3   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 12  1   3   5  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 13  1   3   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 14  1   3   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 15  1   3   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 16  1   4   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_4
+ 17  1   4   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_4
+ 18  1   4   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_4
+ 19  1   4   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  uzf_4
+ 20  1   4   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  uzf_4
+ 21  1   4   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  uzf_4
+ 22  1   4   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_4
+ 23  1   4   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_4
+ 24  1   4   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  uzf_4
+ 25  1   5   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 26  1   5   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 27  1   5   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 28  1   5   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 29  1   5   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 30  1   5   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 31  1   5   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 32  1   5   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 33  1   5   9  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 34  1   5  10  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 35  1   6   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 36  1   6   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 37  1   6   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 38  1   6   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 39  1   6   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 40  1   6   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 41  1   6   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 42  1   6   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 43  1   6   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 44  1   6  10  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 45  1   7   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 46  1   7   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 47  1   7   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 48  1   7   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 49  1   7   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 50  1   7   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 51  1   7   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 52  1   7   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 53  1   7   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 54  1   8   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 55  1   8   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 56  1   8   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 57  1   8   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 58  1   8   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 59  1   8   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 60  1   8   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 61  1   8   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 62  1   9   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 63  1   9   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 64  1   9   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 65  1   9   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 66  1   9   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 67  1   9   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 68  1   9   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 69  1   9   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 70  1  10   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 71  1  10   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 72  1  10   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 73  1  10   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 74  1  10   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 75  1  10   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 76  1  10   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 77  1  10   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 78  1  10  10  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 79  1  11   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 80  1  11   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 81  1  11   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 82  1  11   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 83  1  11   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 84  1  11   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 85  1  11   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 86  1  11   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 87  1  12   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 88  1  12   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 89  1  12   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 90  1  12   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 91  1  12   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 92  1  12   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 93  1  12   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 94  1  12   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 95  1  12   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+ 96  1  13   1  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 97  1  13   2  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 98  1  13   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+ 99  1  13   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+100  1  13   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+101  1  13   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+102  1  13   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+103  1  13   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+104  1  13   9  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+105  1  14   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+106  1  14   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+107  1  14   4  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+108  1  14   5  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+109  1  14   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+110  1  14   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+111  1  14   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+112  1  14   9  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+113  1  15   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+114  1  15   4  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+115  1  15   5  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+116  1  15   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+117  1   1   1  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  
+118  1   1   2  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  
+119  1   2   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+120  1   2   2  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  
+121  1   2   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  
+122  1   2   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+123  1   2   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+124  1   2   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+125  1   3   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+126  1   3   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+127  1   3   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+128  1   3   5  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+129  1   3   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+130  1   3   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+131  1   3   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+132  1   4   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+133  1   4   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+134  1   4   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+135  1   4   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  
+136  1   4   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  
+137  1   4   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000  
+138  1   4   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+139  1   4   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+140  1   4   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000  
+141  1   5   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+142  1   5   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+143  1   5   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+144  1   5   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+145  1   5   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+146  1   5   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+147  1   5   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+148  1   5   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+149  1   5   9  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+150  1   5  10  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+151  1   6   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+152  1   6   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+153  1   6   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+154  1   6   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+155  1   6   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+156  1   6   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+157  1   6   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+158  1   6   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+159  1   6   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+160  1   6  10  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+161  1   7   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+162  1   7   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+163  1   7   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+164  1   7   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+165  1   7   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+166  1   7   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+167  1   7   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+168  1   7   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+169  1   7   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+170  1   8   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+171  1   8   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+172  1   8   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+173  1   8   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+174  1   8   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+175  1   8   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+176  1   8   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+177  1   8   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+178  1   9   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+179  1   9   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+180  1   9   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+181  1   9   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+182  1   9   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+183  1   9   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+184  1   9   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+185  1   9   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+186  1  10   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+187  1  10   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+188  1  10   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+189  1  10   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+190  1  10   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+191  1  10   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+192  1  10   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+193  1  10   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+194  1  10  10  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+195  1  11   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+196  1  11   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+197  1  11   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+198  1  11   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+199  1  11   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+200  1  11   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+201  1  11   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+202  1  11   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+203  1  12   1  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+204  1  12   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+205  1  12   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+206  1  12   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+207  1  12   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+208  1  12   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+209  1  12   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+210  1  12   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+211  1  12   9  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+212  1  13   1  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+213  1  13   2  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+214  1  13   3  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+215  1  13   4  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+216  1  13   5  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+217  1  13   6  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+218  1  13   7  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+219  1  13   8  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+220  1  13   9  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+221  1  14   2  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+222  1  14   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+223  1  14   4  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+224  1  14   5  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+225  1  14   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+226  1  14   7  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+227  1  14   8  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+228  1  14   9  1     0    1.0000000  0.10000000E-05  0.10000000  0.30000000  0.10000000  3.5000000
+229  1  15   3  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+230  1  15   4  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+231  1  15   5  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+232  1  15   6  1     0    1.0000000  0.10000000E-05  0.20000000  0.30000000  0.20000000  3.5000000
+END PACKAGEDATA
+
+BEGIN  PERIOD  1
+#    id  finf    pet extdp extwc  ha   hroot  rootact mult
+      1  finf01  pet extdp extwc1 zero zero   zero    am1
+      2  finf02  pet extdp extwc1 zero zero   zero    am1 
+      3  finf02  pet extdp extwc2 zero zero   zero    am1 
+      4  finf03  pet extdp extwc1 zero zero   zero    am1 
+      5  finf02  pet extdp extwc1 zero zero   zero    am1 
+      6  finf04  pet extdp extwc2 zero zero   zero    am1 
+      7  finf04  pet extdp extwc2 zero zero   zero    am1 
+      8  finf05  pet extdp extwc2 zero zero   zero    am1 
+      9  finf05  pet extdp extwc2 zero zero   zero    am1 
+     10  finf03  pet extdp extwc1 zero zero   zero    am1 
+     11  finf03  pet extdp extwc1 zero zero   zero    am1 
+     12  finf04  pet extdp extwc2 zero zero   zero    am1 
+     13  finf04  pet extdp extwc2 zero zero   zero    am1 
+     14  finf05  pet extdp extwc2 zero zero   zero    am1 
+     15  finf05  pet extdp extwc2 zero zero   zero    am1 
+     16  finf04  pet extdp extwc2 zero zero   zero    am1 
+     17  finf05  pet extdp extwc2 zero zero   zero    am1 
+     18  finf03  pet extdp extwc2 zero zero   zero    am1 
+     19  finf03  pet extdp extwc1 zero zero   zero    am1 
+     20  finf03  pet extdp extwc1 zero zero   zero    am1 
+     21  finf03  pet extdp extwc1 zero zero   zero    am1 
+     22  finf03  pet extdp extwc2 zero zero   zero    am1 
+     23  finf03  pet extdp extwc2 zero zero   zero    am1 
+     24  finf02  pet extdp extwc2 zero zero   zero    am1 
+     25  finf04  pet extdp extwc2 zero zero   zero    am1 
+     26  finf05  pet extdp extwc2 zero zero   zero    am1 
+     27  finf03  pet extdp extwc2 zero zero   zero    am1 
+     28  finf03  pet extdp extwc1 zero zero   zero    am1 
+     29  finf03  pet extdp extwc1 zero zero   zero    am1 
+     30  finf03  pet extdp extwc1 zero zero   zero    am1 
+     31  finf03  pet extdp extwc1 zero zero   zero    am1 
+     32  finf03  pet extdp extwc1 zero zero   zero    am1 
+     33  finf03  pet extdp extwc1 zero zero   zero    am1 
+     34  finf03  pet extdp extwc1 zero zero   zero    am1 
+     35  finf04  pet extdp extwc2 zero zero   zero    am1 
+     36  finf05  pet extdp extwc2 zero zero   zero    am1 
+     37  finf05  pet extdp extwc2 zero zero   zero    am1 
+     38  finf02  pet extdp extwc1 zero zero   zero    am1 
+     39  finf02  pet extdp extwc1 zero zero   zero    am1 
+     40  finf03  pet extdp extwc1 zero zero   zero    am1 
+     41  finf03  pet extdp extwc1 zero zero   zero    am1 
+     42  finf03  pet extdp extwc1 zero zero   zero    am1 
+     43  finf03  pet extdp extwc2 zero zero   zero    am1 
+     44  finf05  pet extdp extwc2 zero zero   zero    am1 
+     45  finf04  pet extdp extwc2 zero zero   zero    am1 
+     46  finf05  pet extdp extwc2 zero zero   zero    am1 
+     47  finf05  pet extdp extwc2 zero zero   zero    am1 
+     48  finf02  pet extdp extwc1 zero zero   zero    am1 
+     49  finf02  pet extdp extwc1 zero zero   zero    am1 
+     50  finf03  pet extdp extwc1 zero zero   zero    am1 
+     51  finf03  pet extdp extwc1 zero zero   zero    am1 
+     52  finf02  pet extdp extwc1 zero zero   zero    am1 
+     53  finf02  pet extdp extwc2 zero zero   zero    am1 
+     54  finf05  pet extdp extwc2 zero zero   zero    am1 
+     55  finf05  pet extdp extwc2 zero zero   zero    am1 
+     56  finf02  pet extdp extwc1 zero zero   zero    am1 
+     57  finf02  pet extdp extwc1 zero zero   zero    am1 
+     58  finf03  pet extdp extwc1 zero zero   zero    am1 
+     59  finf03  pet extdp extwc1 zero zero   zero    am1 
+     60  finf02  pet extdp extwc2 zero zero   zero    am1 
+     61  finf05  pet extdp extwc2 zero zero   zero    am1 
+     62  finf05  pet extdp extwc2 zero zero   zero    am1 
+     63  finf05  pet extdp extwc2 zero zero   zero    am1 
+     64  finf02  pet extdp extwc1 zero zero   zero    am1 
+     65  finf02  pet extdp extwc1 zero zero   zero    am1 
+     66  finf03  pet extdp extwc1 zero zero   zero    am1 
+     67  finf03  pet extdp extwc1 zero zero   zero    am1 
+     68  finf02  pet extdp extwc2 zero zero   zero    am1 
+     69  finf05  pet extdp extwc2 zero zero   zero    am1 
+     70  finf05  pet extdp extwc2 zero zero   zero    am1 
+     71  finf05  pet extdp extwc2 zero zero   zero    am1 
+     72  finf02  pet extdp extwc1 zero zero   zero    am1 
+     73  finf02  pet extdp extwc1 zero zero   zero    am1 
+     74  finf03  pet extdp extwc1 zero zero   zero    am1 
+     75  finf03  pet extdp extwc1 zero zero   zero    am1 
+     76  finf02  pet extdp extwc2 zero zero   zero    am1 
+     77  finf05  pet extdp extwc2 zero zero   zero    am1 
+     78  finf04  pet extdp extwc2 zero zero   zero    am1 
+     79  finf03  pet extdp extwc2 zero zero   zero    am1 
+     80  finf03  pet extdp extwc2 zero zero   zero    am1 
+     81  finf03  pet extdp extwc1 zero zero   zero    am1 
+     82  finf03  pet extdp extwc1 zero zero   zero    am1 
+     83  finf03  pet extdp extwc1 zero zero   zero    am1 
+     84  finf03  pet extdp extwc1 zero zero   zero    am1 
+     85  finf02  pet extdp extwc2 zero zero   zero    am1 
+     86  finf05  pet extdp extwc2 zero zero   zero    am1 
+     87  finf03  pet extdp extwc2 zero zero   zero    am1 
+     88  finf03  pet extdp extwc2 zero zero   zero    am1 
+     89  finf03  pet extdp extwc1 zero zero   zero    am1 
+     90  finf03  pet extdp extwc1 zero zero   zero    am1 
+     91  finf03  pet extdp extwc1 zero zero   zero    am1 
+     92  finf03  pet extdp extwc1 zero zero   zero    am1 
+     93  finf03  pet extdp extwc1 zero zero   zero    am1 
+     94  finf03  pet extdp extwc2 zero zero   zero    am1 
+     95  finf02  pet extdp extwc2 zero zero   zero    am1 
+     96  finf03  pet extdp extwc1 zero zero   zero    am1 
+     97  finf03  pet extdp extwc1 zero zero   zero    am1 
+     98  finf02  pet extdp extwc1 zero zero   zero    am1 
+     99  finf02  pet extdp extwc1 zero zero   zero    am1 
+    100  finf02  pet extdp extwc1 zero zero   zero    am1 
+    101  finf02  pet extdp extwc1 zero zero   zero    am1 
+    102  finf02  pet extdp extwc1 zero zero   zero    am1 
+    103  finf03  pet extdp extwc1 zero zero   zero    am1 
+    104  finf03  pet extdp extwc1 zero zero   zero    am1 
+    105  finf02  pet extdp extwc2 zero zero   zero    am1 
+    106  finf05  pet extdp extwc2 zero zero   zero    am1 
+    107  finf05  pet extdp extwc2 zero zero   zero    am1 
+    108  finf05  pet extdp extwc2 zero zero   zero    am1 
+    109  finf05  pet extdp extwc2 zero zero   zero    am1 
+    110  finf05  pet extdp extwc2 zero zero   zero    am1 
+    111  finf02  pet extdp extwc2 zero zero   zero    am1 
+    112  finf03  pet extdp extwc1 zero zero   zero    am1 
+    113  finf04  pet extdp extwc2 zero zero   zero    am1 
+    114  finf04  pet extdp extwc2 zero zero   zero    am1 
+    115  finf04  pet extdp extwc2 zero zero   zero    am1 
+    116  finf04  pet extdp extwc2 zero zero   zero    am1 
+#
+    117  finf01  pet extdp extwc1 zero zero   zero    am2
+    118  finf02  pet extdp extwc1 zero zero   zero    am2 
+    119  finf02  pet extdp extwc2 zero zero   zero    am2 
+    120  finf03  pet extdp extwc1 zero zero   zero    am2 
+    121  finf02  pet extdp extwc1 zero zero   zero    am2 
+    122  finf04  pet extdp extwc2 zero zero   zero    am2 
+    123  finf04  pet extdp extwc2 zero zero   zero    am2 
+    124  finf05  pet extdp extwc2 zero zero   zero    am2 
+    125  finf05  pet extdp extwc2 zero zero   zero    am2 
+    126  finf03  pet extdp extwc1 zero zero   zero    am2 
+    127  finf03  pet extdp extwc1 zero zero   zero    am2 
+    128  finf04  pet extdp extwc2 zero zero   zero    am2 
+    129  finf04  pet extdp extwc2 zero zero   zero    am2 
+    130  finf05  pet extdp extwc2 zero zero   zero    am2 
+    131  finf05  pet extdp extwc2 zero zero   zero    am2 
+    132  finf04  pet extdp extwc2 zero zero   zero    am2 
+    133  finf05  pet extdp extwc2 zero zero   zero    am2 
+    134  finf03  pet extdp extwc2 zero zero   zero    am2 
+    135  finf03  pet extdp extwc1 zero zero   zero    am2 
+    136  finf03  pet extdp extwc1 zero zero   zero    am2 
+    137  finf03  pet extdp extwc1 zero zero   zero    am2 
+    138  finf03  pet extdp extwc2 zero zero   zero    am2 
+    139  finf03  pet extdp extwc2 zero zero   zero    am2 
+    140  finf02  pet extdp extwc2 zero zero   zero    am2 
+    141  finf04  pet extdp extwc2 zero zero   zero    am2 
+    142  finf05  pet extdp extwc2 zero zero   zero    am2 
+    143  finf03  pet extdp extwc2 zero zero   zero    am2 
+    144  finf03  pet extdp extwc1 zero zero   zero    am2 
+    145  finf03  pet extdp extwc1 zero zero   zero    am2 
+    146  finf03  pet extdp extwc1 zero zero   zero    am2 
+    147  finf03  pet extdp extwc1 zero zero   zero    am2 
+    148  finf03  pet extdp extwc1 zero zero   zero    am2 
+    149  finf03  pet extdp extwc1 zero zero   zero    am2 
+    150  finf03  pet extdp extwc1 zero zero   zero    am2 
+    151  finf04  pet extdp extwc2 zero zero   zero    am2 
+    152  finf05  pet extdp extwc2 zero zero   zero    am2 
+    153  finf05  pet extdp extwc2 zero zero   zero    am2 
+    154  finf02  pet extdp extwc1 zero zero   zero    am2 
+    155  finf02  pet extdp extwc1 zero zero   zero    am2 
+    156  finf03  pet extdp extwc1 zero zero   zero    am2 
+    157  finf03  pet extdp extwc1 zero zero   zero    am2 
+    158  finf03  pet extdp extwc1 zero zero   zero    am2 
+    159  finf03  pet extdp extwc2 zero zero   zero    am2 
+    160  finf05  pet extdp extwc2 zero zero   zero    am2 
+    161  finf04  pet extdp extwc2 zero zero   zero    am2 
+    162  finf05  pet extdp extwc2 zero zero   zero    am2 
+    163  finf05  pet extdp extwc2 zero zero   zero    am2 
+    164  finf02  pet extdp extwc1 zero zero   zero    am2 
+    165  finf02  pet extdp extwc1 zero zero   zero    am2 
+    166  finf03  pet extdp extwc1 zero zero   zero    am2 
+    167  finf03  pet extdp extwc1 zero zero   zero    am2 
+    168  finf02  pet extdp extwc1 zero zero   zero    am2 
+    169  finf02  pet extdp extwc2 zero zero   zero    am2 
+    170  finf05  pet extdp extwc2 zero zero   zero    am2 
+    171  finf05  pet extdp extwc2 zero zero   zero    am2 
+    172  finf02  pet extdp extwc1 zero zero   zero    am2 
+    173  finf02  pet extdp extwc1 zero zero   zero    am2 
+    174  finf03  pet extdp extwc1 zero zero   zero    am2 
+    175  finf03  pet extdp extwc1 zero zero   zero    am2 
+    176  finf02  pet extdp extwc2 zero zero   zero    am2 
+    177  finf05  pet extdp extwc2 zero zero   zero    am2 
+    178  finf05  pet extdp extwc2 zero zero   zero    am2 
+    179  finf05  pet extdp extwc2 zero zero   zero    am2 
+    180  finf02  pet extdp extwc1 zero zero   zero    am2 
+    181  finf02  pet extdp extwc1 zero zero   zero    am2 
+    182  finf03  pet extdp extwc1 zero zero   zero    am2 
+    183  finf03  pet extdp extwc1 zero zero   zero    am2 
+    184  finf02  pet extdp extwc2 zero zero   zero    am2 
+    185  finf05  pet extdp extwc2 zero zero   zero    am2 
+    186  finf05  pet extdp extwc2 zero zero   zero    am2 
+    187  finf05  pet extdp extwc2 zero zero   zero    am2 
+    188  finf02  pet extdp extwc1 zero zero   zero    am2 
+    189  finf02  pet extdp extwc1 zero zero   zero    am2 
+    190  finf03  pet extdp extwc1 zero zero   zero    am2 
+    191  finf03  pet extdp extwc1 zero zero   zero    am2 
+    192  finf02  pet extdp extwc2 zero zero   zero    am2 
+    193  finf05  pet extdp extwc2 zero zero   zero    am2 
+    194  finf04  pet extdp extwc2 zero zero   zero    am2 
+    195  finf03  pet extdp extwc2 zero zero   zero    am2 
+    196  finf03  pet extdp extwc2 zero zero   zero    am2 
+    197  finf03  pet extdp extwc1 zero zero   zero    am2 
+    198  finf03  pet extdp extwc1 zero zero   zero    am2 
+    199  finf03  pet extdp extwc1 zero zero   zero    am2 
+    200  finf03  pet extdp extwc1 zero zero   zero    am2 
+    201  finf02  pet extdp extwc2 zero zero   zero    am2 
+    202  finf05  pet extdp extwc2 zero zero   zero    am2 
+    203  finf03  pet extdp extwc2 zero zero   zero    am2 
+    204  finf03  pet extdp extwc2 zero zero   zero    am2 
+    205  finf03  pet extdp extwc1 zero zero   zero    am2 
+    206  finf03  pet extdp extwc1 zero zero   zero    am2 
+    207  finf03  pet extdp extwc1 zero zero   zero    am2 
+    208  finf03  pet extdp extwc1 zero zero   zero    am2 
+    209  finf03  pet extdp extwc1 zero zero   zero    am2 
+    210  finf03  pet extdp extwc2 zero zero   zero    am2 
+    211  finf02  pet extdp extwc2 zero zero   zero    am2 
+    212  finf03  pet extdp extwc1 zero zero   zero    am2 
+    213  finf03  pet extdp extwc1 zero zero   zero    am2 
+    214  finf02  pet extdp extwc1 zero zero   zero    am2 
+    215  finf02  pet extdp extwc1 zero zero   zero    am2 
+    216  finf02  pet extdp extwc1 zero zero   zero    am2 
+    217  finf02  pet extdp extwc1 zero zero   zero    am2 
+    218  finf02  pet extdp extwc1 zero zero   zero    am2 
+    219  finf03  pet extdp extwc1 zero zero   zero    am2 
+    220  finf03  pet extdp extwc1 zero zero   zero    am2 
+    221  finf02  pet extdp extwc2 zero zero   zero    am2 
+    222  finf05  pet extdp extwc2 zero zero   zero    am2 
+    223  finf05  pet extdp extwc2 zero zero   zero    am2 
+    224  finf05  pet extdp extwc2 zero zero   zero    am2 
+    225  finf05  pet extdp extwc2 zero zero   zero    am2 
+    226  finf05  pet extdp extwc2 zero zero   zero    am2 
+    227  finf02  pet extdp extwc2 zero zero   zero    am2 
+    228  finf03  pet extdp extwc1 zero zero   zero    am2 
+    229  finf04  pet extdp extwc2 zero zero   zero    am2 
+    230  finf04  pet extdp extwc2 zero zero   zero    am2 
+    231  finf04  pet extdp extwc2 zero zero   zero    am2 
+    232  finf04  pet extdp extwc2 zero zero   zero    am2 
+END  PERIOD

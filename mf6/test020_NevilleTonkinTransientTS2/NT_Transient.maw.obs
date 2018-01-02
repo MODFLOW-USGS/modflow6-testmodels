@@ -1,0 +1,28 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin continuous FILEOUT budget.maw.csv
+  from-mvr     from-mvr       pw
+  maw          maw            pw
+  rate         rate           pw
+  rate-to-mvr  rate-to-mvr    pw
+  fw-rate      fw-rate        pw
+  fw-to-mvr    fw-to-mvr      pw
+  storage      storage        pw
+  constant     constant       pw
+  cond         conductance    pw
+  fw-cond      fw-conductance pw
+end continuous
+
+begin continuous FILEOUT NT_MAWTransient.csv
+  PW1-RATE   RATE     1
+  PW2-RATE   RATE     2
+  PW1-HEAD   HEAD     1
+  PW2-HEAD   HEAD     2
+  PW1-L1FLOW MAW 1 1
+  PW1-L2FLOW MAW 1 2
+  PW2-L1FLOW MAW 2 1
+  PW2-L2FLOW MAW 2 2
+end continuous

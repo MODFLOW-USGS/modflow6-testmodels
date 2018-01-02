@@ -1,0 +1,7 @@
+begin options
+end options
+
+BEGIN GRIDDATA
+  strt LAYERED
+    CONSTANT 5.00    STRT LAYER 1
+END GRIDDATA

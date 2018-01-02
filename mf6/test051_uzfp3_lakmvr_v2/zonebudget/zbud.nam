@@ -1,0 +1,4 @@
+BEGIN ZONEBUDGET
+  BUD ../uzf.cbc
+  ZON zbud.zon
+END ZONEBUDGET

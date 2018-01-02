@@ -1,0 +1,11 @@
+list 26 child.lst
+DIS         20 CHILD.dis
+BAS6        25 CHILD.ba6
+LPF        27 CHILD.lpf
+WEL 22 CHILD.WEL
+PCG 23 child.pcg
+OC  24 CHILD.OC
+DATA(BINARY) 86 CHILD.hds replace
+DATA(BINARY) 88 CHILD.cbc replace
+ZONE 28 CHILD.zon
+

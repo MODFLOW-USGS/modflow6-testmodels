@@ -1,0 +1,16 @@
+BEGIN Options
+  NEWTON
+END Options
+
+BEGIN PACKAGES
+  DIS6          lakeex1a.dis
+  IC6           lakeex1a.ic
+  NPF6          lakeex1a.npf
+  STO6          lakeex1a.sto
+  OC6           lakeex1a.oc
+  EVT6          lakeex1a.evt
+  RCH6          lakeex1a.rch
+  CHD6          lakeex1a.chd
+  LAK6          lakeex1a.lak
+END PACKAGES
+

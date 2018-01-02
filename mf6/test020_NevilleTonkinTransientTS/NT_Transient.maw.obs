@@ -1,0 +1,16 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin continuous FILEOUT NT_MAW_Transient1.csv
+  M1HEAD0   HEAD  1
+  M1RATE0   RATE  1
+end continuous
+
+begin continuous FILEOUT NT_MAW_Transient2.csv
+  M1HEAD   HEAD  1
+  M1RATE   RATE  1
+  L1FLOW   MAW 1 1
+  L2FLOW   MAW 1 2
+end continuous

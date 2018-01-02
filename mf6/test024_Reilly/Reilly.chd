@@ -1,0 +1,13 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+end options
+
+begin dimensions
+  MAXBOUND 1312
+end dimensions
+
+begin period 1
+  open/close Reilly.chd.ref
+end period

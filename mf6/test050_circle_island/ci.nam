@@ -1,0 +1,12 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DISV6         ci.disv
+  IC6           ci.ic
+  NPF6          ci.npf
+  #CHD6          ci.chd
+  GHB6          ci.ghb
+  RCH6          ci.rch
+  OC6           ci.oc
+END PACKAGES

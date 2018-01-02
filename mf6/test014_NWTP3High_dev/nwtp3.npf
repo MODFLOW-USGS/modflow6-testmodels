@@ -1,0 +1,14 @@
+begin options
+  SAVE_FLOWS
+  DEV_MODFLOWUSG_UPSTREAM_WEIGHTED_SATURATION
+end options
+#
+BEGIN GRIDDATA
+  icelltype LAYERED
+    constant 1
+  k LAYERED
+    constant 1.00
+  K33
+    constant 1.00
+END GRIDDATA
+

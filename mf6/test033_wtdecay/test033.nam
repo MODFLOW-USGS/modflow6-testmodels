@@ -1,0 +1,13 @@
+BEGIN OPTIONS
+  NEWTON
+END OPTIONS
+
+BEGIN PACKAGES
+  IC6           test033.ic
+  NPF6          test033.npf
+  OC6           test033.oc
+  DIS6          test033.dis
+  GHB6          test033.ghb
+  STO6          test033.sto
+END PACKAGES
+

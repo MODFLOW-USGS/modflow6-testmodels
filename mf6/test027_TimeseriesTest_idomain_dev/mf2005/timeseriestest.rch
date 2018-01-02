@@ -1,0 +1,47 @@
+# time-varying recharge, meters/day
+PARAMETER  11                Item 1: NPRCH
+3 0                          Item 2: NRCHOP IRCHCB
+RchPar_1   RCH   0.0001  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_2   RCH   0.0002  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_3   RCH   0.0003  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_4   RCH   0.0004  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_5   RCH   0.0005  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_6   RCH   0.0006  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_7   RCH   0.0007  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_8   RCH   0.0008  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_9   RCH   0.0009  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_10  RCH   0.0010  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+RchPar_11  RCH   0.0011  1   Item 3: PARNAM NARTYP PARVAL NCLU NUMINST
+RchMult    all               Item 4b: Mltarr Zonarr [IZ]
+1                            Item 5: INRECH INIRCH, SP 1
+RchPar_1
+1                            Item 5: INRECH INIRCH, SP 2
+RchPar_2
+1                            Item 5: INRECH INIRCH, SP 3
+RchPar_3
+1                            Item 5: INRECH INIRCH, SP 4
+RchPar_4
+1                            Item 5: INRECH INIRCH, SP 5
+RchPar_5
+1                            Item 5: INRECH INIRCH, SP 6
+RchPar_6
+1                            Item 5: INRECH INIRCH, SP 7
+RchPar_7
+1                            Item 5: INRECH INIRCH, SP 8
+RchPar_8
+1                            Item 5: INRECH INIRCH, SP 9
+RchPar_9
+1                            Item 5: INRECH INIRCH, SP 10
+RchPar_10
+1                            Item 5: INRECH INIRCH, SP 11
+RchPar_11

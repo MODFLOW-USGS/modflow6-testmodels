@@ -1,0 +1,22 @@
+# WEL8 input file, prepared by MF5to6 on 1/11/2017 at 17:13:57.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  MOVER
+  BOUNDNAMES
+  OBS6 FILEIN  wel.obs
+  
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  4
+END Dimensions
+
+BEGIN PERIOD 1
+  1  2   4       0.0      W1
+  1  17 14       0.0      W2
+  1  5  15   -1000.0000   W3
+  1  10 10       0.0      W4
+END PERIOD

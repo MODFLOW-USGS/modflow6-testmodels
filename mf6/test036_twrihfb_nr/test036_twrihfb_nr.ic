@@ -1,0 +1,13 @@
+# IC8 input file, prepared by MF5to6 on 8/1/2016 at 14:29:17.
+
+BEGIN Options
+END Options
+
+BEGIN GRIDDATA
+  STRT LAYERED
+    CONSTANT    0.000000    
+    CONSTANT    0.000000    
+    CONSTANT    0.000000    
+    CONSTANT    0.000000    
+    CONSTANT    0.000000    
+END GRIDDATA

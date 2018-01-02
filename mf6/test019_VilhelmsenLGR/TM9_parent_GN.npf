@@ -1,0 +1,28 @@
+BEGIN OPTIONS
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN GRIDDATA
+  ICELLTYPE
+    CONSTANT 0
+  k LAYERED
+    OPEN/CLOSE TM9_parent_GN.npf.hk1.ref  FACTOR  1.0  IPRN -1  Layer 1 
+    OPEN/CLOSE TM9_parent_GN.npf.hk2.ref  FACTOR  1.0  IPRN -1  Layer 2 
+    OPEN/CLOSE TM9_parent_GN.npf.hk3.ref  FACTOR  1.0  IPRN -1  Layer 3 
+    OPEN/CLOSE TM9_parent_GN.npf.hk4.ref  FACTOR  1.0  IPRN -1  Layer 4 
+    OPEN/CLOSE TM9_parent_GN.npf.hk5.ref  FACTOR  1.0  IPRN -1  Layer 5 
+    OPEN/CLOSE TM9_parent_GN.npf.hk6.ref  FACTOR  1.0  IPRN -1  Layer 6 
+    OPEN/CLOSE TM9_parent_GN.npf.hk7.ref  FACTOR  1.0  IPRN -1  Layer 7 
+    OPEN/CLOSE TM9_parent_GN.npf.hk8.ref  FACTOR  1.0  IPRN -1  Layer 8 
+    OPEN/CLOSE TM9_parent_GN.npf.hk9.ref  FACTOR  1.0  IPRN -1  Layer 9 
+  K33 LAYERED
+    OPEN/CLOSE TM9_parent_GN.npf.hk1.ref  FACTOR  1.0  IPRN -1  Layer 1 
+    OPEN/CLOSE TM9_parent_GN.npf.hk2.ref  FACTOR  1.0  IPRN -1  Layer 2 
+    OPEN/CLOSE TM9_parent_GN.npf.hk3.ref  FACTOR  1.0  IPRN -1  Layer 3 
+    OPEN/CLOSE TM9_parent_GN.npf.hk4.ref  FACTOR  1.0  IPRN -1  Layer 4 
+    OPEN/CLOSE TM9_parent_GN.npf.hk5.ref  FACTOR  1.0  IPRN -1  Layer 5 
+    OPEN/CLOSE TM9_parent_GN.npf.hk6.ref  FACTOR  1.0  IPRN -1  Layer 6 
+    OPEN/CLOSE TM9_parent_GN.npf.hk7.ref  FACTOR  1.0  IPRN -1  Layer 7 
+    OPEN/CLOSE TM9_parent_GN.npf.hk8.ref  FACTOR  1.0  IPRN -1  Layer 8 
+    OPEN/CLOSE TM9_parent_GN.npf.hk9.ref  FACTOR  1.0  IPRN -1  Layer 9 
+END GRIDDATA

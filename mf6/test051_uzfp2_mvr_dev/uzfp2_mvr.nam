@@ -1,0 +1,17 @@
+BEGIN Options
+  LIST       uzfp2_mvr.lst
+END Options
+
+BEGIN Packages
+  DIS6       uzfp2_mvr.dis
+  IC6        uzfp2_mvr.ic
+  NPF6       uzfp2_mvr.npf
+  STO6       uzfp2_mvr.sto
+  OC6        uzfp2_mvr.oc
+  SFR6       uzfp2_mvr.sfr  'SFR_1'           
+  WEL6       uzfp2_mvr.wel
+  GHB6       uzfp2_mvr.ghb
+  UZF6       uzfp2_mvr.uzf  'UZF_1'           
+  MVR6       uzfp2_mvr.mvr
+END Packages
+

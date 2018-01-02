@@ -1,0 +1,8 @@
+# WEL: Well package file created on 4/10/2015 by ModelMuse version 3.5.1.0.
+ 1 -1 AUXILIARY IFACE # DataSet 2: MXACTC IGHBCB Option
+ 0  0              # Data Set 5: ITMP NP Stress period 1
+ 1  0              # Data Set 5: ITMP NP Stress period 2
+ 1 28 12 -230.0  0 # Data Set 6: Layer Row Column Q IFACE
+ 0  0              # Data Set 5: ITMP NP Stress period 3
+ 0  0              # Data Set 5: ITMP NP Stress period 4
+ 0  0              # Data Set 5: ITMP NP Stress period 5

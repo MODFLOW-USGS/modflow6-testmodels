@@ -1,0 +1,27 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN CONTINUOUS FILEOUT  obs_uzf.csv
+ID26_INFIL INFILTRATION 26
+ID126_INFIL INFILTRATION 126
+ID26_DPTH=20 WATER-CONTENT 26 20.0
+ID126_DPTH=51 WATER-CONTENT 126 1.0    #DEPTH IS BELOW CELTOP
+ID126_RCH UZF-GWRCH 126
+END CONTINUOUS
+
+BEGIN CONTINUOUS FILEOUT  uzf.budget.uzf.csv
+  sinf         infiltration     uzfcells
+  frommvr      from-mvr         uzfcells
+  rejinf       rej-inf          uzfcells
+  rejinftomvr  rej-inf-to-mvr   uzfcells
+  uzet         uzet             uzfcells
+  storage      storage          uzfcells
+  net-inf      net-infiltration uzfcells
+END CONTINUOUS
+
+BEGIN CONTINUOUS FILEOUT  uzf.budget.gwf.csv
+  gwrch      uzf-gwrch        uzfcells
+  gwd        uzf-gwd          uzfcells
+  gwdtomvr   uzf-gwd-to-mvr   uzfcells
+  gwet       uzf-gwet         uzfcells
+END CONTINUOUS

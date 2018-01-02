@@ -1,0 +1,12 @@
+BEGIN Options
+END Options
+
+BEGIN PACKAGES
+  DIS6          drylake.dis
+  IC6           drylake.ic
+  NPF6          drylake.npf
+  OC6           drylake.oc
+  CHD6          drylake.chd
+  LAK6          drylake.lak
+END PACKAGES
+

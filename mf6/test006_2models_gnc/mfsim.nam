@@ -1,0 +1,30 @@
+BEGIN OPTIONS
+#none
+END OPTIONS
+
+BEGIN TIMING
+  TDIS6 simulation.tdis
+END TIMING
+
+BEGIN MODELS
+  #modeltype      namefile      modelname
+         GWF6    model1.nam    GWF_Model_1
+         GWF6    model2.nam    GWF_Model_2
+END MODELS
+
+BEGIN EXCHANGES
+  GWF6-GWF6 simulation.exg GWF_Model_1 GWF_Model_2
+END EXCHANGES
+
+BEGIN SOLUTIONGROUP 1
+  #implicit exchange
+  MXITER 1
+  IMS6 simulation.ims GWF_Model_1 GWF_Model_2
+  #
+  #explicit exchange
+  #MXITER 10
+  #IMS6 simulation.ims GWF_Model_1
+  #IMS6 simulation.ims GWF_Model_2
+END SOLUTIONGROUP
+
+

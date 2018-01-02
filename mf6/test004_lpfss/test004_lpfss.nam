@@ -1,0 +1,14 @@
+BEGIN Options
+  LIST       test004_lpfss.lst
+END Options
+
+BEGIN Packages
+  DIS6       test004_lpfss.dis
+  IC6        test004_lpfss.ic
+  NPF6       test004_lpfss.npf
+  OC6        test004_lpfss.oc
+  WEL6       test004_lpfss.wel
+  RIV6       test004_lpfss.riv
+  RCH6       test004_lpfss.rch
+END Packages
+

@@ -10,6 +10,6 @@ BEGIN PACKAGES
   STO6          test001e_UZF_3lay.sto
   CHD6          test001e_UZF_3lay.chd
   OC6           test001e_UZF_3lay.oc
-  UZF6         test001e_UZF_3lay.uzf
-  OBS6         test001e_UZF_3lay_obs.hed
+  UZF6          test001e_UZF_3lay.uzf
+  OBS6          test001e_UZF_3lay_head.obs
 END PACKAGES

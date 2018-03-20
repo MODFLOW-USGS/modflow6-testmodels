@@ -1,0 +1,53 @@
+BEGIN OPTIONS
+  PRINT_INPUT
+  AUXILIARY AUX1 MYCONDMULT
+  AUXMULTNAME MYCONDMULT
+  PRINT_FLOWS
+  TS6 FILEIN flow15.drn.ts
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND 10
+END DIMENSIONS
+
+BEGIN PERIOD 1
+  1 1 1  drnelev drncond 2.0 99.0
+  1 1 2  drnelev drncond 2.0 99.0
+  1 1 3  drnelev drncond 2.0 99.0
+  1 1 4  drnelev drncond 2.0 99.0
+  1 1 5  drnelev drncond 2.0 99.0
+  1 1 6  drnelev drncond 2.0 99.0
+  1 1 7  drnelev drncond 2.0 99.0
+  1 1 8  drnelev drncond 2.0 99.0
+  1 1 9  drnelev drncond 2.0 99.0
+  1 1 10 drnelev drncond 2.0 99.0
+END PERIOD
+
+BEGIN PERIOD 2
+END PERIOD
+
+BEGIN PERIOD 3
+  1 1 1  drnelev drncond 1.0 1.0
+  1 1 2  drnelev drncond 1.0 1.0
+  1 1 3  drnelev drncond 1.0 1.0
+  1 1 4  drnelev drncond 1.0 1.0
+  1 1 5  drnelev drncond 1.0 1.0
+  1 1 6  drnelev drncond 1.0 1.0
+  1 1 7  drnelev drncond 1.0 1.0
+  1 1 8  drnelev drncond 1.0 1.0
+  1 1 9  drnelev drncond 1.0 1.0
+  1 1 10 drnelev drncond 1.0 1.0
+END PERIOD
+
+BEGIN PERIOD 4
+  1 1 1  0.02 0.5 1.0 1.0
+  1 1 2  0.02 0.5 1.0 1.0
+  1 1 3  0.02 0.5 1.0 1.0
+  1 1 4  0.02 0.5 1.0 1.0
+  1 1 5  0.02 0.5 1.0 1.0
+  1 1 6  0.02 0.5 1.0 1.0
+  1 1 7  0.02 0.5 1.0 1.0
+  1 1 8  0.02 0.5 1.0 1.0
+  1 1 9  0.02 0.5 1.0 1.0
+  1 1 10 0.02 0.5 1.0 1.0
+END PERIOD

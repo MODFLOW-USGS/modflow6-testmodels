@@ -1,0 +1,25 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+  AUXILIARY IFACE CONDFACT CELLGRP      
+  SAVE_FLOWS                            
+END OPTIONS                             
+                                        
+BEGIN DIMENSIONS                        
+  MAXBOUND 9                            
+END DIMENSIONS                          
+                                        
+BEGIN PERIOD 1                          
+      1     8     2          0.0       7430.0     6           1.0    -1  
+      1     8     3          0.0       7430.0     6           1.0    -1  
+      1     8     4          3.0       7430.0     6           1.0    -1  
+      1     8     5          6.0       7430.0     6           1.0    -1  
+      1     8     6          9.0       7430.0     6           1.0    -1  
+      1     8     7         15.0       7430.0     6           1.0    -1  
+      1     8     8         20.0       7430.0     6           1.0    -1  
+      1     8     9         27.0       7430.0     6           1.0    -1  
+      1     8    10         30.0       7430.0     6           1.0    -1  
+END PERIOD                              
+                                        

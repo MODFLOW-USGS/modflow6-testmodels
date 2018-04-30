@@ -1,0 +1,21 @@
+740 -888.0 0                             #  1. ILPFCB HDRY NPLPF [Options]
+1 1 1                                    #  2. Ltype(NLAY)
+0 0 0                                    #  3. LAYAVG(NLAY)
+-1.0 -1.0 -1.0                           #  4. CHANI(NLAY)
+1 1 1                                    #  5. LAYVKA(NLAY)
+0 0 0                                    #  6. LAYWET(NLAY)
+CONSTANT 15.0                            # 10. HK(NCOL,NROW)        LAY 1
+CONSTANT 1.0                             # 11. [HANI(NCOL,NROW)]    LAY 1
+CONSTANT 10.0                            # 12. VKA(NCOL,NROW)       LAY 1
+CONSTANT 0.0                             # 13. [Ss(NCOL,NROW)]      LAY 1
+CONSTANT 0.0                             # 14. [Sy(NCOL,NROW)]      LAY 1
+CONSTANT 0.9                             # 10. HK(NCOL,NROW)        LAY 2
+CONSTANT 1.0                             # 11. [HANI(NCOL,NROW)]    LAY 2
+CONSTANT 5.0                             # 12. VKA(NCOL,NROW)       LAY 2
+CONSTANT 0.0                             # 13. [Ss(NCOL,NROW)]      LAY 2
+CONSTANT 0.0                             # 14. [Sy(NCOL,NROW)]      LAY 2
+CONSTANT 2.0                             # 10. HK(NCOL,NROW)        LAY 3
+CONSTANT 1.0                             # 11. [HANI(NCOL,NROW)]    LAY 3
+CONSTANT 5.0                             # 12. VKA(NCOL,NROW)       LAY 3
+CONSTANT 0.0                             # 13. [Ss(NCOL,NROW)]      LAY 3
+CONSTANT 0.0                             # 14. [Sy(NCOL,NROW)]      LAY 3

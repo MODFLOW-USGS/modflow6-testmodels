@@ -1,0 +1,7 @@
+#
+    3   740                              #  2. NRCHOP IRCHCB
+    1     0                              #  5. INRECH INIRCH
+CONSTANT 0.0009                          #  6. RECH(NCOL,NROW)
+    1     0                              #  5. INRECH INIRCH
+CONSTANT 0.0009                          #  6. RECH(NCOL,NROW)
+   -1     0                              #  5. INRECH INIRCH

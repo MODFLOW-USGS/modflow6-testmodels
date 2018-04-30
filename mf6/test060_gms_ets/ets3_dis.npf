@@ -1,0 +1,26 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+  SAVE_FLOWS                            
+  #ALTERNATIVE_CELL_AVERAGING AMT-HMK    
+  VARIABLECV DEWATERED                  
+  PERCHED
+  REWET WETFCT 1. IWETIT 1 IHDWET 0                               
+END OPTIONS                             
+                                        
+BEGIN GRIDDATA                          
+  ICELLTYPE                             
+    CONSTANT 1                         
+  K LAYERED                             
+    CONSTANT 15.0
+    CONSTANT 0.9
+    CONSTANT 2.0
+  K33 LAYERED                           
+    CONSTANT 1.5
+    CONSTANT 0.18
+    CONSTANT 0.4
+  WETDRY
+    CONSTANT 0.01
+END GRIDDATA                            

@@ -1,0 +1,23 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+  LIST ets3_dis.out                     
+  PRINT_INPUT                           
+  PRINT_FLOWS                           
+  SAVE_FLOWS                            
+END OPTIONS                             
+                                        
+BEGIN PACKAGES                          
+  DIS6  ets3_dis.dis                    
+  OC6  ets3_dis.oc                      
+  RCH6  ets3_dis.rch                    
+  WEL6  ets3_dis.wel                    
+  DRN6  ets3_dis.drn                    
+  EVT6  ets3_dis.evt                    
+  NPF6 ets3_dis.npf                     
+  STO6 ets3_dis.sto                     
+  IC6 ets3_dis.ic                       
+  CHD6 ets3_dis.chd                     
+END PACKAGES                            

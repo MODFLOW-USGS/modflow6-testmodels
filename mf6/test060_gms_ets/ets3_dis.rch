@@ -1,0 +1,18 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+  READASARRAYS                          
+END OPTIONS                             
+                                        
+BEGIN PERIOD 1                          
+  RECHARGE LAYERED                      
+    CONSTANT 0.0009                     
+END PERIOD                              
+                                        
+BEGIN PERIOD 2                          
+  RECHARGE LAYERED                      
+    CONSTANT 0.0009                     
+END PERIOD                              
+                                        

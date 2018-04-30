@@ -1,0 +1,17 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+ TIME_UNITS days                        
+END OPTIONS                             
+                                        
+BEGIN DIMENSIONS                        
+  NPER 3                                
+END DIMENSIONS                          
+                                        
+BEGIN PERIODDATA                        
+  1.0 1 1.0                             
+  1.0 1 1.0                             
+  1.0 1 1.0                             
+END PERIODDATA                          

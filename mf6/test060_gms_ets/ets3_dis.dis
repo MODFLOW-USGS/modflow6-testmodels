@@ -1,0 +1,31 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+ LENGTH_UNITS METERS                    
+  NOGRB                                 
+END OPTIONS                             
+                                        
+BEGIN DIMENSIONS                        
+ NLAY 3                                 
+ NROW 15                                
+ NCOL 15                                
+END DIMENSIONS                          
+                                        
+BEGIN GRIDDATA                          
+  DELR                                  
+    CONSTANT 1524.0                     
+  DELC                                  
+    CONSTANT 1524.0                     
+  TOP LAYERED                           
+    CONSTANT 60.0                       
+  BOTM LAYERED                          
+    CONSTANT -45.0
+    CONSTANT -120.0
+    CONSTANT -215.0
+  IDOMAIN LAYERED                       
+    CONSTANT 1
+    CONSTANT 1
+    CONSTANT 1
+END GRIDDATA                            

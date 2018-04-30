@@ -1,0 +1,35 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+  SAVE_FLOWS                            
+END OPTIONS                             
+                                        
+BEGIN GRIDDATA                          
+  ICONVERT LAYERED                      
+    CONSTANT 1
+    CONSTANT 1
+    CONSTANT 1
+  SS LAYERED                            
+    CONSTANT 0.0
+    CONSTANT 0.0
+    CONSTANT 0.0
+  SY LAYERED                            
+    CONSTANT 0.0
+    CONSTANT 0.0
+    CONSTANT 0.0
+END GRIDDATA                            
+                                        
+BEGIN PERIOD 1                          
+  STEADY-STATE                          
+END PERIOD                              
+                                        
+BEGIN PERIOD 2                          
+  TRANSIENT                             
+END PERIOD                              
+                                        
+BEGIN PERIOD 3                          
+  TRANSIENT                             
+END PERIOD                              
+                                        

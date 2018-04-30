@@ -1,0 +1,29 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN OPTIONS                           
+  BUDGET FILEOUT ets3_dis.ccf           
+  HEAD FILEOUT ets3_dis.hed             
+  HEAD PRINT_FORMAT COLUMNS 10 WIDTH 11 DIGITS 4
+END OPTIONS                             
+                                        
+BEGIN PERIOD 1                          
+  PRINT BUDGET FIRST                    
+  SAVE HEAD FIRST                       
+  SAVE BUDGET FIRST                     
+END PERIOD                              
+                                        
+BEGIN PERIOD 2                          
+  PRINT BUDGET FIRST                    
+  SAVE HEAD FIRST                       
+  SAVE BUDGET FIRST                     
+END PERIOD                              
+                                        
+BEGIN PERIOD 3                          
+  PRINT BUDGET FIRST                    
+  SAVE HEAD FIRST                       
+  SAVE BUDGET FIRST
+  PRINT HEAD ALL
+END PERIOD                              
+                                        

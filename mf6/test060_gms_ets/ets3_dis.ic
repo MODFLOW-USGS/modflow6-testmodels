@@ -1,0 +1,10 @@
+# Exported by MODFLOW Exporter from Aquaveo, the GMS developers.
+# www.aquaveo.com/gms
+
+
+BEGIN GRIDDATA                          
+  STRT LAYERED                          
+    CONSTANT 0.0
+    CONSTANT 0.0
+    CONSTANT 0.0
+END GRIDDATA                            

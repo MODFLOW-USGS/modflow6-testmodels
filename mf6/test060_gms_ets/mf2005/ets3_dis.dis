@@ -1,0 +1,15 @@
+# MF2K DISCRETIZATION FILE
+#
+#
+# NLAY NROW NCOL NPER TIMEUNITS LENUNITS
+     3     15     15      3      4      2      #  1. NLAY NROW NCOL NPER ITMUNI LENUNI
+0 0 0                                          #  2. LAYCBD(NLAY)
+CONSTANT 1524.0                                #  3. DELR(NCOL)
+CONSTANT 1524.0                                #  4. DELC(NROW)
+CONSTANT 60.0                                  #  5. Top(NCOL,NROW)     LAY 1
+CONSTANT -45.0                                 #  6. BOTM(NCOL,NROW)    LAY 1
+CONSTANT -120.0                                #  6. BOTM(NCOL,NROW)    LAY 2
+CONSTANT -215.0                                #  6. BOTM(NCOL,NROW)    LAY 3
+1.0 1 1.0 Ss                                   #  7. PERLEN NSTP TSMULT Ss/tr    PERIOD 1
+1.0 1 1.0 Tr                                   #  7. PERLEN NSTP TSMULT Ss/tr    PERIOD 2
+1.0 1 1.0 Tr                                   #  7. PERLEN NSTP TSMULT Ss/tr    PERIOD 3

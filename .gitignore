@@ -23,3 +23,5 @@
 *.bak
 
 *.bat
+
+.ipynb_checkpoints/

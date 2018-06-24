@@ -15,7 +15,7 @@ end dimensions
 
 BEGIN PACKAGEDATA
 #  wellno radius bottom strt   condeqn ngwnodes name          
-#       1   0.25 -100.0 9.14     theim        1 iwell       
+#       1   0.25 -100.0 9.14     THIEM        1 iwell
         1   0.25 -100.0 9.14 specified        1 iwell       
 END PACKAGEDATA
 

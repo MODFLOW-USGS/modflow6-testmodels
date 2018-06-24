@@ -16,7 +16,7 @@ end dimensions
 
 BEGIN PACKAGEDATA
 # no radius bottom strt     condeqn ngwnodes  name          
-#  1   0.15 -514.9 9.14       THEIM        2  ntwell       
+#  1   0.15 -514.9 9.14       THIEM        2  ntwell
    1   0.15 -514.9 9.14   SPECIFIED        2  ntwell       
 END PACKAGEDATA
 

@@ -12,7 +12,7 @@ end dimensions
 
 BEGIN PACKAGEDATA
 # no radius bottom strt     condeqn ngwnodes  name          
-   1   0.15   -5.0 50.0       THEIM        4  well4       
+   1   0.15   -5.0 50.0       THIEM        4  well4
 END PACKAGEDATA
 
 BEGIN CONNECTIONDATA

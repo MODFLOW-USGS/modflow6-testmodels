@@ -1,6 +1,6 @@
 BEGIN Options
   PRINT_OPTION SUMMARY
-  DEV_NO_PTC
+  NO_PTC
 END Options
 
 BEGIN Nonlinear

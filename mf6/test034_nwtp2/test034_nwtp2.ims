@@ -2,6 +2,7 @@
 
 BEGIN Options
   PRINT_OPTION SUMMARY
+  NO_PTC
 END Options
 
 begin nonlinear

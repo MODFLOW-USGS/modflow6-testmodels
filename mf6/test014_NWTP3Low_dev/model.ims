@@ -1,7 +1,7 @@
 begin options
   PRINT_OPTION ALL
   CSV_OUTPUT FILEOUT nwtp3low.ims.csv
-  DEV_NO_PTC
+  NO_PTC
 end options
 
 begin nonlinear

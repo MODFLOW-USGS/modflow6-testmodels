@@ -6,10 +6,3 @@ BEGIN PACKAGES
   WEL6             model.wel
   OC6              model.oc
 END PACKAGES
-
-BEGIN OUTPUT_FILES
-  LIST             model.list
-  DATA(BINARY)     model.hds REPLACE
-  DATA(BINARY)     model.ddn REPLACE
-  DATA(BINARY)     model.cbc REPLACE
-END OUTPUT_FILES

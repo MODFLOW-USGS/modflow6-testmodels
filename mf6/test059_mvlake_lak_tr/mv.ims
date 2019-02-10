@@ -7,4 +7,5 @@ END Options
 
 BEGIN Nonlinear
   OUTER_MAXIMUM  7000
+  OUTER_HCLOSE 1e-5
 END Nonlinear

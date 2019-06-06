@@ -1,3 +1,4 @@
+from __future__ import print_function
 import os
 import numpy as np
 
@@ -19,7 +20,7 @@ h2 = 3.05
 
 xmax = dx * float(ncol)
 ymax = dx * float(nrow)
-print xmax, ymax
+print(xmax, ymax)
 
 #--x
 x = np.arange(0, xmax, dx) + dx/2.
@@ -33,7 +34,7 @@ X, Y = np.meshgrid(x, y[::-1])
 xc, yc = X[75, 75], Y[75, 75]
 
 R = np.sqrt((X-xc)**2 + (Y-yc)**2)
-print R.min(), R.max()
+print(R.min(), R.max())
 
 h = analwt(h1, h2, xmax/2., R)
 

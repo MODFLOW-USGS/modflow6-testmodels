@@ -28,4 +28,7 @@ result.reverse()
 for i in result:
   print ('{0:50} ==> '.format(i[1])+'%0.1f MB' %i[0])
 
-raw_input()
+try:
+  raw_input()  # Python 2
+except NameError:
+  input()      # Python 3

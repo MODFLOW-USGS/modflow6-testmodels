@@ -1,0 +1,13 @@
+BEGIN options
+  SAVE_FLOWS
+END options
+
+BEGIN packages
+  DIS6  child1.dis  dis
+  IC6  child1.ic  ic
+  NPF6  child1.npf  npf
+  RCH6  child1.rcha  rcha
+  RIV6  child1.riv  riv_0
+  OC6  child1.oc  oc
+END packages
+

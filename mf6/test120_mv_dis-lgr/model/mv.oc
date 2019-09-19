@@ -1,0 +1,10 @@
+BEGIN options
+  BUDGET  FILEOUT  mv.bud
+  HEAD  FILEOUT  mv.hds
+END options
+
+BEGIN period  1
+  SAVE  HEAD  ALL
+  SAVE  BUDGET  ALL
+END period  1
+

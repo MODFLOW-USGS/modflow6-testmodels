@@ -1,0 +1,14 @@
+BEGIN options
+  SAVE_FLOWS
+END options
+
+BEGIN packages
+  DISV6  model.disv  disv
+  IC6  model.ic  ic
+  NPF6  model.npf  npf
+  CHD6  model.chd  chd_0
+  RCH6  model.rcha  rcha
+  RIV6  model.riv  riv_0
+  OC6  model.oc  oc
+END packages
+

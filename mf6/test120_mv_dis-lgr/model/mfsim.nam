@@ -1,0 +1,20 @@
+BEGIN options
+END options
+
+BEGIN timing
+  TDIS6  mv.tdis
+END timing
+
+BEGIN models
+  gwf6  mv.nam  mv
+  gwf6  child.nam  child
+END models
+
+BEGIN exchanges
+  gwf6-gwf6  mv.gwfgwf  mv  child
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  mv.ims  mv  child
+END solutiongroup  1
+

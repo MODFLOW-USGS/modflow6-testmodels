@@ -1,6 +1,8 @@
 # Unstructured discretization file for MODFLOW-USG
 begin options
   LENGTH_UNITS meters
+  XORIGIN 200.
+  YORIGIN 200.
 end options
 
 begin dimensions

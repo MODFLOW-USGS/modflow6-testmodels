@@ -1,5 +1,5 @@
 BEGIN griddata
   strt
-    OPEN/CLOSE  'cstrt.bin'  FACTOR  1.0  (BINARY)
+    CONSTANT 0.0
 END griddata
 

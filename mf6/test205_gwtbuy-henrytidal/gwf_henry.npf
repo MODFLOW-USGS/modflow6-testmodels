@@ -1,0 +1,13 @@
+BEGIN options
+  SAVE_FLOWS
+  
+  SAVE_SPECIFIC_DISCHARGE
+END options
+
+BEGIN griddata
+  icelltype
+    CONSTANT  1
+  k
+    CONSTANT     864.00000000
+END griddata
+

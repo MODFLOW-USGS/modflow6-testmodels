@@ -1,0 +1,16 @@
+BEGIN options
+  NEWTON
+END options
+
+BEGIN packages
+  DIS6  gwf_henry.dis  dis
+  IC6  gwf_henry.ic  ic
+  NPF6  gwf_henry.npf  npf
+  STO6  gwf_henry.sto  sto
+  BUY6  gwf_henry.buy  buy
+  DRN6  gwf_henry.drn  drn-1
+  GHB6  gwf_henry.ghb  ghb-1
+  WEL6  gwf_henry.wel  wel-1
+  OC6  gwf_henry.oc  oc
+END packages
+

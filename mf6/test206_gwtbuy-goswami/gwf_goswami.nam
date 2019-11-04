@@ -1,0 +1,13 @@
+BEGIN options
+END options
+
+BEGIN packages
+  DIS6  gwf_goswami.dis  dis
+  IC6  gwf_goswami.ic  ic
+  NPF6  gwf_goswami.npf  npf
+  BUY6  gwf_goswami.buy  buy
+  GHB6  gwf_goswami.ghb  ghb-1
+  CHD6  gwf_goswami-right.chd  chd-right
+  OC6  gwf_goswami.oc  oc
+END packages
+

@@ -1,0 +1,23 @@
+BEGIN options
+  CONTINUE
+  MAXERRORS  1000
+END options
+
+BEGIN timing
+  TDIS6  goswami.tdis
+END timing
+
+BEGIN models
+  gwf6  gwf_goswami.nam  gwf_goswami
+  gwt6  gwt_goswami.nam  gwt_goswami
+END models
+
+BEGIN exchanges
+  GWF6-GWT6  goswami.gwfgwt  gwf_goswami  gwt_goswami
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  gwf_goswami.ims  gwf_goswami
+  ims6  gwt_goswami.ims  gwt_goswami
+END solutiongroup  1
+

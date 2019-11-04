@@ -1,0 +1,8 @@
+BEGIN options
+END options
+
+BEGIN sources
+  GHB-1  AUX  CONCENTRATION
+  CHD-RIGHT  AUX  CONCENTRATION
+END sources
+

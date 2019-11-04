@@ -1,0 +1,12 @@
+BEGIN options
+  TIME_UNITS  days
+END options
+
+BEGIN dimensions
+  NPER  1
+END dimensions
+
+BEGIN perioddata
+       0.50000000  500       1.00000000
+END perioddata
+

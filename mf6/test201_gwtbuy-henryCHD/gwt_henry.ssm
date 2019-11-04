@@ -1,0 +1,8 @@
+BEGIN options
+END options
+
+BEGIN sources
+  CHD-1  AUX  CONCENTRATION
+  WEL-1  AUX  CONCENTRATION
+END sources
+

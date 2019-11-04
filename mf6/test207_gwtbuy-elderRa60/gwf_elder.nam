@@ -1,0 +1,13 @@
+BEGIN options
+  NEWTON
+END options
+
+BEGIN packages
+  DIS6  gwf_elder.dis  dis
+  IC6  gwf_elder.ic  ic
+  NPF6  gwf_elder.npf  npf
+  STO6  gwf_elder.sto  sto
+  BUY6  gwf_elder.buy  buy
+  OC6  gwf_elder.oc  oc
+END packages
+

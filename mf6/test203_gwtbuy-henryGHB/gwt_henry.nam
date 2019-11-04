@@ -1,0 +1,13 @@
+BEGIN options
+END options
+
+BEGIN packages
+  DIS6  gwt_henry.dis  dis
+  IC6  gwt_henry.ic  ic
+  ADV6  gwt_henry.adv  adv
+  DSP6  gwt_henry.dsp  dsp
+  MST6  gwt_henry.sto  mst
+  SSM6  gwt_henry.ssm  ssm
+  OC6  gwt_henry.oc  oc
+END packages
+

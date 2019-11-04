@@ -1,0 +1,12 @@
+BEGIN options
+END options
+
+BEGIN packages
+  DIS6  gwt_goswami.dis  dis
+  IC6  gwt_goswami.ic  ic
+  ADV6  gwt_goswami.adv  adv
+  MST6  gwt_goswami.sto  mst
+  SSM6  gwt_goswami.ssm  ssm
+  OC6  gwt_goswami.oc  oc
+END packages
+

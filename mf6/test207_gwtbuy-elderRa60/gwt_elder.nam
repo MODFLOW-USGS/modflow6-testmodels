@@ -1,0 +1,14 @@
+BEGIN options
+END options
+
+BEGIN packages
+  DIS6  gwt_elder.dis  dis
+  IC6  gwt_elder.ic  ic
+  ADV6  gwt_elder.adv  adv
+  DSP6  gwt_elder.dsp  dsp
+  MST6  gwt_elder.mst  mst
+  CNC6  gwt_elder.cnc  cnc
+  OC6  gwt_elder.oc  oc
+  OBS6  gwt_elder.obs  obs_0
+END packages
+

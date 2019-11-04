@@ -1,0 +1,22 @@
+BEGIN options
+  MAXERRORS  1000
+END options
+
+BEGIN timing
+  TDIS6  henry.tdis
+END timing
+
+BEGIN models
+  gwf6  gwf_henry.nam  gwf_henry
+  gwt6  gwt_henry.nam  gwt_henry
+END models
+
+BEGIN exchanges
+  GWF6-GWT6  henry.gwfgwt  gwf_henry  gwt_henry
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  gwf_henry.ims  gwf_henry
+  ims6  gwt_henry.ims  gwt_henry
+END solutiongroup  1
+

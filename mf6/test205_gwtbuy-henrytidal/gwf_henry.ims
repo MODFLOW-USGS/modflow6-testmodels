@@ -1,0 +1,22 @@
+BEGIN options
+  PRINT_OPTION  summary
+  COMPLEXITY  complex
+  CSV_OUTPUT  FILEOUT  gwf_henry.ims.csv
+  NO_PTC  True
+END options
+
+BEGIN nonlinear
+  OUTER_HCLOSE  1.00000000E-07
+  OUTER_MAXIMUM  200
+END nonlinear
+
+BEGIN linear
+  INNER_MAXIMUM  50
+  INNER_HCLOSE  1.00000000E-07
+  inner_rclose  1.00000000E-05
+  LINEAR_ACCELERATION  bicgstab
+  RELAXATION_FACTOR       0.97000000
+  SCALING_METHOD  none
+  REORDERING_METHOD  none
+END linear
+

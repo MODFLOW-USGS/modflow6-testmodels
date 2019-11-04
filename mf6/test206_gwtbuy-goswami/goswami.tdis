@@ -1,0 +1,14 @@
+BEGIN options
+  TIME_UNITS  days
+END options
+
+BEGIN dimensions
+  NPER  3
+END dimensions
+
+BEGIN perioddata
+      60.00000000  3600       1.00000000
+      80.00000000  4800       1.00000000
+      60.00000000  3600       1.00000000
+END perioddata
+

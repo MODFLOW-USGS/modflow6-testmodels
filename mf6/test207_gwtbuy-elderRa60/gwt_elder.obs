@@ -1,0 +1,8 @@
+BEGIN options
+END options
+
+BEGIN continuous  FILEOUT  gwt_elder.obs.csv
+  conc1  concentration  2 1 45
+  conc2  concentration  51 1 45
+END continuous  FILEOUT  gwt_elder.obs.csv
+

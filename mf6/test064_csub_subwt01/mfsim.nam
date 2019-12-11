@@ -1,0 +1,18 @@
+BEGIN options
+END options
+
+BEGIN timing
+  TDIS6  csub_subwt02b.tdis
+END timing
+
+BEGIN models
+  gwf6  csub_subwt02b.nam  csub_subwt02b
+END models
+
+BEGIN exchanges
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  csub_subwt02b.ims  csub_subwt02b
+END solutiongroup  1
+

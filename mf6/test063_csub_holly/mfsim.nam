@@ -1,0 +1,19 @@
+BEGIN options
+  CONTINUE
+END options
+
+BEGIN timing
+  TDIS6  holly.tdis
+END timing
+
+BEGIN models
+  gwf6  holly.nam  holly
+END models
+
+BEGIN exchanges
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  holly.ims  holly
+END solutiongroup  1
+

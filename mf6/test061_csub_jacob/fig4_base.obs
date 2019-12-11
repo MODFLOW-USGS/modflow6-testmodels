@@ -1,0 +1,9 @@
+BEGIN options
+  DIGITS  10
+  PRINT_INPUT
+END options
+
+BEGIN continuous  FILEOUT  gwf_calib_obs.csv
+  w3_1_1  head  3 1 12
+END continuous  FILEOUT  gwf_calib_obs.csv
+

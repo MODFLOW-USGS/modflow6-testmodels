@@ -1,0 +1,10 @@
+BEGIN options
+END options
+
+BEGIN griddata
+  icelltype
+    CONSTANT  0
+  k
+    CONSTANT  1.00000000E+06
+END griddata
+

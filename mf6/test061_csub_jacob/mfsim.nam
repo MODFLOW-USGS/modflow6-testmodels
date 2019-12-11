@@ -1,0 +1,18 @@
+BEGIN options
+END options
+
+BEGIN timing
+  TDIS6  fig4_base.tdis
+END timing
+
+BEGIN models
+  gwf6  fig4_base.nam  fig4_base
+END models
+
+BEGIN exchanges
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  fig4_base.ims  fig4_base
+END solutiongroup  1
+

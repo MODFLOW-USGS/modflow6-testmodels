@@ -1,0 +1,16 @@
+BEGIN options
+  SAVE_FLOWS
+  TS6  FILEIN  chd-heads.ts
+END options
+
+BEGIN dimensions
+  MAXBOUND  4
+END dimensions
+
+BEGIN period  1
+  1 1 1  upper
+  6 1 1  middle
+  11 1 1  middle
+  13 1 1  lower
+END period  1
+

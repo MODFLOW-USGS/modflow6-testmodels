@@ -1,0 +1,17 @@
+BEGIN options
+  STORAGECOEFFICIENT
+END options
+
+BEGIN griddata
+  iconvert
+    CONSTANT  0
+  ss
+    CONSTANT       0.00000000
+  sy
+    CONSTANT       0.00000000
+END griddata
+
+BEGIN period  1
+  TRANSIENT
+END period  1
+

@@ -1,0 +1,22 @@
+BEGIN options
+  DIGITS  10
+  PRINT_INPUT
+END options
+
+BEGIN continuous  FILEOUT  holly.gwf.obs.csv
+  hd02  head  2 1 1
+  hd03  head  3 1 1
+  hd04  head  4 1 1
+  hd05  head  5 1 1
+  hd07  head  7 1 1
+  hd08  head  8 1 1
+  hd09  head  9 1 1
+  hd10  head  10 1 1
+  hd12  head  12 1 1
+  hd14  head  14 1 1
+  hd01  head  1 1 1
+  hd06  head  6 1 1
+  hd11  head  11 1 1
+  hd13  head  13 1 1
+END continuous  FILEOUT  holly.gwf.obs.csv
+

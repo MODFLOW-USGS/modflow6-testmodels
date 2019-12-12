@@ -1,0 +1,14 @@
+BEGIN options
+  NEWTON
+END options
+
+BEGIN packages
+  dis6  fig4_base.dis  dis
+  ic6  fig4_base.ic  ic
+  npf6  fig4_base.npf  npf
+  obs6  fig4_base.obs  head_obs
+  sto6  fig4_base.sto  sto
+  csub6  fig4_base.csub  csub
+  oc6  fig4_base.oc  oc
+END packages
+

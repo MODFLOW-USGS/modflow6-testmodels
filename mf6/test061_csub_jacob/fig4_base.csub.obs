@@ -1,0 +1,16 @@
+BEGIN options
+  DIGITS  10
+  PRINT_INPUT
+END options
+
+BEGIN continuous  FILEOUT  csub_obs.csv
+  tc1  compaction-cell  1 1 1
+  tc2  compaction-cell  2 1 1
+  tc3  compaction-cell  3 1 1
+  wc1  compaction-cell  1 1 12
+  wc2  compaction-cell  2 1 12
+  wc3  compaction-cell  3 1 12
+  tes3  estress-cell  3 1 1
+  tgs3  gstress-cell  3 1 1
+END continuous  FILEOUT  csub_obs.csv
+

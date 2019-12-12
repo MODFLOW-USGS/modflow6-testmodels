@@ -1,0 +1,34 @@
+BEGIN options
+END options
+
+BEGIN dimensions
+  NLAY  14
+  NROW  1
+  NCOL  1
+END dimensions
+
+BEGIN griddata
+  delr
+    CONSTANT       3.28081000
+  delc
+    CONSTANT       3.28081000
+  top
+    CONSTANT       0.00000000
+  botm
+    INTERNAL  FACTOR  1.0
+        -121.00000000
+        -139.00000000
+        -166.00000000
+        -187.00000000
+        -229.00000000
+        -230.00000000
+        -302.00000000
+        -319.00000000
+        -347.00000000
+        -365.00000000
+        -366.00000000
+        -915.00000000
+        -916.00000000
+       -1091.00000000
+END griddata
+

@@ -1,0 +1,15 @@
+BEGIN options
+  NEWTON
+END options
+
+BEGIN packages
+  DIS6  sub01es.dis  dis
+  IC6  sub01es.ic  ic
+  NPF6  sub01es.npf  npf
+  OBS6  sub01es.obs  head_obs
+  STO6  sub01es.sto  sto
+  CHD6  sub01es.chd  chd_0
+  CSUB6  sub01es.csub  csub
+  OC6  sub01es.oc  oc
+END packages
+

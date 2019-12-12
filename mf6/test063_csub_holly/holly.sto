@@ -1,0 +1,30 @@
+BEGIN options
+END options
+
+BEGIN griddata
+  iconvert
+    INTERNAL  FACTOR  1
+      1
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+      0
+  ss
+    CONSTANT       0.00000000
+  sy
+    CONSTANT       0.00000000
+END griddata
+
+BEGIN period  1
+  TRANSIENT
+END period  1
+

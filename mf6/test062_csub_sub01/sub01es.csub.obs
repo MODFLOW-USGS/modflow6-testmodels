@@ -1,0 +1,12 @@
+BEGIN options
+  DIGITS  10
+  PRINT_INPUT
+END options
+
+BEGIN continuous  FILEOUT  csub_obs.csv
+  tcomp  interbed-compaction  ib1
+  sk  sk  ib1
+  gs  gstress-cell  1 1 2
+  es  estress-cell  1 1 2
+END continuous  FILEOUT  csub_obs.csv
+

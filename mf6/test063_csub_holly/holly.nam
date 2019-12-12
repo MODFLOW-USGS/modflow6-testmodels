@@ -1,0 +1,15 @@
+BEGIN options
+  NEWTON
+END options
+
+BEGIN packages
+  dis6  holly.dis  dis
+  ic6  holly.ic  ic
+  npf6  holly.npf  npf
+  obs6  holly.gwf.obs  head_obs
+  sto6  holly.sto  sto
+  chd6  holly.chd  chd
+  csub6  holly.csub  csub
+  oc6  holly.oc  oc
+END packages
+

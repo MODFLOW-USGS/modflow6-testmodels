@@ -1,5 +1,6 @@
 BEGIN options
   MAXERRORS  1000
+  CONTINUE
 END options
 
 BEGIN timing

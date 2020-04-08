@@ -3,8 +3,8 @@ begin options
 end options
 
 begin nonlinear
-	outer_hclose 0.001
-	outer_maximum 5000 
+	outer_hclose 0.0001
+	outer_maximum 5000
 	under_relaxation none dbd
 	under_relaxation_theta 0.70
 	under_relaxation_kappa 0.08
@@ -18,7 +18,7 @@ end nonlinear
 
 
 begin linear
-	inner_hclose 0.0001
+	inner_hclose 0.00001
 	inner_rclose 1.0e-4 RELATIVE_RCLOSE
 	inner_maximum 100
 	linear_acceleration bicgstab

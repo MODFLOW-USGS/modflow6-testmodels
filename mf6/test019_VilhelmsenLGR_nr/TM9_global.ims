@@ -1,14 +1,15 @@
 begin options
   PRINT_OPTION ALL
-  CSV_OUTPUT FILEOUT TM9.ims.csv
+  CSV_INNER_OUTPUT FILEOUT TM9.inner.ims.csv
+  CSV_OUTER_OUTPUT FILEOUT TM9.outer.ims.csv
 end options
 
 begin nonlinear
 	outer_hclose 1.e-5
-	outer_maximum 100 
+	outer_maximum 100
 	#under_relaxation dbd
 	#under_relaxation_theta 0.90
-	#under_relaxation_kappa 0.0001 
+	#under_relaxation_kappa 0.0001
 	#under_relaxation_gamma 0.
 	#under_relaxation_momentum 0.1
 	#BACKTRACKING_NUMBER 20

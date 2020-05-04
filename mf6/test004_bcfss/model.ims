@@ -1,12 +1,13 @@
 begin options
   PRINT_OPTION ALL
-  CSV_OUTPUT FILEOUT bcf2ss.ims.csv
+  CSV_OUTER_OUTPUT FILEOUT bcf2ss.outer.ims.csv
+  CSV_INNER_OUTPUT FILEOUT bcf2ss.inner.ims.csv
 	COMPLEXITY SIMPLE
 end options
 
 begin nonlinear
 	outer_hclose 1.e-6
-	outer_maximum 500 
+	outer_maximum 500
 	under_relaxation none
 end nonlinear
 

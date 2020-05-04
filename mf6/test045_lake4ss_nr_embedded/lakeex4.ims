@@ -4,7 +4,7 @@ end options
 
 begin nonlinear
 	outer_hclose 0.001
-	outer_maximum 5000 
+	outer_maximum 5000
 	under_relaxation none dbd
 	under_relaxation_theta 0.70
 	under_relaxation_kappa 0.08

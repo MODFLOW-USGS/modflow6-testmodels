@@ -1,4 +1,4 @@
-# SMS8 input file, prepared by MF5to6 on 8/23/2016 at 10:22:04.
+# IMS8 input file, prepared by MF5to6 on 8/23/2016 at 10:22:04.
 
 BEGIN Options
   PRINT_OPTION  SUMMARY
@@ -6,6 +6,10 @@ BEGIN Options
 END Options
 
 BEGIN Nonlinear
-  OUTER_MAXIMUM  7000
+  OUTER_MAXIMUM 12000
   OUTER_HCLOSE 1e-5
 END Nonlinear
+
+BEGIN LINEAR
+	INNER_HCLOSE 1e-6
+END LINEAR

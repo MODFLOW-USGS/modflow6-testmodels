@@ -1,0 +1,11 @@
+BEGIN Options
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  2
+END Dimensions
+
+BEGIN PERIOD 1
+  1  13  1    988.00000       0.38000000E-01
+  1  14  9    1045.0000       0.38000000E-01
+END PERIOD

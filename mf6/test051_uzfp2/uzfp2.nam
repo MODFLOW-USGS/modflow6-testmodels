@@ -1,0 +1,21 @@
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  NEWTON  UNDER_RELAXATION
+END Options
+
+BEGIN Packages
+  uzf6  uzfp2.uzf  uzf_1
+  ghb6  uzfp2.ghb
+  wel6  uzfp2.wel
+  sfr6  uzfp2.sfr  sfr_1
+  oc6  uzfp2.oc
+  sto6  uzfp2.sto
+  npf6  uzfp2.npf
+  ic6  uzfp2.ic
+  dis6  uzfp2.dis
+  MVR6  uzfp2.mvr  mvr
+  DRN6  uzfp2.drn  drn_1
+END Packages
+

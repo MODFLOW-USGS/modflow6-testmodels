@@ -1,0 +1,22 @@
+BEGIN Options
+  TIME_UNITS SECONDS
+END Options
+
+BEGIN Dimensions
+  NPER 12
+END Dimensions
+
+BEGIN PERIODDATA
+    2628000.0               1    1.0000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+    2628000.0              15    1.1000000      Items: PERLEN NSTP TSMULT
+END PERIODDATA

@@ -25,3 +25,4 @@
 *.bat
 
 .ipynb_checkpoints/
+.idea/

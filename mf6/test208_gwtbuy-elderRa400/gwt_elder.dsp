@@ -1,4 +1,5 @@
 BEGIN options
+  XT3D_OFF
 END options
 
 BEGIN griddata

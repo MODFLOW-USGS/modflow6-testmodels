@@ -3,7 +3,7 @@ import os
 ims_pths = []
 for root, dirs, files in os.walk(".."):
    for name in files:
-       if name.lower().endswith(".ims"):
+       if name.lower().endswith(".ims") or name.lower().endswith(".ims6"):
            pth = os.path.join(root, name)
            ims_pths.append(pth)
 

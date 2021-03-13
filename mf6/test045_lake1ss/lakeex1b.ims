@@ -1,25 +1,25 @@
-# SMS8 input file, prepared by MF5to6 on 2/25/2016 at 16:36:36.
+# sms8 input file, prepared by mf5to6 on 2/25/2016 at 16:36:36.
 
-BEGIN Options
-  PRINT_OPTION  SUMMARY
-END Options
+begin options
+  print_option  summary
+end options
 
-BEGIN Nonlinear
-  OUTER_HCLOSE   1e-6
-  OUTER_MAXIMUM  1000
-  UNDER_RELAXATION  NONE
-  UNDER_RELAXATION_THETA    0.000000    
-  UNDER_RELAXATION_KAPPA    0.000000    
-  UNDER_RELAXATION_GAMMA    0.000000    
-  UNDER_RELAXATION_MOMENTUM    0.000000    
-END Nonlinear
+begin nonlinear
+  outer_dvclose   1e-6
+  outer_maximum  1000
+  under_relaxation  none
+  under_relaxation_theta    0.000000    
+  under_relaxation_kappa    0.000000    
+  under_relaxation_gamma    0.000000    
+  under_relaxation_momentum    0.000000    
+end nonlinear
 
-BEGIN LINEAR
-  INNER_MAXIMUM  100
-  INNER_HCLOSE   1e-6
-  INNER_RCLOSE   1e-1    
-  LINEAR_ACCELERATION  CG
-  NUMBER_ORTHOGONALIZATIONS  2
-  REORDERING_METHOD  NONE
+begin linear
+  inner_maximum  100
+  inner_dvclose   1e-6
+  inner_rclose   1e-1    
+  linear_acceleration  cg
+  number_orthogonalizations  2
+  reordering_method  none
   relaxation_factor 1.0
-END LINEAR
+end linear

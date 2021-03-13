@@ -1,20 +1,20 @@
 begin options
-  PRINT_OPTION SUMMARY
+  print_option summary
 end options
 
 begin nonlinear
-	outer_hclose 1.e-8
+	outer_dvclose 1.e-8
 	outer_maximum 1000 
 	under_relaxation none
 	#linear_solver xmd
 end nonlinear
 
 begin linear
-	inner_hclose 1.0e-8
+	inner_dvclose 1.0e-8
 	inner_rclose 0.01
 	inner_maximum 1000
-	LINEAR_ACCELERATION bicgstab
+	linear_acceleration bicgstab
 	scaling_method none
-	REORDERING_METHOD none
+	reordering_method none
 	relaxation_factor 0.97
 end linear

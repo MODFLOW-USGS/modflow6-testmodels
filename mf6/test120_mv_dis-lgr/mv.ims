@@ -1,4 +1,11 @@
-BEGIN options
-  COMPLEXITY  complex
-END options
+begin options
+  complexity  complex
+end options
 
+begin nonlinear
+  outer_dvclose 1e-9
+end nonlinear
+
+begin linear
+  inner_dvclose 1e-10
+end linear

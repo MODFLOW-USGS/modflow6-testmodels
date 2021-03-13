@@ -1,9 +1,9 @@
 begin options
-  PRINT_OPTION SUMMARY
+  print_option summary
 end options
 
 begin nonlinear
-	outer_hclose 1.e-4
+	outer_dvclose 1.e-4
 	outer_maximum 25 
 	under_relaxation none
 	linear_solver pcgu
@@ -11,11 +11,11 @@ end nonlinear
 
 
 begin linear
-	inner_hclose 1.0e-4
+	inner_dvclose 1.0e-4
 	inner_rclose 1.0e-4
 	inner_maximum 500
-	LINEAR_ACCELERATION cg
+	linear_acceleration cg
 	scaling_method none
-	REORDERING_METHOD none
+	reordering_method none
 	relaxation_factor 0.97
 end linear

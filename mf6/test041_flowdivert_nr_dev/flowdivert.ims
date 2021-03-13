@@ -1,19 +1,19 @@
-BEGIN Options
-  PRINT_OPTION SUMMARY
-END Options
+begin options
+  print_option summary
+end options
 
-BEGIN Nonlinear
-  OUTER_HCLOSE   1.0E-06
-  OUTER_MAXIMUM  500
-  UNDER_RELAXATION  NONE  
-END Nonlinear
+begin nonlinear
+  outer_dvclose   1.0e-06
+  outer_maximum  500
+  under_relaxation  none  
+end nonlinear
 
-BEGIN LINEAR
-  INNER_MAXIMUM  100
-  INNER_HCLOSE   1.E-06
-  INNER_RCLOSE   500.
-  LINEAR_ACCELERATION  bicgstab
-  NUMBER_ORTHOGONALIZATIONS 2
-  RELAXATION_FACTOR 0.0
-END LINEAR
+begin linear
+  inner_maximum  100
+  inner_dvclose   1.e-06
+  inner_rclose   500.
+  linear_acceleration  bicgstab
+  number_orthogonalizations 2
+  relaxation_factor 0.0
+end linear
 

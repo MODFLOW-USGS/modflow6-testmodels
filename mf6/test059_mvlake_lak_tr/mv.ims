@@ -1,15 +1,15 @@
-# IMS8 input file, prepared by MF5to6 on 8/23/2016 at 10:22:04.
+# ims8 input file, prepared by mf5to6 on 8/23/2016 at 10:22:04.
 
-BEGIN Options
-  PRINT_OPTION  SUMMARY
-  COMPLEXITY  SIMPLE
-END Options
+begin options
+  print_option  summary
+  complexity  simple
+end options
 
-BEGIN Nonlinear
-  OUTER_MAXIMUM 12000
-  OUTER_HCLOSE 1e-5
-END Nonlinear
+begin nonlinear
+  outer_maximum 12000
+  outer_dvclose 1e-5
+end nonlinear
 
-BEGIN LINEAR
-	INNER_HCLOSE 1e-6
-END LINEAR
+begin linear
+	inner_dvclose 1e-6
+end linear

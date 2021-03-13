@@ -1,6 +1,5 @@
 BEGIN options
   MAXERRORS  1000
-  CONTINUE
 END options
 
 BEGIN timing
@@ -20,4 +19,3 @@ BEGIN solutiongroup  1
   ims6  gwf_henry.ims  gwf_henry
   ims6  gwt_henry.ims  gwt_henry
 END solutiongroup  1
-

@@ -1,19 +1,19 @@
-# SMS8 input file, prepared by mf5to15 on 4/10/2015 at 9:04:54.
+# sms8 input file, prepared by mf5to15 on 4/10/2015 at 9:04:54.
 
-BEGIN Options
-  PRINT_OPTION SUMMARY
-  COMPLEXITY  SIMPLE
-END Options
+begin options
+  print_option summary
+  complexity  simple
+end options
 
-BEGIN Nonlinear
-  OUTER_HCLOSE   0.99999997E-05
-  OUTER_MAXIMUM  50
-  UNDER_RELAXATION  NONE
-END Nonlinear
+begin nonlinear
+  outer_dvclose   0.99999997e-05
+  outer_maximum  50
+  under_relaxation  none
+end nonlinear
 
-BEGIN LINEAR
-  INNER_MAXIMUM  30
-  INNER_HCLOSE   0.10000000E-05
-  INNER_RCLOSE   0.99999997E-05
-  LINEAR_ACCELERATION  CG
-END LINEAR
+begin linear
+  inner_maximum  30
+  inner_dvclose   0.10000000e-05
+  inner_rclose   0.99999997e-05
+  linear_acceleration  cg
+end linear

@@ -1,31 +1,31 @@
-# SMS8 input file, prepared by MF5to6 on 8/9/2016 at 17:58:04.
+# sms8 input file, prepared by mf5to6 on 8/9/2016 at 17:58:04.
 
-BEGIN Options
-  PRINT_OPTION  SUMMARY
-  COMPLEXITY  SIMPLE
-END Options
+begin options
+  print_option  summary
+  complexity  simple
+end options
 
-BEGIN Nonlinear
-  OUTER_HCLOSE   1e-6
-  OUTER_MAXIMUM  500
-  UNDER_RELAXATION  DBD
-  UNDER_RELAXATION_THETA    0.900000    
-  UNDER_RELAXATION_KAPPA    0.000100    
-  UNDER_RELAXATION_GAMMA    0.000000    
-  UNDER_RELAXATION_MOMENTUM    0.100000    
-	BACKTRACKING_NUMBER 20
-	BACKTRACKING_TOLERANCE 2.
-	BACKTRACKING_REDUCTION_FACTOR 0.6
-	BACKTRACKING_RESIDUAL_LIMIT 1.0
-END Nonlinear
+begin nonlinear
+  outer_dvclose   1e-6
+  outer_maximum  500
+  under_relaxation  dbd
+  under_relaxation_theta    0.900000    
+  under_relaxation_kappa    0.000100    
+  under_relaxation_gamma    0.000000    
+  under_relaxation_momentum    0.100000    
+	backtracking_number 20
+	backtracking_tolerance 2.
+	backtracking_reduction_factor 0.6
+	backtracking_residual_limit 1.0
+end nonlinear
 
-BEGIN LINEAR
-  INNER_MAXIMUM  200
-  INNER_HCLOSE   1e-6
-  INNER_RCLOSE    1000.000    
-  LINEAR_ACCELERATION  BICGSTAB
-  REORDERING_METHOD  NONE
-	PRECONDITIONER_LEVELS 3
-	NUMBER_ORTHOGONALIZATIONS 7
-	PRECONDITIONER_DROP_TOLERANCE 1.0e-4
-END LINEAR
+begin linear
+  inner_maximum  200
+  inner_dvclose   1e-6
+  inner_rclose    1000.000    
+  linear_acceleration  bicgstab
+  reordering_method  none
+	preconditioner_levels 3
+	number_orthogonalizations 7
+	preconditioner_drop_tolerance 1.0e-4
+end linear

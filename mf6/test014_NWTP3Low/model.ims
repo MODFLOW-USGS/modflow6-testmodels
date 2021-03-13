@@ -1,30 +1,30 @@
 begin options
-  PRINT_OPTION ALL
-  CSV_INNER_OUTPUT FILEOUT nwtp3low.inner.ims.csv
-  CSV_OUTER_OUTPUT FILEOUT nwtp3low.outer.ims.csv
+  print_option all
+  csv_inner_output fileout nwtp3low.inner.ims.csv
+  csv_outer_output fileout nwtp3low.outer.ims.csv
 end options
 
 begin nonlinear
-	outer_hclose 1.e-3
+	outer_dvclose 1.e-3
 	outer_maximum 1500
 	under_relaxation dbd
 	under_relaxation_theta 0.90
 	under_relaxation_kappa 0.
 	under_relaxation_gamma 0.
 	under_relaxation_momentum 0.
-	BACKTRACKING_NUMBER 20
-	BACKTRACKING_TOLERANCE 2.
-	BACKTRACKING_REDUCTION_FACTOR 0.6
-	BACKTRACKING_RESIDUAL_LIMIT 1.0
+	backtracking_number 20
+	backtracking_tolerance 2.
+	backtracking_reduction_factor 0.6
+	backtracking_residual_limit 1.0
 end nonlinear
 
 begin linear
 	inner_maximum 200
-	inner_hclose 1.0e-6
-	inner_rclose .0 RELATIVE_RCLOSE
+	inner_dvclose 1.0e-6
+	inner_rclose .0 relative_rclose
 	linear_acceleration bicgstab
-	REORDERING_METHOD none
-	PRECONDITIONER_LEVELS 5
-	NUMBER_ORTHOGONALIZATIONS 7
-	PRECONDITIONER_DROP_TOLERANCE 1.0e-4
+	reordering_method none
+	preconditioner_levels 5
+	number_orthogonalizations 7
+	preconditioner_drop_tolerance 1.0e-4
 end linear

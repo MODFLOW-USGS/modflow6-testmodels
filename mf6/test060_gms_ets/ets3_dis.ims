@@ -1,21 +1,21 @@
-BEGIN OPTIONS
-  PRINT_OPTION SUMMARY
-  COMPLEXITY MODERATE
-END OPTIONS
+begin options
+  print_option summary
+  complexity moderate
+end options
 
-BEGIN NONLINEAR
-  OUTER_HCLOSE 1.E-6
-  #OUTER_MAXIMUM 40 
-  #UNDER_RELAXATION NONE
-END NONLINEAR
+begin nonlinear
+  outer_dvclose 1.e-6
+  #outer_maximum 40 
+  #under_relaxation none
+end nonlinear
 
-BEGIN LINEAR
-  INNER_HCLOSE 1.0E-5
-  INNER_RCLOSE 10000
-  #INNER_MAXIMUM 100
-  #LINEAR_ACCELERATION BICGSTAB
-  #SCALING_METHOD NONE
-  #REORDERING_METHOD NONE
-  #RELAXATION_FACTOR 0.97
-END LINEAR
+begin linear
+  inner_dvclose 1.0e-5
+  inner_rclose 10000
+  #inner_maximum 100
+  #linear_acceleration bicgstab
+  #scaling_method none
+  #reordering_method none
+  #relaxation_factor 0.97
+end linear
 

@@ -1,20 +1,20 @@
-BEGIN options
-  PRINT_OPTION  summary
-END options
+begin options
+  print_option  summary
+end options
 
-BEGIN nonlinear
-  OUTER_HCLOSE  1.00000000E-06
-  OUTER_MAXIMUM  100
-  UNDER_RELAXATION  none
-END nonlinear
+begin nonlinear
+  outer_dvclose  1.00000000e-06
+  outer_maximum  100
+  under_relaxation  none
+end nonlinear
 
-BEGIN linear
-  INNER_MAXIMUM  300
-  INNER_HCLOSE  1.00000000E-06
+begin linear
+  inner_maximum  300
+  inner_dvclose  1.00000000e-06
   inner_rclose       0.01000000
-  LINEAR_ACCELERATION  bicgstab
-  RELAXATION_FACTOR       0.97000000
-  SCALING_METHOD  none
-  REORDERING_METHOD  none
-END linear
+  linear_acceleration  bicgstab
+  relaxation_factor       0.97000000
+  scaling_method  none
+  reordering_method  none
+end linear
 

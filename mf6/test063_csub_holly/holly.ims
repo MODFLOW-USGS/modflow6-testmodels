@@ -1,20 +1,20 @@
-BEGIN options
-  PRINT_OPTION  summary
-  COMPLEXITY  complex
-END options
+begin options
+  print_option  summary
+  complexity  complex
+end options
 
-BEGIN nonlinear
-  OUTER_HCLOSE  1.00000000E-06
-  OUTER_MAXIMUM  200
-  UNDER_RELAXATION  none
-END nonlinear
+begin nonlinear
+  outer_dvclose  1.00000000e-06
+  outer_maximum  200
+  under_relaxation  none
+end nonlinear
 
-BEGIN linear
-  INNER_MAXIMUM  100
-  INNER_HCLOSE  1.00000000E-06
+begin linear
+  inner_maximum  100
+  inner_dvclose  1.00000000e-06
   inner_rclose       0.00100000
-  RELAXATION_FACTOR       0.97000000
-  SCALING_METHOD  none
-  REORDERING_METHOD  none
-END linear
+  relaxation_factor       0.97000000
+  scaling_method  none
+  reordering_method  none
+end linear
 

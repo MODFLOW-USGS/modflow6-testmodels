@@ -6,16 +6,15 @@ begin options
 end options
 
 begin nonlinear
-  outer_dvclose   0.99999997e-05
+  outer_dvclose   1e-08
   outer_maximum  20
   under_relaxation  none
 end nonlinear
 
 begin linear
   inner_maximum  30
-  inner_dvclose   1.e-07
-  inner_rclose   0.001
+  inner_dvclose   1.e-09
+  inner_rclose   1e-6
   linear_acceleration  cg
 	relaxation_factor 0.97
 end linear
-

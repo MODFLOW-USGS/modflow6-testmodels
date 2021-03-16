@@ -7,14 +7,14 @@ end options
 
 begin nonlinear
   outer_dvclose   1e-08
-  outer_maximum  100
+  outer_maximum  200
   under_relaxation  none
 end nonlinear
 
 begin linear
   inner_maximum  1000
-  inner_dvclose   1.e-09
-  inner_rclose   1e-6
+  inner_dvclose   1.e-9
+  inner_rclose   1e-3
   linear_acceleration  bicgstab
 	relaxation_factor 0.97
 end linear

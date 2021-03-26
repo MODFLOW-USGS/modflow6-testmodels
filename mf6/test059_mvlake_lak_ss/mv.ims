@@ -6,10 +6,12 @@ begin options
 end options
 
 begin nonlinear
-  outer_maximum  7000
+  outer_maximum  10000
   outer_dvclose 1e-5
 end nonlinear
 
 begin linear
+  inner_maximum 100
   inner_dvclose 1e-6
+  inner_rclose 1e-6
 end linear

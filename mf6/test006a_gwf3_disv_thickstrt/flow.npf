@@ -5,7 +5,7 @@ END OPTIONS
 
 BEGIN GRIDDATA
   ICELLTYPE
-INTERNAL  FACTOR         1           IPRN
+INTERNAL  FACTOR         1           IPRN -1
            -1           -1           -1           -1           -1
            -1           -1           -1           -1           -1
            -1           -1           -1           -1           -1

@@ -1,31 +1,22 @@
+# sms8 input file, prepared by mf5to6 on 4/1/2016 at 11:10:36.
+
 begin options
-  print_option all
+  print_option  summary
+  complexity  simple
 end options
 
 begin nonlinear
-	outer_dvclose 0.0001
-	outer_maximum 5000
-	under_relaxation none dbd
-	under_relaxation_theta 0.70
-	under_relaxation_kappa 0.08
-	under_relaxation_gamma 0.05
-	under_relaxation_momentum 0.
-	backtracking_number 0 20
-	backtracking_tolerance 2.
-	backtracking_reduction_factor 0.2
-	backtracking_residual_limit 5.000000e-04
+  outer_dvclose   1e-5
+  outer_maximum  10000
+  under_relaxation  none
 end nonlinear
 
-
 begin linear
-	inner_dvclose 0.00001
-	inner_rclose 1.0e-4 relative_rclose
-	inner_maximum 100
-	linear_acceleration bicgstab
-	scaling_method none
-	reordering_method none
-	relaxation_factor 0.97
-	number_orthogonalizations 2
-	#preconditioner_levels 8
-	#preconditioner_drop_tolerance 0.
+  inner_maximum  100
+  inner_dvclose   1e-6
+  inner_rclose   1e-3
+  linear_acceleration  bicgstab
+  number_orthogonalizations  2
+  reordering_method  none
+  relaxation_factor 0.97
 end linear

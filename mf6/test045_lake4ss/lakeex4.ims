@@ -6,15 +6,15 @@ begin options
 end options
 
 begin nonlinear
-  outer_dvclose   1e-4
+  outer_dvclose   1e-5
   outer_maximum  10000
   under_relaxation  none
 end nonlinear
 
 begin linear
   inner_maximum  100
-  inner_dvclose   1e-5
-  inner_rclose   0.1000000
+  inner_dvclose   1e-6
+  inner_rclose   1e-3
   linear_acceleration  cg
   number_orthogonalizations  2
   reordering_method  none

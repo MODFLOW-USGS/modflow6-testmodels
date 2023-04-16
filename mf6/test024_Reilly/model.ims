@@ -1,27 +1,17 @@
 begin options
+  print_option all
 end options
 
 begin nonlinear
 	outer_dvclose 1.e-8
-	outer_maximum 50
-	under_relaxation none dbd
-	under_relaxation_theta 0.9
-	under_relaxation_kappa 0.100000e-03
-	under_relaxation_gamma 0.
-	under_relaxation_momentum 0.1
-	backtracking_number 0 10
-	backtracking_tolerance 2.
-	backtracking_reduction_factor 0.6
-	backtracking_residual_limit 1.
+	outer_maximum 1000
 end nonlinear
 
 
 begin linear
 	inner_dvclose 1.0e-9
-	inner_rclose 1.0e-3
+	inner_rclose 1.0e-6
 	inner_maximum 200
 	linear_acceleration bicgstab
-	scaling_method none
-	reordering_method none
 	relaxation_factor 0.99
 end linear

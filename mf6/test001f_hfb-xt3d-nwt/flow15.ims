@@ -6,14 +6,14 @@ begin options
 end options
 
 begin nonlinear
-  outer_dvclose   0.99999997e-05
+  outer_dvclose   1e-08
   outer_maximum  50
   under_relaxation  none
 end nonlinear
 
 begin linear
   inner_maximum  30
-  inner_dvclose   0.10000000e-05
-  inner_rclose   0.99999997e-05
+  inner_dvclose   1e-09
+  inner_rclose   1e-06
   linear_acceleration  bicgstab
 end linear

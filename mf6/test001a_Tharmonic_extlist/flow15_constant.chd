@@ -13,5 +13,5 @@ BEGIN Dimensions
 END Dimensions
 
 BEGIN Period 1
-  open/close chd.txt sfac 10.
+  open/close chd.txt
 END Period

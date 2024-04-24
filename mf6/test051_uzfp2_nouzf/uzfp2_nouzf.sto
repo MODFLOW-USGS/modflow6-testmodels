@@ -1,4 +1,4 @@
-# STO6 input file, prepared by MF5to6 on 6/5/2017 at 16:11:43.
+# STO8 input file, prepared by MF5to6 on 7/28/2016 at 16:39:19.
 
 BEGIN Options
   SS_CONFINED_ONLY
@@ -27,3 +27,11 @@ BEGIN GRIDDATA
    0.000000      0.1000000      0.1000000      0.1000000      0.1000000      0.1000000      0.1000000      0.1000000      0.2000000       0.000000    
    0.000000       0.000000      0.1000000      0.1000000      0.1000000      0.1000000       0.000000       0.000000       0.000000       0.000000    
 END GRIDDATA
+
+BEGIN Period 1
+    STEADY-STATE
+END Period
+
+BEGIN Period 2
+    TRANSIENT
+END Period

@@ -1,3 +1,5 @@
+# Simulation name file for MODFLOW 6 prepared by MF5to6
+
 BEGIN Options
 END Options
 
@@ -6,14 +8,13 @@ BEGIN Timing
 END Timing
 
 BEGIN Models
-  gwf6  uzfp2.nam  uzfp2
+  GWF6  uzfp2.nam  uzfp2
 END Models
 
 BEGIN Exchanges
 END Exchanges
 
-BEGIN SOLUTIONGROUP  1
+BEGIN SOLUTIONGROUP 1
   MXITER  1
-  ims6  uzfp2.ims  uzfp2
-END SOLUTIONGROUP  1
-
+  IMS6  uzfp2.ims  uzfp2
+END SOLUTIONGROUP

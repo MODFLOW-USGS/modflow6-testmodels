@@ -1,8 +1,0 @@
-BEGIN OPTIONS
-digits 10
-END OPTIONS
-
-BEGIN CONTINUOUS FILEOUT  obs_head.csv
-id1_5_2_gwhead head 1 5 2 
-id2_5_2_gwhead head 2 5 2 
-END CONTINUOUS

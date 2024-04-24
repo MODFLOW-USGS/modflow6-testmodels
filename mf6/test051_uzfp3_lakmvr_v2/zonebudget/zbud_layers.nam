@@ -1,4 +1,0 @@
-BEGIN ZONEBUDGET
-  BUD ../uzf.cbc
-  ZON zbud_layers.zon
-END ZONEBUDGET

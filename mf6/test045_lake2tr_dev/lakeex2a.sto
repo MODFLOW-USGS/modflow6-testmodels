@@ -1,7 +1,7 @@
 # STO8 input file, prepared by MF5to6 on 3/31/2016 at 18:28:22.
 
 BEGIN Options
-  DEV_OLDSTORAGEFORMULATION
+  SS_CONFINED_ONLY
   STORAGECOEFFICIENT
 END Options
 

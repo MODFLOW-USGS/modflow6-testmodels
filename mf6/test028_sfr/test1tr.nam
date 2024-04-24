@@ -1,7 +1,4 @@
 BEGIN OPTIONS
-  #PRINT_INPUT
-  #PRINT_FLOWS
-  SAVE_FLOWS
 END OPTIONS
 
 BEGIN PACKAGES
@@ -14,6 +11,6 @@ BEGIN PACKAGES
   EVT6          test1tr.evt
   RCH6          test1tr.rch
   GHB6          test1tr.ghb
-  SFR6          test1tr.sfr
+  SFR6          test1tr.sfr8
 END PACKAGES
 

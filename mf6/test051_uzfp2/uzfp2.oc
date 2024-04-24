@@ -1,3 +1,5 @@
+# OC8 input file, prepared by MF5to6 on 7/28/2016 at 10:09:45.
+
 BEGIN Options
   BUDGET FILEOUT  uzfp2.cbc
   HEAD FILEOUT  uzfp2.hds

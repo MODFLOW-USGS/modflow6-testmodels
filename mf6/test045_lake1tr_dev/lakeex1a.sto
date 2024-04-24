@@ -1,6 +1,6 @@
 #option block.  Note -- no comments allowed on auxiliary line
 begin options
-  DEV_OLDSTORAGEFORMULATION
+  SS_CONFINED_ONLY
   STORAGECOEFFICIENT
 end options
 

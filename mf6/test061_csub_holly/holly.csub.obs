@@ -4,10 +4,19 @@ BEGIN options
 END options
 
 BEGIN continuous  FILEOUT  holly.csub.fig5.obs.csv
-  cunit  interbed-compaction  cunit
-  aquitard  interbed-compaction  aquitard
-  nodelay  interbed-compaction  nodelay
-  delay  interbed-compaction  delay
+  cunit1  interbed-compaction  1
+  cunit2  interbed-compaction  2
+  cunit3  interbed-compaction  3
+  aquitard6  interbed-compaction  6
+  aquitard7  interbed-compaction  7
+  aquitard8  interbed-compaction  8
+  nodelay4  interbed-compaction  4
+  nodelay5  interbed-compaction  5
+  nodelay9  interbed-compaction  9
+  nodelay10  interbed-compaction  10
+  delay11  interbed-compaction  11
+  delay12  interbed-compaction  12
+  delay13  interbed-compaction  13
   tc02  compaction-cell  2 1 1
   tc03  compaction-cell  3 1 1
   tc04  compaction-cell  4 1 1
